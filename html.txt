@@ -1,0 +1,2468 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="Search through our huge repository of user created Yu-Gi-Oh! decks. Featuring Meta, Non-Meta, Anime, Speed Duels and more! We have decks for all players!" name="description"/>
+<link href="https://images.ygoprodeck.com/images/assets/cropped-applogo_high-1-32x32.png" rel="icon" sizes="32x32"/>
+<link href="https://images.ygoprodeck.com/images/assets/cropped-applogo_high-1-192x192.png" rel="icon" sizes="192x192"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="Yu-Gi-Oh! Deck Search - YGOPRODeck" property="og:title"/>
+<meta content="Search through our huge repository of user created Yu-Gi-Oh! decks. Featuring Meta, Non-Meta, Anime, Speed Duels and more! We have decks for all players!" property="og:description"/>
+<meta content="https://ygoprodeck.com/deck-search/" property="og:url"/>
+<meta content="YGOPRODeck" property="og:site_name"/>
+<meta content="396939581398014" property="fb:app_id"/>
+<meta content="https://images.ygoprodeck.com/images/assets/OpenGraph_Summary.png" property="og:image"/>
+<meta content="https://images.ygoprodeck.com/images/assets/OpenGraph_Summary.jpg" property="og:image:secure_url"/>
+<meta content="240" property="og:image:width"/>
+<meta content="240" property="og:image:height"/>
+<link href="https://ygoprodeck.com/deck-search/" rel="canonical"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Search through our huge repository of user created Yu-Gi-Oh! decks. Featuring Meta, Non-Meta, Anime, Speed Duels and more! We have decks for all players!" name="twitter:description"/>
+<meta content="Yu-Gi-Oh! Deck Search - YGOPRODeck" name="twitter:title"/>
+<meta content="https://images.ygoprodeck.com/images/assets/OpenGraph_Summary.png" name="twitter:image"/>
+<title>Yu-Gi-Oh! Deck Search - YGOPRODeck</title>
+<link href="https://ygoprodeck.com/opensearch.xml" rel="search" title="YGOPRODeck" type="application/opensearchdescription+xml"/>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","url":"https://ygoprodeck.com","logo":"https://images.ygoprodeck.com/images/assets/cropped-applogo_high-1-192x192.png"}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","@id": "https://ygoprodeck.com/#website","url":"https://ygoprodeck.com","potentialAction":{"@type":"SearchAction","target":"https://ygoprodeck.com/card-database/?&n={terms}\u0026utm_source=google","query-input":"required name=terms"}}</script>
+<link crossorigin="anonymous" href="https://kit.fontawesome.com/b6c0b1aeb2.css" rel="stylesheet"/>
+<link data-dark-stylesheet="/css/bootstrap-dark.css?v=2.18" href="/css/bootstrap.css?v=2.17" id="bootstrap-css" rel="stylesheet"/>
+<script src="/js/theme.js?v=1.00"></script>
+<script defer="" src="/js/shared.js?v=1.03"></script>
+<script defer="" src="/js/navbar/navbar.js?v=1.02"></script>
+<script defer="" src="/js/render.js?v=1.36" type="text/javascript"></script>
+<link href="/css/YGOPRODeck.css?v=5.55" rel="stylesheet"/>
+<link href="/css/navbar/navbar.css?v=1.06" rel="stylesheet"/>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="#17a2b8" name="theme-color"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J8WMFBQSBH"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        // Consent Mode
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+        });
+
+        // Adjust consent based on region or user action
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+        });
+
+        gtag('config', 'G-J8WMFBQSBH');
+    </script>
+<script data-cfasync="false">
+        window.ramp = window.ramp || {};
+        window.ramp.que = window.ramp.que || [];
+    </script>
+<script>
+//Header ads. Using predefined divs as we have CSS applied to the divs to correctly present the ad div block, so just call the function.
+function header_ads() {
+    window.ramp.que.push(function () {
+        window.ramp.addTag("header-banner-desktop");
+    })
+}
+
+//Anchor Ads. No divs needed, just call the function.
+function anchor_ad(){
+    //Nothing for Playwire
+}
+
+//Intersitial Ads. No divs needed, just call the function.
+function intersitial_ad(){
+    //Nothing for Playwire
+}
+
+//Banner Ad used on deck.php, format.php/
+function banner_ad(){
+    window.ramp.que.push(function () {
+        window.ramp.addTag("banner-block-unit-desktop");
+    })
+}
+
+//Video Ads. Creates a div and inserts the ad into it. Auto floating video player bottom right.
+function video_ad() {
+    //Nothing for Playwire
+}
+
+//Siderail Ads. No divs needed, just call the function.
+function siderail_ad(){
+    //Nothing for Playwire
+}
+
+function ad_block_notice(){
+    //Nothing for Playwire
+}
+</script>
+</head>
+<body class="d-flex flex-column h-100 dark-scheme">
+<header>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info" style="z-index: 2147483646 !important;">
+<div class="navbar-icon-mobile">
+<a class="navbar-brand" href="/"><img alt="ygoprodeck.com Logo" src="https://images.ygoprodeck.com/images/assets/ygoprodeck_header_logo.png?v=1.13" style="width:140px;" title="ygoprodeck.com"/></a>
+</div>
+<div class="navbar-icon-mobile-search mr-2">
+<button class="btn right-buttons shadow-none mr-2" onclick="toggleDarkTheme()" title="Toggle Light/Dark Mode" type="button">
+<div style="width: 24px; height: 24px;">
+<i class="fa-solid fa-moon" id="toggleLightDark"></i>
+</div>
+</button>
+<button class="btn right-buttons shadow-none" data-target="#searchSiteModal" data-toggle="modal" title="Search YGOPRODeck" type="button">
+<div style="width: 24px; height: 24px;">
+<i class="fa-solid fa-search"></i>
+</div>
+</button>
+</div>
+<button class="btn right-buttons shadow-none collapsed-navbar" id="btn-collapsed-navbar" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 24px; height: 24px;">
+<a class="toggle-navbar collapsed" id="collapsed-navbar-icon">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+</div>
+</button>
+<div class="collapse navbar-collapse for-mobile-only ml-n3 bg-white" id="mobile-nav">
+<div class="navbar-menu-mobile w-100 position-fixed" style="display: none;">
+<ul class="navbar-nav px-3 bg-white" style="box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.30);">
+<li class="nav-item dropdown" id="decks-nav-item">
+<a class="nav-link dropdown-toggle">
+<i aria-hidden="true" class="fa-solid fa-clone fa-fw"></i> Decks <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="decks-dropdown-menu">
+<div class="inner">
+<div id="deck-categories-sub-nav-item">
+<div class="d-flex custom-dropdown-item w-100 text-nowrap">
+<div class="ml-3">
+<i aria-hidden="true" class="fa-solid fa-fw fa-cards-blank"></i> Deck Categories
+<br/>
+<span class="ml-4 complex-menu-item-desc">Browse tournament and meta decks</span>
+</div>
+<div class="d-flex align-items-center w-100 justify-content-end">
+<i class="fa-regular fa-chevron-down chevrondown"></i>
+</div>
+</div>
+<div class="wrapper" id="deck-categories-submenu">
+<div class="sub-inner">
+<a class="submenu-item" href="/tournaments/top-archetypes/"><i class="fa-solid fa-fw fa-award ml-4"></i> Top Meta Archetypes</a>
+<a class="submenu-item" href="/category/budget-decks/"><i class="fa-solid fa-fw fa-cart-shopping ml-4"></i> Budget Decks</a>
+<a class="submenu-item" href="/category/format/Tournament%20Meta%20Decks"><i class="fa-solid fa-fw fa-trophy ml-4"></i> Tournament Meta Decks (TCG)</a>
+<a class="submenu-item" href="/category/format/Tournament%20Meta%20Decks%20OCG"><i class="fa-solid fa-fw fa-trophy ml-4"></i> Tournament Meta Decks (OCG)</a>
+<a class="submenu-item" href="/category/format/Tournament%20Meta%20Decks%20OCG%20(Asian-English)"><i class="fa-solid fa-fw fa-trophy ml-4"></i> Tournament Meta Decks (Asian-English OCG)</a>
+<a class="submenu-item" href="/category/format/Tournament%20Meta%20Decks%20OCG%20(China)"><i class="fa-solid fa-fw fa-trophy ml-4"></i> Tournament Meta Decks (China)</a>
+</div>
+</div>
+</div>
+<div id="advanced-deck-search-sub-nav-item">
+<div class="d-flex custom-dropdown-item w-100 text-nowrap">
+<div class="ml-3">
+<i aria-hidden="true" class="fa-solid fa-fw fa-cards-blank"></i> Advanced Deck Search
+<br/>
+<span class="ml-4 complex-menu-item-desc">Use advanced filters to search decks</span>
+</div>
+<div class="d-flex align-items-center w-100 justify-content-end">
+<i class="fa-regular fa-chevron-down chevrondown"></i>
+</div>
+</div>
+<div class="wrapper" id="advanced-deck-search-submenu">
+<div class="sub-inner">
+<a class="submenu-item" href="/deck-search/"><i aria-hidden="true" class="fa-solid fa-fw fa-search ml-4"></i> View All Decks</a>
+<a class="submenu-item" href="/category/deck-archetypes/"><i aria-hidden="true" class="fa-solid fa-fw fa-search ml-4"></i> Decks by Archetype</a>
+<a class="submenu-item" href="/category/deck-formats/"><i aria-hidden="true" class="fa-solid fa-fw fa-search ml-4"></i> Decks by Format</a>
+<a class="submenu-item" href="/deck-search/#&amp;sort=Deck%20Views&amp;offset=0"><i class="fa-solid fa-fw fa-fire ml-4"></i> Most Popular Decks</a>
+</div>
+</div>
+</div>
+<div id="md-sub-nav-item">
+<div class="d-flex custom-dropdown-item w-100 text-nowrap">
+<div class="ml-3">
+<i aria-hidden="true" class="fa-solid fa-fw fa-triangle" style="transform: rotate(180deg);"></i> <span class="animated-text">Master Duel</span>
+<br/>
+<span class="ml-4 complex-menu-item-desc">Browse the tier list and decks</span>
+</div>
+<div class="d-flex align-items-center w-100 justify-content-end">
+<i class="fa-regular fa-chevron-down chevrondown"></i>
+</div>
+</div>
+<div class="wrapper" id="md-submenu-mobile">
+<div class="sub-inner">
+<a class="submenu-item" href="/master-duel/">
+<div class="d-flex align-items-center ml-4" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-ranking-star"></i>
+</div>
+Tier List
+</div>
+</div>
+</a>
+<a class="submenu-item" href="/category/format/master%20duel%20decks">
+<div class="d-flex align-items-center ml-4" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-gamepad"></i>
+</div>
+Master Duel Decks
+</div>
+</div>
+</a>
+<a class="submenu-item" href="/master-duel/card-usage/">
+<div class="d-flex align-items-center ml-4" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-cards-blank"></i>
+</div>
+Card Usage
+</div>
+</div>
+</a>
+<a class="submenu-item" href="/master-duel/companion-app/">
+<div class="d-flex align-items-center ml-4" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-brands fa-fw fa-windows"></i>
+</div>
+Companion App
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<a class="dropdown-item custom-dropdown-item" href="/tournaments/"><i aria-hidden="true" class="fa-solid fa-fw fa-trophy ml-3"></i> Tournament Breakdowns</a>
+<a class="dropdown-item custom-dropdown-item" href="/deckbuilder/"><i aria-hidden="true" class="fa-solid fa-fw fa-wrench ml-3"></i> Deck Builder</a>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown" id="articles-nav-item">
+<a class="nav-link dropdown-toggle">
+<i aria-hidden="true" class="fa-solid fa-newspaper fa-fw"></i> Articles <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="articles-dropdown-menu">
+<div class="inner">
+<a class="dropdown-item custom-dropdown-item" href="/article-search/"><i class="fa-solid fa-fw fa-newspaper ml-3"></i> Latest Articles</a>
+<a class="dropdown-item custom-dropdown-item" href="/category/format-article/news"><i class="fa-solid fa-fw fa-memo-circle-info ml-3"></i> News</a>
+<a class="dropdown-item custom-dropdown-item" href="/category/format-article/meta%20snapshot"><i class="fa-solid fa-fw fa-ranking-star ml-3"></i> Meta Snapshot</a>
+<a class="dropdown-item custom-dropdown-item" href="/article-search/?&amp;sort=Article%20Views&amp;offset=0"><i class="fa-solid fa-fw fa-fire ml-3"></i> Most Popular Articles</a>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="/article-search/"><i aria-hidden="true" class="fa-solid fa-fw fa-search ml-3"></i> Advanced Article Search</a>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown" id="card-database-nav-item">
+<a class="nav-link dropdown-toggle">
+<i aria-hidden="true" class="fa-solid fa-layer-group fa-fw"></i> Card Database <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="card-database-dropdown-menu">
+<div class="inner">
+<a class="dropdown-item custom-dropdown-item" href="/card-database/"><i aria-hidden="true" class="fa-solid fa-fw fa-window-restore ml-3"></i> Card Database</a>
+<a class="dropdown-item custom-dropdown-item" href="/packs/"><i class="fa-solid fa-fw fa-folder-tree ml-3"></i> Packs</a>
+<a class="dropdown-item custom-dropdown-item" href="/banlist/"><i class="fa-solid fa-fw fa-ban ml-3"></i> Forbidden List</a>
+<a class="dropdown-item custom-dropdown-item" href="/top/"><i class="fa-solid fa-fw fa-fire ml-3"></i> Top Cards</a>
+<a class="dropdown-item custom-dropdown-item" href="/formats/"><i class="fa-solid fa-fw fa-book ml-3"></i> Formats</a>
+<a class="dropdown-item custom-dropdown-item" href="/changelog/"><i class="fa-solid fa-fw fa-arrows-rotate ml-3"></i> Card Changelog</a>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="/pack-sim/"><i class="fa-solid fa-fw fa-display-code ml-3"></i> Pack Simulator</a>
+</div>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="/cube/"><i class="fa-solid fa-fw fa-cube ml-3"></i> Cube Drafting</a>
+<a class="dropdown-item custom-dropdown-item" href="/master-duel/arena/"><i class="fa-solid fa-fw fa-swords ml-3"></i> Master Duel Arena</a>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown" id="community-nav-item">
+<a class="nav-link dropdown-toggle">
+<i class="fa-solid fa-comments fa-fw"></i> Community <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="community-dropdown-menu">
+<div class="inner">
+<a class="dropdown-item custom-dropdown-item" href="/forum/"><i aria-hidden="true" class="fa-solid fa-fw fa-comments ml-3"></i> Forums</a>
+<a class="dropdown-item custom-dropdown-item" href="/category/featured-builders/"><i class="fa-solid fa-fw fa-people-group ml-3"></i> Featured Builders</a>
+<a class="dropdown-item custom-dropdown-item" href="/recent-comments/"><i class="fa-solid fa-fw fa-comment ml-3"></i> Recent Comments</a>
+<a class="dropdown-item custom-dropdown-item" href="/users/"><i class="fa-solid fa-fw fa-users ml-3"></i> Users</a>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="/artgame/"><i class="fa-solid fa-fw fa-image ml-3"></i> Art Game</a>
+<a class="dropdown-item custom-dropdown-item" href="/guess-game/"><i class="fa-solid fa-fw fa-thought-bubble ml-3"></i> Guessing Game</a>
+</div>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="https://discord.gg/nx24PSBGFE" rel="noopener" target="_blank"><i class="fa-brands fa-fw fa-discord ml-3"></i> Discord Server</a>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown" id="premium-nav-item">
+<a class="nav-link dropdown-toggle">
+<i class="fa-solid fa-sparkles fa-fw"></i> Premium <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="premium-dropdown-menu">
+<div class="inner">
+<a class="dropdown-item custom-dropdown-item" href="/premium/"><i class="fa-solid fa-fw fa-cart-shopping ml-3"></i> Subscribe Now</a>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown" id="random-nav-item">
+<a class="nav-link dropdown-toggle">
+<i class="fa-solid fa-random fa-fw"></i> Random <i class="fa-regular fa-chevron-down chevrondown float-right mt-1"></i>
+</a>
+<div class="wrapper mx-n3" id="random-dropdown-menu">
+<div class="inner">
+<a class="dropdown-item custom-dropdown-item" href="#" id="getRandomDeck" onclick="getRandomDeck()"><i class="fa-solid fa-fw fa-random ml-3" title="Random Deck"></i> Random Deck</a>
+<a class="dropdown-item custom-dropdown-item" href="#" id="getRandomCard" onclick="getRandomCard()"><i class="fa-solid fa-fw fa-random ml-3" title="Random Card"></i> Random Card</a>
+</div>
+</div>
+</li>
+</ul>
+<div class="w-100 border-top border-bottom bg-white account-menu-wrapper" style="margin-top: -1px;">
+<div class="account-menu position-absolute bg-white" id="account-menu-mobile">
+<a class="dropdown-item custom-dropdown-item" href="/profile/"><i class="fa-solid fa-fw fa-user"></i> Profile</a>
+<a class="dropdown-item custom-dropdown-item" href="/achievements/"><i class="fa-sharp fa-solid fa-fw fa-star"></i> Achievements</a>
+<a class="dropdown-item custom-dropdown-item" href="/decks/"><i class="fa-solid fa-fw fa-cards-blank"></i> Decks</a>
+<a class="dropdown-item custom-dropdown-item" href="/collection/"><i class="fa-solid fa-fw fa-box"></i> Collection</a>
+<a class="dropdown-item custom-dropdown-item" href="/price-alerts/"><i class="fa-sharp fa-solid fa-fw fa-bell"></i> Price Alerts</a>
+<div class="border-top">
+<a class="dropdown-item custom-dropdown-item" href="/logout.php"><i class="fa-solid fa-fw fa-sign-out-alt"></i> Logout</a>
+</div>
+</div>
+<div class="row px-2 pb-2">
+<div class="col-sm-6 mt-2">
+<a class="btn w-100 btn-sign-up shadow-none btn-block text-nowrap text-white" href="/register/">Sign Up</a>
+</div>
+<div class="col-sm-6 mt-2">
+<a class="btn w-100 shadow-none btn-block btn-login-mobile" href="/login/">Login</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="collapse navbar-collapse for-desktop-only" id="navbarCollapse">
+<div class="navbar-icon-desktop">
+<a class="navbar-brand" href="/"><img alt="ygoprodeck.com Logo" src="https://images.ygoprodeck.com/images/assets/ygoprodeck_header_logo.png?v=1.13" style="width:140px;" title="ygoprodeck.com"/></a>
+</div>
+<ul class="navbar-nav mr-auto justify-content-center" id="left-nav-items">
+<li class="nav-item dropdown" id="deck-nav-item">
+<a class="nav-link dropdown-toggle" href="javascript:void(0);">
+<i aria-hidden="true" class="fa-solid fa-clone" title="Decks"></i> <span class="nav-item-text">Decks</span> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div class="dropdown-menu custom-dropdown-menu" id="deck-dropdown">
+<div class="d-flex">
+<div>
+<div class="px-2">
+<div aria-pressed="false" class="dropdown-item complex-menu-item mt-2 d-flex custom-dropdown-item" id="deck-categories" role="button" tabindex="0">
+<div class="noselect w-100">
+<i class="fa-solid fa-fw fa-cards-blank"></i> Deck Categories<br/>
+<span class="ml-4 complex-menu-item-desc">Browse tournament and meta decks</span>
+</div>
+<div>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<div aria-pressed="false" class="dropdown-item complex-menu-item mt-2 d-flex custom-dropdown-item" id="advanced-deck-search" role="button" tabindex="0">
+<div class="noselect w-100">
+<i class="fa-solid fa-fw fa-cards-blank"></i> Advanced Deck Search<br/>
+<span class="ml-4 complex-menu-item-desc">Use advanced filters to search decks</span>
+</div>
+<div>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<div aria-pressed="false" class="dropdown-item complex-menu-item mt-2 d-flex custom-dropdown-item" id="master-duel" role="button" tabindex="0">
+<div class="noselect w-100">
+<i class="fa-solid fa-fw fa-triangle" style="transform: rotate(180deg);"></i> <span class="animated-text">Master Duel</span><br/>
+<span class="ml-4 complex-menu-item-desc">Browse the tier list and decks</span>
+</div>
+<div>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+</div>
+<div class="px-2 pb-2">
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="/tournaments/"><i aria-hidden="true" class="fa-solid fa-fw fa-trophy"></i> Tournament Breakdowns</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/deckbuilder/"><i aria-hidden="true" class="fa-solid fa-fw fa-wrench"></i> Deck Builder</a>
+</div>
+</div>
+<div class="first-submenu">
+<div class="deck-category-submenu p-2">
+<a class="submenu-item" href="/tournaments/top-archetypes/"><i class="fa-solid fa-fw fa-award"></i> Top Meta Archetypes</a>
+<a class="submenu-item mt-2" href="/category/budget-decks/"><i class="fa-solid fa-fw fa-cart-shopping"></i> Budget Decks</a>
+<a class="submenu-item mt-2" href="/category/format/tournament%20meta%20decks"><i class="fa-solid fa-fw fa-trophy"></i> Tournament Meta Decks</a>
+<a class="submenu-item mt-2" href="/category/format/tournament%20meta%20decks%20ocg"><i class="fa-solid fa-fw fa-trophy"></i> Tournament Meta Decks OCG</a>
+</div>
+</div>
+<div class="second-submenu">
+<div class="deck-search-submenu p-2">
+<a class="submenu-item" href="/deck-search/"><i aria-hidden="true" class="fa-solid fa-fw fa-search"></i> View All Decks</a>
+<a class="submenu-item mt-2" href="/category/deck-archetypes/"><i aria-hidden="true" class="fa-solid fa-fw fa-search"></i> Decks by Archetype</a>
+<a class="submenu-item mt-2" href="/category/deck-formats/"><i aria-hidden="true" class="fa-solid fa-fw fa-search"></i> Decks by Format</a>
+<a class="submenu-item mt-2" href="/deck-search/#&amp;sort=Deck%20Views&amp;offset=0"><i class="fa-solid fa-fw fa-fire"></i> Most Popular Decks</a>
+</div>
+</div>
+<div class="third-submenu">
+<div class="md-submenu-desktop p-2">
+<a class="submenu-item" href="/master-duel/">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 8px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-ranking-star"></i>
+</div>
+Tier List
+</div>
+</div>
+</a>
+<a class="submenu-item mt-2" href="/category/format/master%20duel%20decks">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 8px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-gamepad"></i>
+</div>
+Master Duel Decks
+</div>
+</div>
+</a>
+<a class="submenu-item mt-2" href="/master-duel/card-usage/">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 8px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-solid fa-fw fa-cards-blank"></i>
+</div>
+Card Usage
+</div>
+</div>
+</a>
+<a class="submenu-item mt-2" href="/master-duel/companion-app/">
+<div class="d-flex align-items-center" style="gap: 4px;">
+<div class="d-flex align-items-center" style="gap: 8px;">
+<div class="d-flex align-items-center justify-content-center" style="width: 24px; height: 24px;">
+<i aria-hidden="true" class="fa-brands fa-fw fa-windows"></i>
+</div>
+Companion App
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown not-deck-nav">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+<i aria-hidden="true" class="fa-solid fa-newspaper" title="Articles"></i> <span class="nav-item-text">Articles</span> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu p-2 custom-dropdown-menu">
+<a class="dropdown-item custom-dropdown-item" href="/article-search/"><i class="fa-solid fa-fw fa-newspaper"></i> Latest Articles</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/category/format-article/news"><i class="fa-solid fa-fw fa-memo-circle-info"></i> News</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/category/format-article/meta%20snapshot"><i class="fa-solid fa-fw fa-ranking-star"></i> Meta Snapshot</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/article-search/?&amp;sort=Article%20Views&amp;offset=0"><i class="fa-solid fa-fw fa-fire"></i> Most Popular Articles</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="/article-search/"><i aria-hidden="true" class="fa-solid fa-fw fa-search"></i> Advanced Article Search</a>
+</div>
+</li>
+<li class="nav-item dropdown not-deck-nav">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+<i aria-hidden="true" class="fa-solid fa-layer-group" title="Card Database"></i> <span class="nav-item-text">Card Database</span> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu p-2 custom-dropdown-menu">
+<a class="dropdown-item custom-dropdown-item" href="/card-database/"><i aria-hidden="true" class="fa-solid fa-fw fa-window-restore"></i> Card Database</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/packs/"><i class="fa-solid fa-fw fa-folder-tree"></i> Packs</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/banlist/"><i class="fa-solid fa-fw fa-ban"></i> Forbidden List</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/top/"><i class="fa-solid fa-fw fa-fire"></i> Top Cards</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/formats/"><i class="fa-solid fa-fw fa-book"></i> Formats</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/changelog/"><i class="fa-solid fa-fw fa-arrows-rotate"></i> Card Changelog</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="/pack-sim/"><i class="fa-solid fa-fw fa-display-code"></i> Pack Simulator</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="/cube/"><i class="fa-solid fa-fw fa-cube"></i> Cube Drafting</a>
+<a class="dropdown-item custom-dropdown-item" href="/master-duel/arena/"><i class="fa-solid fa-fw fa-swords"></i> Master Duel Arena</a>
+</div>
+</li>
+<li class="nav-item dropdown not-deck-nav">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+<i class="fa-solid fa-comments" title="Community"></i> <span class="nav-item-text">Community</span> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu p-2 custom-dropdown-menu">
+<a class="dropdown-item custom-dropdown-item" href="/forum/"><i aria-hidden="true" class="fa-solid fa-fw fa-comments"></i> Forums</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/category/featured-builders/"><i class="fa-solid fa-fw fa-people-group"></i> Featured Builders</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/recent-comments/"><i class="fa-solid fa-fw fa-comment"></i> Recent Comments</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/users/"><i class="fa-solid fa-fw fa-users"></i> Users</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="/artgame/"><i class="fa-solid fa-fw fa-image"></i> Art Game</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="/guess-game/"><i class="fa-solid fa-fw fa-thought-bubble"></i> Guessing Game</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item custom-dropdown-item" href="https://discord.gg/nx24PSBGFE" rel="noopener" target="_blank"><i class="fa-brands fa-fw fa-discord"></i> Discord Server</a>
+</div>
+</li>
+<li class="nav-item dropdown not-deck-nav">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+<i class="fa-solid fa-sparkles" title="Premium"></i> <span class="nav-item-text">Premium</span> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu p-2 custom-dropdown-menu">
+<a class="dropdown-item custom-dropdown-item" href="/premium/"><i class="fa-solid fa-fw fa-cart-shopping"></i> Subscribe Now</a>
+</div>
+</li>
+<li class="nav-item dropdown not-deck-nav">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+<i class="fa-solid fa-random" title="Random"></i> <i class="fa-regular fa-chevron-down chevrondown"></i>
+</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu p-2 custom-dropdown-menu">
+<a class="dropdown-item custom-dropdown-item" href="#" id="getRandomDeck" onclick="getRandomDeck()"><i class="fa-solid fa-random" title="Random Deck"></i> Random Deck</a>
+<a class="dropdown-item mt-2 custom-dropdown-item" href="#" id="getRandomCard" onclick="getRandomCard()"><i class="fa-solid fa-random" title="Random Card"></i> Random Card</a>
+</div>
+</li>
+</ul>
+<div class="d-flex align-items-center">
+<button class="btn right-buttons search-btn shadow-none text-nowrap for-desktop-only text-white" data-target="#searchSiteModal" data-toggle="modal" title="Search YGOPRODeck" type="button">
+<div class="d-flex">
+<div class="d-flex justify-content-center align-items-center" style="width: 24px; height: 24px;">
+<i class="fa-solid fa-search"></i>
+</div>
+<span class="search-btn-text"> Search</span>
+</div>
+</button>
+<button class="btn right-buttons shadow-none ml-2 for-desktop-only text-white" onclick="toggleDarkTheme()" title="Toggle Light/Dark Mode" type="button">
+<div style="width: 24px; height: 24px;">
+<i class="fa-solid fa-moon" id="toggleLightDark"></i>
+</div>
+</button>
+<a class="btn btn-sign-up shadow-none ml-2 text-nowrap for-desktop-only text-white" href="/register/">Sign Up</a>
+<a class="btn btn-login right-buttons shadow-none ml-2 for-desktop-only text-white" href="/login/">Login</a>
+</div>
+</div>
+</nav>
+</header>
+<div id="header-toplayout">
+<div data-pw-desk="leaderboard_atf" data-pw-mobi="leaderboard_atf" id="header-banner-desktop"></div>
+</div>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha384-VK/ia2DWrvtO05YDcbWI8WE3WciOH0RhfPNuRJGSa3dpAs5szXWQuCnPNv/yzpO4" rel="stylesheet"/>
+<main class="flex-shrink-0" role="main">
+<div class="container">
+<div class="loading"></div>
+<div class="info-area">
+<h1 class="mt-5">Deck Search</h1>
+<nav aria-label="breadcrumb" class="ml-n3">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="/">Home</a></li>
+<li aria-current="page" class="breadcrumb-item active">Decks</li>
+</ol>
+</nav>
+<div class="searcher-container container-card">
+<div class="d-flex searcher-top-pane container-card-header" id="deck-form">
+<div class="d-flex align-items-center w-100">
+<div class="d-flex position-absolute" style="padding: 4px; margin-left: 6px;">
+<i class="fa-solid fa-search"></i>
+</div>
+<input class="form-control input-border" id="deckName" name="deckName" placeholder="Search Deck Name or Card..." style="padding: 6px 6px 6px 34px;" type="text"/>
+</div>
+<div class="d-flex" style="gap: 16px;">
+<select class="form-control text-truncate deck-search-form-select" data-filter="Deck" id="filter-format" onchange="searchDecks(0)" style="background-repeat: no-repeat; background-size: 16px; background-position: right 0.75rem center; appearance: none; padding: 6px 30px 6px 12px;">
+<option>Format</option>
+<optgroup label="Tournament">
+<option value="Tournament Meta Decks">Tournament Meta Decks (TCG)</option>
+<option value="Tournament Meta Decks OCG">Tournament Meta Decks (OCG)</option>
+<option value="Tournament Meta Decks OCG (Asian-English)">Tournament Meta Decks (OCG-AE)</option>
+<option value="Tournament Meta Decks OCG (China)">Tournament Meta Decks (OCG-CN)</option>
+<option value="Tournament Meta Decks Worlds">Tournament Meta Decks (World Championship)</option>
+</optgroup>
+<optgroup label="Competitive">
+<option value="meta decks">Meta Decks</option>
+<option value="world championship decks">World Championship Decks</option>
+</optgroup>
+<optgroup label="Casual">
+<option value="non-meta decks">Non-Meta Decks</option>
+<option value="anime decks">Anime Decks</option>
+<option value="fun/casual decks">Fun/Casual Decks</option>
+<option value="theorycrafting decks">Theorycrafting Decks</option>
+</optgroup>
+<optgroup label="Games">
+<option value="master duel decks">Master Duel Decks</option>
+</optgroup>
+<optgroup label="Alternative Formats">
+<option value="common charity decks">Common Charity Decks</option>
+<option value="domain format decks">Domain Format Decks</option>
+<option value="edison format decks">Edison Format</option>
+<option value="goat format decks">Goat Format</option>
+<option value="worlds format decks">Worlds Format Decks</option>
+<option value="trinity format decks">Trinity Format Decks</option>
+<option value="speed duel decks">Speed Duel Decks</option>
+</optgroup>
+</select>
+<div class="position-relative filters-container">
+<button class="btn w-100 d-flex align-items-center light-btn" id="filter-btn" onclick="toggleFilterPanel()" style="gap: 6px;" type="button">
+<i class="fa-regular fa-filter" style="pointer-events: none;"></i> Filters
+</button>
+<div id="filter-panel" style="display: none;">
+<div class="d-flex flex-column filter-panel-container">
+<div class="d-flex align-items-center align-self-stretch" style="gap: 24px;">
+<span class="flex-grow-1" style="font-size: 23px; font-weight: 500;">Filter Panel</span>
+<div class="d-flex" style="gap: 16px;">
+<button class="btn light-btn btn-disabled" disabled="" id="resetFilters" onclick="resetFilters()" style="color: red;" type="button">Reset</button>
+<button class="btn close-btn-double-arrow-down" onclick="hideFilterPanel()" style="padding: 6px;" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 24px; height: 24px; padding: 4px 7px;">
+<i class="fa-solid fa-angles-down"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="d-flex flex-column mx-n1" style="gap: inherit; overflow-y: auto; padding-left: 0.25rem; padding-right: 0.25rem;">
+<div class="d-flex align-items-start align-self-stretch flex-column" style="gap: 4px;">
+<label for="filter-deckrange" style="margin-bottom: 0;">Deck Range</label>
+<select class="form-control text-truncate deck-search-form-select" data-filter="deckrange" id="filter-deckrange" onchange="searchDecks(0)">
+<option value="all">All Decks</option>
+<option value="deckprimer">High Quality Deck Primer</option>
+<option value="featured">Featured Builders</option>
+<option value="premium">Premium Supporter Decks</option>
+</select>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center align-self-stretch" style="gap: 8px;">
+<input class="form-control input-border contains-card" id="DSPcardCode1" maxlength="50" name="cardCode1" placeholder="Contains Card..." type="text"/>
+<button class="btn additional-card-btn" id="addCodeButton2" onclick="addCodeInput(2)" title="Search by additional card" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 21px; height: 21px;"><i class="fa-solid fa-plus"></i></div>
+</button>
+<input class="form-control input-border contains-card" id="DSPcardCode2" maxlength="50" name="cardCode2" placeholder="Also Contains Card..." style="display: none;" type="text"/>
+<button class="btn additional-card-btn" id="addCodeButton3" onclick="addCodeInput(3)" style="display: none;" title="Search by additional card" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 21px; height: 21px;"><i class="fa-solid fa-plus"></i></div>
+</button>
+<input class="form-control input-border contains-card" id="DSPcardCode3" maxlength="50" name="cardCode3" placeholder="Also Contains Card..." style="display: none;" type="text"/>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center align-self-stretch" style="gap: 8px;">
+<input class="form-control input-border does-not-contain" id="DSPcardCode1x" maxlength="50" name="cardCode1x" placeholder="Doesn't Contain Card..." type="text"/>
+<button class="btn additional-card-btn" id="addCodeButton2x" onclick="addCodeInputx(2)" title="Search by additional card" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 21px; height: 21px;"><i class="fa-solid fa-plus"></i></div>
+</button>
+<input class="form-control input-border does-not-contain" id="DSPcardCode2x" maxlength="50" name="cardCode2x" placeholder="Also Doesn't Contain Card..." style="display: none;" type="text"/>
+<button class="btn additional-card-btn" id="addCodeButton3x" onclick="addCodeInputx(3)" style="display: none;" title="Search by additional card" type="button">
+<div class="d-flex justify-content-center align-items-center" style="width: 21px; height: 21px;"><i class="fa-solid fa-plus"></i></div>
+</button>
+<input class="form-control input-border does-not-contain" id="DSPcardCode3x" maxlength="50" name="cardCode3x" placeholder="Also Doesn't Contain Card..." style="display: none;" type="text"/>
+</div>
+<div class="d-flex flex-column align-items-start align-self-stretch" style="gap: 7px;">
+<input class="form-control input-border" id="filter-archetype" maxlength="100" name="filter-archetype" placeholder="Contains Archetype..." type="text"/>
+<input class="form-control input-border" id="filter-author" maxlength="100" name="filter-author" placeholder="From Author..." type="text"/>
+</div>
+<div class="d-flex dropdown-container" style="gap: 16px;">
+<select class="form-control text-truncate deck-search-form-select" data-filter="Tournament" id="filter-tournamentdeck" onchange="searchDecks(0)" style="width: 135px;">
+<option disabled="" selected="" value="any">Tournament only?</option>
+<option value="any">Any Decks</option>
+<optgroup label="Tournament Decks Only">
+<option value="tier-2">at least Tier 2 (Competitive)</option>
+<option value="tier-3">Tier 3 (Premier) only</option>
+</optgroup>
+</select>
+<select class="form-control text-truncate deck-search-form-select" data-filter="Size" id="filter-decksize" onchange="searchDecks(0)">
+<option value="0">Deck Size</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="4045">40-45</option>
+<option value="60">60</option>
+</select>
+</div>
+<div class="d-flex" style="gap: 32px;">
+<div class="d-flex flex-column date-input-with-label" style="gap: 8px;">
+<label for="from-date" style="margin-bottom: 0;">From Date</label>
+<input class="form-control input-border" data-filter="-Date" id="from-date" min="2016-01-01" name="from-date" type="date"/>
+</div>
+<div class="d-flex flex-column date-input-with-label" style="gap: 8px;">
+<label for="to-date" style="margin-bottom: 0;">To Date</label>
+<input class="form-control input-border" data-filter="+Date" id="to-date" min="2016-01-01" name="to-date" type="date"/>
+</div>
+</div>
+<div class="d-flex flex-column w-100" style="gap: 8px;">
+<span>Price Range</span>
+<div class="d-flex align-items-center align-self-stretch" style="gap: 4px;">
+<div class="d-flex align-items-center position-relative price-input-with-icon">
+<div class="d-flex justify-content-center align-items-center position-absolute" style="width: 24px; height: 24px; padding: 4px 7px;">
+<i class="fa-solid fa-dollar-sign"></i>
+</div>
+<input class="form-control input-border" data-filter="-Price" id="from-price" max="9999" min="0" name="from-price" placeholder="00.00" type="number"/>
+</div>
+<div class="d-flex justify-content-center align-items-center" style="width: 24px; height: 24px; padding: 4px 5px;">
+<i class="fa-solid fa-minus"></i>
+</div>
+<div class="d-flex align-items-center position-relative price-input-with-icon">
+<div class="d-flex justify-content-center align-items-center position-absolute" style="width: 24px; height: 24px; padding: 4px 7px;">
+<i class="fa-solid fa-dollar-sign"></i>
+</div>
+<input class="form-control input-border" data-filter="+Price" id="to-price" max="9999" min="0" name="to-price" placeholder="00.00" type="number"/>
+</div>
+</div>
+</div>
+<div class="d-flex align-items-center" style="padding: 8px 0px; gap: 8px;">
+<input aria-checked="false" data-filter="Banlist" id="filter-banlistcheck" onchange="searchDecks(0)" type="checkbox" value=""/>
+<label for="filter-banlistcheck" style="margin-bottom: 0;">
+Ignore Decks containing banned cards
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="d-flex search-sort-wrapper">
+<button class="btn btn-primary" id="searchDecks" type="button">Search</button>
+<div class="select-sort-container position-relative">
+<select class="form-control text-truncate deck-search-form-select filter-sort" data-filter="Sort" id="filter-sort" onchange="searchDecks(0)" style="background-repeat: no-repeat; background-size: 16px; background-position: right 0.75rem center; appearance: none; padding: 6px 30px 6px 12px;">
+<option>Sort By</option>
+<option value="Comments">Comments</option>
+<option value="Date">Date (Oldest)</option>
+<option value="Deck Views">Deck Views</option>
+<option value="Updated">Recently Updated</option>
+</select>
+<div class="position-absolute sort-down-icon-container" style="display: none; pointer-events: none;">
+<i class="fa-solid fa-arrow-down-wide-short"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="deck-searcher-bottom-pane">
+<div class="d-flex flex-column align-items-center searcher-placeholder-txt" style="gap: 16px;">
+<span class="text-center bottom-pane-subtitle">Search the Yu-Gi-Oh! Deck Repository from YGOPRODeck</span>
+<div class="d-flex bottom-pane-extra-links">
+<div class="text-center" style="padding: 6px 12px;">
+<a href="/tournaments/"><i class="fa-regular fa-trophy"></i> Tournaments</a>
+</div>
+<div class="text-center" style="padding: 6px 12px;">
+<a href="/category/top-decks/"><i class="fa-solid fa-chart-line"></i> Top Decks</a>
+</div>
+</div>
+</div>
+<div class="deck-layout-flex grid-of-decks justify-content-center"></div>
+<div id="pagination-container"></div>
+</div>
+</div>
+<div class="dsp-currentfilters d-none font-italic mb-2" id="filter-area"><small><span>Applied Adv. Filters: </span><span class="dsp-currentfilterslist"></span></small></div>
+<br/>
+<div class="featured-list"></div>
+<div class="deck-list deck-layout-flex justify-content-center">
+<div class="deck-placeholder" data-counter="1"></div>
+<div class="deck-placeholder" data-counter="2"></div>
+<div class="deck-placeholder" data-counter="3"></div>
+<div class="deck-placeholder" data-counter="4"></div>
+<div class="deck-placeholder" data-counter="5"></div>
+<div class="deck-placeholder" data-counter="6"></div>
+<div class="deck-placeholder" data-counter="7"></div>
+<div class="deck-placeholder" data-counter="8"></div>
+<div class="deck-placeholder" data-counter="9"></div>
+<div class="deck-placeholder" data-counter="10"></div>
+<div class="deck-placeholder" data-counter="11"></div>
+<div class="deck-placeholder" data-counter="12"></div>
+<div class="deck-placeholder" data-counter="13"></div>
+<div class="deck-placeholder" data-counter="14"></div>
+<div class="deck-placeholder" data-counter="15"></div>
+<div class="deck-placeholder" data-counter="16"></div>
+<div class="deck-placeholder" data-counter="17"></div>
+<div class="deck-placeholder" data-counter="18"></div>
+<div class="deck-placeholder" data-counter="19"></div>
+<div class="deck-placeholder" data-counter="20"></div>
+</div>
+<div class="d-flex justify-content-center" id="deckPaging"></div>
+</div>
+</div>
+</main>
+<div class="mt-2" id="footer-banner-desktop-hide"></div>
+<footer class="footer mt-auto py-3">
+<div class="container">
+<div class="footer-cols">
+<div class="footer-col1">
+<div class="container">
+<div class="row">
+<div class="col-sm footergrid">
+<img alt="ygoprodeck.com Logo" loading="lazy" src="https://images.ygoprodeck.com/assets/images/ygoprodeck_logo_footer.png" title="ygoprodeck.com"/>
+</div>
+<div class="col-sm footergrid">
+<a href="https://tcgplayer.pxf.io/c/4913399/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com" rel="nofollow" target="_blank"><img alt="tcgplayer.com Logo" loading="lazy" src="https://images.ygoprodeck.com/assets/images/tcgplayer_logo_footer.png" title="TCGplayer"/></a>
+</div>
+<div class="col-sm footergrid">
+<a href="https://www.cardmarket.com/en/YuGiOh?utm_source=ygoprodeck&amp;utm_medium=banner&amp;utm_campaign=banner_logo" rel="nofollow" target="_blank"><img alt="cardmarket.com Logo" id="footer-cardmarket-logo" loading="lazy" src="https://images.ygoprodeck.com/assets/images/cmlogo_footer.png" title="Cardmarket"/></a>
+</div>
+</div>
+</div>
+<p class="lead">Your Yu-Gi-Oh! TCG Community</p>
+<p class="small">
+<span class="mr-3"><a href="https://twitter.com/YGOPRODeck" rel="noopener" target="_blank"><i class="fab fa-x-twitter" style="margin-left: 7px;background: unset;"></i></a></span>
+<span class="mr-3"><a href="https://discord.gg/nx24PSBGFE" rel="noopener" target="_blank"><i class="fab fa-discord"></i></a></span>
+</p>
+</div>
+<div class="footer-col2">
+<div class="sitemap-col"><h6>Yu-Gi-Oh!</h6>
+<ul>
+<li><a href="https://ygoprodeck.com">Yu-Gi-Oh! Portal</a></li>
+<li><a href="/card-database/">Card Database</a></li>
+<li><a href="/deckbuilder/">Deck Builder</a></li>
+<li><a href="/deck-search/#&amp;sort=Deck%20Views&amp;offset=0">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>PSLegends</h6>
+<ul>
+<li><a href="https://pslegends.com" rel="noopener" target="_blank">PSLegends Portal</a></li>
+<li><a href="https://pslegends.com/category/news/" rel="noopener" target="_blank">News</a></li>
+<li><a href="https://pslegends.com/category/reviews/" rel="noopener" target="_blank">Reviews</a></li>
+<li><a href="https://pslegends.com/games/" rel="noopener" target="_blank">Games</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Digimon</h6>
+<ul>
+<li><a href="https://digimoncard.io" rel="noopener" target="_blank">Digimon Portal</a></li>
+<li><a href="https://digimoncard.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://digimoncard.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://digimoncard.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Hearthstone</h6>
+<ul>
+<li><a href="https://hearthcard.io" rel="noopener" target="_blank">Hearthstone Portal</a>
+</li>
+<li><a href="https://hearthcard.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://hearthcard.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://hearthcard.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Marvel Snap</h6>
+<ul>
+<li><a href="https://marvelsnap.io" rel="noopener" target="_blank">Marvel Snap Portal</a>
+</li>
+<li><a href="https://marvelsnap.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://marvelsnap.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://marvelsnap.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Pokémon</h6>
+<ul>
+<li><a href="https://pokemoncard.io" rel="noopener" target="_blank">Pokémon Portal</a></li>
+<li><a href="https://pokemoncard.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://pokemoncard.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://pokemoncard.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Rush Duel</h6>
+<ul>
+<li><a href="https://rushcard.io" rel="noopener" target="_blank">Rush Duel Portal</a></li>
+<li><a href="https://rushcard.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://rushcard.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://rushcard.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+<div class="sitemap-col"><h6>Shadowverse Evolve</h6>
+<ul>
+<li><a href="https://shadowcard.io" rel="noopener" target="_blank">Shadowverse Evolve
+Portal</a></li>
+<li><a href="https://shadowcard.io/card-database/" rel="noopener" target="_blank">Card
+Database</a></li>
+<li><a href="https://shadowcard.io/deckbuilder/" rel="noopener" target="_blank">Deck
+Builder</a></li>
+<li><a href="https://shadowcard.io/deck-search/?&amp;sort=Deck%20Views&amp;offset=0" rel="noopener" target="_blank">Top Decks</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="input-group md-form form-sm form-1 pl-0" style="max-width: 600px;margin-bottom: 10px;">
+<div class="input-group-prepend">
+<span class="input-group-text purple lighten-3" id="footer-searchbar-icon"><i aria-hidden="true" class="fas fa-search text-white" style="color: #0000007d !important;"></i></span>
+</div>
+<input aria-label="Search" class="form-control my-0 py-1" id="footer-searchbar" placeholder="Search Yu-Gi-Oh! Decks..." type="text"/>
+</div>
+<span class="text-muted">Yu-Gi-Oh! Card Database. Developed with <i class="fas fa-heart" style="color:#d63d3db0"></i> by <a href="/about/">Alan</a>
+<span class="text-muted">/</span> <a href="/help/">Site Help</a>
+<span class="text-muted">/</span> <a href="https://status.ygoprodeck.com/status/ygoprodeck">Server Status</a>
+</span>
+<div class="d-flex flex-wrap">
+<span class="text-muted mr-2"><i class="fa-solid fa-code-branch"></i> <a href="/api-guide/"> Yu-Gi-Oh! API by YGOPRODeck</a></span>
+<span class="text-muted mr-2"><i class="fab fa-discord"></i> <a href="/bot/"> YGOPRODeck Discord Bot</a></span>
+<span class="text-muted mr-2"><i class="fa-solid fa-rotate"></i> <a href="/changelog-site/"> YGOPRODeck Site Changelog</a></span>
+<span class="text-muted mr-2"><i class="fa-solid fa-rss"></i> <a href="/rss/rss_decks/"> YGOPRODeck RSS Feed</a></span>
+</div>
+<span class="text-muted textblock mt-2">The literal and graphical information presented on this site about Yu-Gi-Oh!, including card images, the attribute, level/rank and type symbols, and card text, is copyright 4K Media Inc, a subsidiary of Konami Digital Entertainment, Inc. This website is not produced by, endorsed by, supported by, or affiliated with 4k Media or Konami Digital Entertainment.</span>
+<span class="text-muted textblock">All other content © 2016–2024 YGOPRODeck.</span>
+</div>
+</footer>
+<div aria-hidden="true" aria-labelledby="searchSiteModal" class="modal fade" id="searchSiteModal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg custom-modal-md" role="document">
+<div class="modal-content">
+<div class="modal-header container-card-header">
+<h5 class="modal-title" id="searchSiteModalTitle">Search YGOPRODeck</h5>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body">
+<nav>
+<div class="nav nav-tabs container-card-header mx-n3 mt-n3" id="nav-tab" role="tablist" style="padding: 0px 16px; gap: 0px;">
+<a aria-controls="nav-cards" aria-selected="true" class="btn shadow-none s_m-nav-btn active" data-toggle="tab" href="#nav-cards" id="nav-cards-tab" role="tab">Cards</a>
+<a aria-controls="nav-decks" aria-selected="false" class="btn shadow-none s_m-nav-btn" data-toggle="tab" href="#nav-decks" id="nav-decks-tab" role="tab">Decks</a>
+<a aria-controls="nav-articles" aria-selected="false" class="btn shadow-none s_m-nav-btn" data-toggle="tab" href="#nav-articles" id="nav-articles-tab" role="tab">Articles</a>
+</div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+<div aria-labelledby="nav-home-tab" class="tab-pane fade show active" id="nav-cards" role="tabpanel">
+<div class="d-flex s_m-search-filters-sort-container container-card-header mx-n3" style="padding: 8px 16px; gap: 8px; flex-wrap: unset;">
+<div class="d-flex w-100" style="gap: 8px;">
+<div class="d-flex align-items-center s_m-input-container">
+<div class="d-flex position-absolute" style="padding: 4px; margin-left: 6px;">
+<i class="fa-solid fa-search"></i>
+</div>
+<input aria-label="Search Cards" class="form-control input-border" data-search-type="Card" id="searchform-cards" placeholder="Search Yu-Gi-Oh! Cards..." style="padding: 6px 6px 6px 34px;" type="text"/>
+</div>
+<select class="form-control s_m-select" id="s_m-card-type" onchange="siteSearch('searchform-cards', 'Card')">
+<option>Card Type</option>
+<option>Effect Monster</option><option>Flip Effect Monster</option><option>Fusion Monster</option><option>Gemini Monster</option><option>Link Monster</option><option>Normal Monster</option><option>Normal Tuner Monster</option><option>Pendulum Effect Fusion Monster</option><option>Pendulum Effect Monster</option><option>Pendulum Effect Ritual Monster</option><option>Pendulum Flip Effect Monster</option><option>Pendulum Normal Monster</option><option>Pendulum Tuner Effect Monster</option><option>Ritual Effect Monster</option><option>Ritual Monster</option><option>Skill Card</option><option>Spell Card</option><option>Spirit Monster</option><option>Synchro Monster</option><option>Synchro Pendulum Effect Monster</option><option>Synchro Tuner Monster</option><option>Token</option><option>Toon Monster</option><option>Trap Card</option><option>Tuner Monster</option><option>Union Effect Monster</option><option>XYZ Monster</option><option>XYZ Pendulum Effect Monster</option> </select>
+</div>
+<div class="d-flex search_btn-sort-container" style="gap: 8px;">
+<button class="btn btn-primary s_m-search-btn" onclick="siteSearch('searchform-cards', 'Card')" type="button">Search</button>
+<div class="s_m-sort-container position-relative">
+<select class="form-control s_m-select" id="card-ms-sort" onchange="siteSearch('searchform-cards', 'Card')">
+<option>Sort By</option>
+<option selected="" value="new">Newest</option>
+<option value="name">Name</option>
+<option value="atk">ATK</option>
+<option value="def">DEF</option>
+<option value="level">Level</option>
+<option value="views">Views</option>
+</select>
+<div class="position-absolute s_m-sort-down-icon">
+<i class="fa-solid fa-arrow-down-wide-short"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="deck-layout-flex justify-content-center" id="card-search-form" style="margin-top: 11px; margin-bottom: 11px;"></div>
+<div class="d-flex flex-column align-items-center s_m-footer mx-n3" style="gap: 8px; padding-top: 16px;">
+<span style="font-size: 13px; font-weight: 500;"><strong>View More</strong></span>
+<a aria-disabled="true" class="btn btn-primary" href="/card-database/" id="carddb-redirect-btn" role="button">
+<div class="d-flex" style="gap: 4px;">
+Advanced Card Search
+<div class="d-flex" style="padding: 4px 5px;"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</a>
+</div>
+</div>
+<div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-decks" role="tabpanel">
+<div class="d-flex s_m-search-filters-sort-container container-card-header mx-n3" style="padding: 8px 16px; gap: 8px; flex-wrap: unset;">
+<div class="d-flex w-100" style="gap: 8px;">
+<div class="d-flex align-items-center s_m-input-container">
+<div class="d-flex position-absolute" style="padding: 4px; margin-left: 6px;">
+<i class="fa-solid fa-search"></i>
+</div>
+<input aria-label="Search Decks" class="form-control input-border" data-search-type="Deck" id="searchform-decks" placeholder="Search Yu-Gi-Oh! Decks..." style="padding: 6px 6px 6px 34px;" type="text"/>
+</div>
+<select class="form-control s_m-select" id="s_m-format" onchange="siteSearch('searchform-decks', 'Deck')">
+<option>Format</option>
+<optgroup label="Tournament">
+<option value="Tournament Meta Decks">Tournament Meta Decks (TCG)</option>
+<option value="Tournament Meta Decks OCG">Tournament Meta Decks (OCG)</option>
+<option value="Tournament Meta Decks OCG (Asian-English)">Tournament Meta Decks (OCG-AE)</option>
+<option value="Tournament Meta Decks OCG (China)">Tournament Meta Decks (OCG-CN)</option>
+<option value="Tournament Meta Decks Worlds">Tournament Meta Decks (World Championship)</option>
+</optgroup>
+<optgroup label="Competitive">
+<option value="meta decks">Meta Decks</option>
+<option value="world championship decks">World Championship Decks</option>
+</optgroup>
+<optgroup label="Casual">
+<option value="non-meta decks">Non-Meta Decks</option>
+<option value="anime decks">Anime Decks</option>
+<option value="fun/casual decks">Fun/Casual Decks</option>
+<option value="theorycrafting decks">Theorycrafting Decks</option>
+</optgroup>
+<optgroup label="Games">
+<option value="master duel decks">Master Duel Decks</option>
+</optgroup>
+<optgroup label="Alternative Formats">
+<option value="common charity decks">Common Charity Decks</option>
+<option value="domain format decks">Domain Format Decks</option>
+<option value="edison format">Edison Format</option>
+<option value="goat format">Goat Format</option>
+<option value="worlds format decks">Worlds Format Decks</option>
+<option value="trinity format decks">Trinity Format Decks</option>
+<option value="speed duel decks">Speed Duel Decks</option>
+</optgroup>
+</select>
+</div>
+<div class="d-flex search_btn-sort-container" style="gap: 8px;">
+<button class="btn btn-primary s_m-search-btn" onclick="siteSearch('searchform-decks', 'Deck')" type="button">Search</button>
+<div class="s_m-sort-container position-relative">
+<select class="form-control s_m-select" id="s_m-deck-sort" onchange="siteSearch('searchform-decks', 'Deck')">
+<option>Sort By</option>
+<option value="Comments">Comments</option>
+<option value="Date">Date (Oldest)</option>
+<option value="Deck Views">Deck Views</option>
+<option value="Updated">Recently Updated</option>
+</select>
+<div class="position-absolute s_m-sort-down-icon">
+<i class="fa-solid fa-arrow-down-wide-short"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="deck-layout-flex justify-content-center" id="deck-search-form" style="margin-top: 6px; margin-bottom: 6px;"></div>
+<div class="d-flex flex-column align-items-center s_m-footer mx-n3" style="gap: 8px; padding-top: 16px;">
+<span style="font-size: 13px; font-weight: 500;"><strong>View More</strong></span>
+<a aria-disabled="true" class="btn btn-primary" href="/deck-search/" id="decksearch-redirect-btn" role="button">
+<div class="d-flex" style="gap: 4px;">
+Advanced Deck Search
+<div class="d-flex" style="padding: 4px 5px;"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</a>
+</div>
+</div>
+<div aria-labelledby="nav-contact-tab" class="tab-pane fade" id="nav-articles" role="tabpanel">
+<div class="d-flex s_m-search-filters-sort-container container-card-header mx-n3" style="padding: 8px 16px; gap: 8px; flex-wrap: unset;">
+<div class="d-flex w-100" style="gap: 8px;">
+<div class="d-flex align-items-center s_m-input-container">
+<div class="d-flex position-absolute" style="padding: 4px; margin-left: 6px;">
+<i class="fa-solid fa-search"></i>
+</div>
+<input aria-label="Search Articles" class="form-control input-border" data-search-type="Article" id="searchform-articles" placeholder="Search Yu-Gi-Oh! Articles..." style="padding: 6px 6px 6px 34px;" type="text"/>
+</div>
+<select class="form-control s_m-select" id="s_m-article-type" onchange="siteSearch('searchform-articles', 'Article')">
+<option>Type</option>
+<option value="article">Article</option>
+<option value="meta snapshot">Meta Snapshot</option>
+<option value="news">News</option>
+</select>
+</div>
+<div class="d-flex search_btn-sort-container" style="gap: 8px;">
+<button class="btn btn-primary s_m-search-btn" onclick="siteSearch('searchform-articles', 'Article')" type="button">Search</button>
+<div class="s_m-sort-container position-relative">
+<select class="form-control s_m-select" id="s_m-article-sort" onchange="siteSearch('searchform-articles', 'Article')">
+<option>Sort By</option>
+<option value="Comments">Comments</option>
+<option value="Date">Date (Oldest)</option>
+<option value="Article Views">Article Views</option>
+<option value="Trending">Trending</option>
+</select>
+<div class="position-absolute s_m-sort-down-icon">
+<i class="fa-solid fa-arrow-down-wide-short"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="d-flex flex-column mt-3" id="article-search-form" style="gap: 16px;"></div>
+<div class="d-flex flex-column align-items-center s_m-footer mx-n3 mt-3" style="gap: 8px; padding-top: 16px;">
+<span style="font-size: 13px; font-weight: 500;"><strong>View More</strong></span>
+<a aria-disabled="true" class="btn btn-primary" href="/article-search/" id="articlesearch-redirect-btn" role="button">
+<div class="d-flex" style="gap: 4px;">
+Advanced Article Search
+<div class="d-flex" style="padding: 4px 5px;"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'892cb4ae4eb52add',t:'MTcxODIyNTM0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script defer="" src="https://unpkg.com/@popperjs/core@2"></script>
+<script defer="" src="https://unpkg.com/tippy.js@6"></script>
+<link href="/css/tooltips/tooltips.css?v=0.08" rel="stylesheet"/>
+<link href="/css/choices/choices.min.css?v=1.01" rel="stylesheet"/>
+<script src="/js/jquery-3.7.0.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.lazy.min.js" type="text/javascript"></script>
+<script defer="" src="/js/jquery.mark.min.js" type="text/javascript"></script>
+<script defer="" src="/js/choices/choices.min.js" type="text/javascript"></script>
+<script defer="" src="/js/mainsite.js?v=1.62" type="text/javascript"></script>
+<script defer="" src="/js/tooltips/tooltip.js?v=0.15" type="text/javascript"></script>
+<script async="" data-cfasync="false" src="//cdn.intergient.com/1025037/74502/ramp.js"></script>
+<script>
+            //Delete Service Worker Cache after Login
+            if ('serviceWorker' in navigator) {
+                caches.keys().then(function (cacheNames) {
+                    cacheNames.forEach(function (cacheName) {
+                        caches.delete(cacheName);
+                    });
+                });
+            }
+            var now = new Date();
+            now.setTime(now.getTime() + (1 * 24 * 60 * 60 * 1000));
+            document.cookie = "serviceworkercacheexpire=serviceworkercacheexpire; expires=" + now.toUTCString() + "; path=/";
+        </script>
+<script>
+            siderail_ad(); //Siderail Ad Block
+        </script>
+<script>
+        header_ads(); //Header Ad Block
+        ad_block_notice(); //Ad Block Notice
+        video_ad(); //Video Ad Block
+        anchor_ad(); //Anchor Ad Block
+        banner_ad(); //Banner Ad Block
+        intersitial_ad(); //Intersitial Ad Block
+    </script>
+<style>
+        /* search site modal background-color and modal-header css fixes when navigating to deckbuilder in dark mode */
+        [data-bs-theme="dark"] #searchSiteModal .modal-content {
+            background-color: #1b1b1c;
+        }
+        [data-bs-theme="dark"] #searchSiteModal .modal-header {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* search site modal input and select css fixes when navigating to forums */
+        #searchSiteModal .form-control {
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            border: 1px solid #DFDFDF;
+        }
+        [data-bs-theme="dark"] #searchSiteModal .form-control {
+            background-color: #212528;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        #searchSiteModal .form-control:focus {
+            border-color: #80bdff;
+        }
+        [data-bs-theme="dark"] #searchSiteModal .form-control:focus {
+            background-color: #2d2f31;
+            border-color: #5c5d5e;
+        }
+        #searchSiteModal select {
+            background-color: #F8F9FA;
+            padding: 6px 30px 6px 12px;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+        }
+        [data-bs-theme="dark"] #searchSiteModal select {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dedede' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+        }
+    </style>
+<script src="/js/jquery.autocomplete.js" type="text/javascript"></script>
+<script>
+
+var offset = 0;
+var featured = 0;
+var author = 0;
+var featuredNames = [];
+var deckGrid = 0;
+const latestDecks = document.querySelector('.deck-list');
+
+jQuery( document ).ready(function() {
+    const loadFromURLPair = (function(value, key) {
+        //Name
+        if(key == "name"){
+           jQuery('#deckName').val(value);
+        }
+        //Card Code
+         if(key == "cardcode"){
+             var codecount = 1;
+             var codeArray = value.split('|');
+             codeArray.pop();
+             jQuery.each(codeArray, function( index, value ) {
+                jQuery('#DSPcardCode'+codecount).css('display', 'block').val(value);
+                jQuery('#addCodeButton'+codecount).remove();
+                jQuery('#addCodeButton'+(codecount + 1)).show();
+                codecount++;
+             });
+        }
+        //Deck Archetype
+        if(key == "archetype"){
+            jQuery('#deckArchetype').val(value);
+        }
+        //Sort
+        if(key == "sort"){
+           jQuery('#filter-sort').val(value);
+        }
+        //Color
+        if(key == "color"){
+           jQuery('#filter-color').val(value).change();
+        }
+        //Format
+        if(key == "format"){
+            valuemod = value.replace(/-/g, ' ')
+           jQuery('#filter-format').val((valuemod).toLowerCase());
+        }
+        //Format
+        if(key == "_sft_category"){
+            jQuery('#filter-format').val(value);
+        }
+        //Deck Size
+        if(key == "decksize"){
+           jQuery('#filter-decksize').val(value);
+        }
+        //Archetype
+        if(key == "_sft_post_tag"){
+           jQuery('#filter-archetype').val((value).toLowerCase()).change();
+        }
+        //Tournament
+        if(key == "tournament"){
+           if (value === 'Yes') value = 'tier-2'; /* backwards compatibility */
+           jQuery('#filter-tournamentdeck').val(value);
+        }
+        //From Date
+        if(key == "from"){
+           jQuery('#from-date').val(value).change();
+        }
+        //To Date
+        if(key == "to"){
+           jQuery('#to-date').val(value).change();
+        }
+        //Author
+        if(key == "author"){
+           author = value;
+           jQuery('#filter-author').val((author).toLowerCase()).change();
+        }
+        //Price Classification
+        if(key == "price"){
+           jQuery('#filter-priceclass').val(value).change();
+        }
+        //From Price
+        if(key == "fromprice"){
+           jQuery('#from-price').val(value).change();
+        }
+        //To Price
+        if(key == "toprice"){
+           jQuery('#to-price').val(value).change();
+        }
+        //Deck Range
+        if(key == "range"){
+           jQuery('#filter-deckrange').val(value);
+        }
+        //Banlist
+        if(key == "banlist"){
+              jQuery('#filter-banlistcheck').prop('checked', true);
+        }
+        //Featured Deck Builder
+        if(key == "featuredBuilders"){
+           featured = 1;
+        }
+    });
+    
+    //Foreach query string param - Set the Relevant Input Value
+    if (window.location.search) { // backwards compatibility
+        (new URLSearchParams(window.location.search.substr(1))).forEach(loadFromURLPair);
+    }
+    if (window.location.hash) { // more GET friendly
+        (new URLSearchParams(window.location.hash.substr(1))).forEach(loadFromURLPair);
+    }
+
+
+    searchDecks(0);
+
+    jQuery('.loading').hide();
+
+    jQuery('.deck-maindeck').show();
+
+    //Autocomplete - Card Name
+    jQuery('.contains-card').autocomplete({
+        serviceUrl: '/api/autocomplete.php',
+        deferRequestBy: 300,
+        onSelect: function (suggestion) {
+           jQuery(this).val(suggestion.name);
+           searchDecks(0);
+        },
+        formatResult: function (suggestion, currentValue) {
+            var defaultImageUrl = suggestion.default_image;
+            //Build HTML
+            var suggestionHTML = '<div class="suggestion-item d-flex align-items-center justify-content-between">';
+            var imageUrl = suggestion.image && suggestion.image.trim() !== "" ? suggestion.image : defaultImageUrl;
+            suggestionHTML += '<div><img src="' + imageUrl + '" onerror="this.onerror=null;this.src=\'' + defaultImageUrl + '\';" class="rounded suggestion-image mr-2" loading="lazy" />' + suggestion.value + '</div>';
+            if (suggestion.image_type && suggestion.image_type.trim() !== "") {
+                suggestionHTML += '<img src="' + suggestion.image_type + '" class="rounded suggestion-image-type ml-auto" loading="lazy" />';
+            }
+            if (suggestion.image_race && suggestion.image_race.trim() !== "") {
+                suggestionHTML += '<img src="' + suggestion.image_race + '" class="rounded suggestion-image-race ml-2" loading="lazy" />';
+            }
+            suggestionHTML += '</div>';
+            return suggestionHTML;
+        }
+    });
+
+    jQuery('.does-not-contain').autocomplete({
+        serviceUrl: '/api/autocomplete.php',
+        onSelect: function (suggestion) {
+           jQuery(this).val(suggestion.name);
+           searchDecks(0);
+        },
+        formatResult: function (suggestion, currentValue) {
+            //Build Autocomplete HTML
+            var suggestionHTML = '<div class="suggestion-item d-flex align-items-center justify-content-between">';
+            suggestionHTML += '<div><img src="' + suggestion.image + '" class="rounded suggestion-image mr-2" loading="lazy" />' + suggestion.value + '</div>';
+            if (suggestion.image_type && suggestion.image_type.trim() !== "") {
+                suggestionHTML += '<img src="' + suggestion.image_type + '" class="rounded suggestion-image-type ml-auto" loading="lazy" />';
+            }
+            if (suggestion.image_race && suggestion.image_race.trim() !== "") {
+                suggestionHTML += '<img src="' + suggestion.image_race + '" class="rounded suggestion-image-race ml-2" loading="lazy" />';
+            }
+            suggestionHTML += '</div>';
+            return suggestionHTML;
+        }
+    });
+
+    //Autocomplete - Deck Archetype
+    jQuery('#filter-archetype').autocomplete({
+        serviceUrl: '/api/autocompleteDeckArchetype.php',
+        onSelect: function (suggestion) {
+           jQuery('#deckArchetype').val(suggestion.name);
+           //alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+        }
+    });
+
+    //Autocomplete - User Search
+    jQuery('#filter-author').autocomplete({
+        serviceUrl: '/api/users/usersAutoCompletePub.php',
+        onSelect: function (suggestion) {
+            jQuery('#filter-author').val(suggestion.data);
+        }
+    });
+
+    // Check certain inputs (select & input tags) in filter panel on change event for any value
+    jQuery('#filter-panel .deck-search-form-select, #from-date, #to-date, #filter-banlistcheck').on('change', function () {
+        let isDisabled = true;
+
+        // iterate through all select dropdowns inside filter panel
+        jQuery('#filter-panel .deck-search-form-select').each(function () {
+            if (jQuery(this).prop('selectedIndex') > 0) {
+                isDisabled = false;
+            }
+        });
+
+        // iterate through input dates inside filter panel
+        jQuery('#from-date, #to-date').each(function () {
+            if (jQuery(this).val() !== '') {
+                isDisabled = false;
+            }
+        });
+
+        // check if checkbox inside filter panel is checked
+        if (jQuery('#filter-banlistcheck').prop('checked')) {
+            isDisabled = false;
+        }
+        
+        if (isDisabled) {
+            jQuery('#resetFilters').prop('disabled', true).addClass('btn-disabled');
+            if (typeof(Storage) !== 'undefined') {
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'false');
+            }
+        } else {
+            jQuery('#resetFilters').prop('disabled', false).removeClass('btn-disabled');
+            if (typeof(Storage) !== 'undefined') {
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'true');
+            }
+        }
+    });
+
+    // Same as above but on input event for the other inputs
+    jQuery('.contains-card, .does-not-contain, #filter-archetype, #filter-author, #from-price, #to-price').on('input', function () {
+        jQuery('.contains-card, .does-not-contain, #filter-archetype, #filter-author, #from-price, #to-price').each(function () {
+            if (jQuery(this).val() !== '') {
+                jQuery('#resetFilters').prop('disabled', false).removeClass('btn-disabled');
+                if (typeof(Storage) !== 'undefined') {
+                    sessionStorage.setItem('HasDeckSearchFiltersSet', 'true');
+                }
+                return false;
+            } else {
+                jQuery('#resetFilters').prop('disabled', true).addClass('btn-disabled');
+                if (typeof(Storage) !== 'undefined') {
+                    sessionStorage.setItem('HasDeckSearchFiltersSet', 'false');
+                }
+            }
+        });
+    });
+
+    // Search decks when pressing enter in search input
+    const searchInput = document.getElementById('deckName');
+    searchInput.addEventListener('keyup', function (evt) {
+        if (evt.key === 'Enter') {
+            searchDecks(0);
+        }
+    })
+});
+
+//Search Decks
+jQuery("#searchDecks").click(function(){
+    searchDecks(0);
+});
+
+//Query String Variable
+function getQueryVariable(variable)
+{
+   var query = window.location.search.substring(1);
+   var vars = query.split("&");
+   for (var i=0;i<vars.length;i++) {
+           var pair = vars[i].split("=");
+           if(pair[0] == variable){return pair[1];}
+   }
+   return(null);
+}
+
+function htmlEntities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function checkSearchSortFilterValues(conditions) {
+    let notEmptyString = [
+        conditions.deckName,
+        conditions.doesContain,
+        conditions.doesNotContain,
+        conditions.archetype,
+        conditions.author,
+        conditions.fromDate,
+        conditions.toDate,
+        conditions.fromPrice,
+        conditions.toPrice
+    ].some(condition => condition !== '') ? true : false;
+
+    if (
+        notEmptyString ||
+        conditions.format !== 'Format' ||
+        conditions.tournament !== 'any' ||
+        conditions.deckSize !== '0' ||
+        conditions.sort !== 'Sort By' ||
+        conditions.range !== 'all' ||
+        conditions.banlistCheck
+    ) return true;
+
+    return false;
+}
+
+function searchDecks(offset){
+
+    //If First Page of Decks or loading
+    jQuery('.nextDeck').addClass("disabled").removeAttr("onclick").off("click").empty().append('<span class="page-link pagelink-btn">Previous</a>');
+    jQuery('.prevDeck').addClass("disabled").removeAttr("onclick").off("click").empty().append('<span class="page-link pagelink-btn">Next</a>');
+
+     //Get Decks
+    var apiurl = "/api/decks/getDecks.php?";
+
+    //Check if Name is Set
+    var deckname = jQuery('#deckName').val();
+    deckname = deckname.trim().replace(/\s+/g, " "); // remove extra whitespace
+    jQuery('#deckName').val(deckname);
+    if(deckname !== ''){apiurl += "&name="+deckname;}
+
+    //Check if Contains Card Inputs are set
+    var cardcodeurl = '';
+    jQuery('.contains-card').each(function(i, obj) {
+         var cardCode = jQuery(obj).val();
+         if(cardCode !== ''){
+            cardcodeurl += encodeURIComponent(cardCode)+"%7C";
+         }
+    });
+    if(cardcodeurl !== ''){
+        cardcodeurl = cardcodeurl.replace(/,\s*$/, "");
+        apiurl += "&cardcode="+cardcodeurl;
+    }
+
+    //Check if does not contain card inputs are set
+    var notcardcodeurl = '';
+    jQuery('.does-not-contain').each(function(i, obj) {
+        var cardCode = jQuery(obj).val();
+        if(cardCode !== ''){
+            notcardcodeurl += encodeURIComponent(cardCode)+"%7C";
+        }
+    });
+    if(notcardcodeurl !== ''){
+        notcardcodeurl = notcardcodeurl.replace(/,\s*$/, "");
+        apiurl += "&notcardcode="+notcardcodeurl;
+    }
+
+    //Check if Archetype is set
+    //var deckarchetype = jQuery('#deckArchetype').val();
+    //if(deckarchetype !== ''){apiurl += "&archetype="+deckarchetype;}
+
+    //Check if Format is Set
+    var cardFormat = jQuery('#filter-format').val();
+    if(cardFormat !== 'Format'){apiurl += "&_sft_category="+cardFormat;}
+
+    //Check if Tournament is Set
+    var cardTournament = jQuery('#filter-tournamentdeck').val() || 'any';
+    if(cardTournament !== 'any'){apiurl += "&tournament="+cardTournament;}
+
+    //Check if Deck Size is Set
+    var decksize = jQuery('#filter-decksize').val();
+    if(decksize !== '0'){apiurl += "&decksize="+decksize;}
+
+    //Check if Deck Archetype is Set
+    var deckarchetype = jQuery('#filter-archetype').val();
+    if(deckarchetype !== ''){apiurl += "&_sft_post_tag="+deckarchetype;}
+
+    //Check if Author is Set
+    var deckauthor = jQuery('#filter-author').val();
+    if(deckauthor !== ''){apiurl += "&author="+deckauthor;}
+
+    //Check if Sort is set
+	var deckSort = jQuery('#filter-sort').val();
+	if(deckSort != "Sort By"){ apiurl+= "&sort="+deckSort; }
+
+	//Check From Date is set
+	var fromdate = jQuery('#from-date').val();
+	if(fromdate !== ''){ apiurl+= "&from="+fromdate; }
+
+	//Check To Date is set
+	var todate = jQuery('#to-date').val();
+	if(todate !== ''){ apiurl+= "&to="+todate; }
+
+	//Check From Price is set
+	var fromprice = jQuery('#from-price').val();
+	if(fromprice !== ''){ apiurl+= "&fromprice="+fromprice; }
+
+	//Check To Price is set
+	var toprice = jQuery('#to-price').val();
+	if(toprice !== ''){ apiurl+= "&toprice="+toprice; }
+
+    //Check if Deck Range is Set
+    var deckrange = jQuery('#filter-deckrange').val();
+    if(deckrange !== 'all'){apiurl += "&range="+deckrange;}
+
+    //If filter-banlist is checked then add banlist to apiurl
+    if(jQuery('#filter-banlistcheck').is(':checked')){
+        apiurl += "&banlist";
+    }
+
+    //Check Author is set
+	// if(author !== 0){ apiurl+= "&author="+author; }
+
+	//Check if Featured Deck Builder is set
+	if(featured == 1){ apiurl+= "&featuredBuilders"; }
+
+    // Iterate through all inputs (select & input tags) inside filter panel then check if any one of them has a value
+    jQuery('#filter-panel .deck-search-form-select, #filter-panel .input-border, #filter-banlistcheck').each(function () {
+        if (jQuery(this)[0].tagName === 'SELECT') {
+            if (jQuery(this).prop('selectedIndex') > 0) {
+                jQuery('#resetFilters').prop('disabled', false).removeClass('btn-disabled');
+                jQuery('#filter-btn').addClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'true');
+                return false;
+            } else {
+                jQuery('#resetFilters').prop('disabled', true).addClass('btn-disabled');
+                jQuery('#filter-btn').removeClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'false');
+            }
+        } else if (jQuery(this)[0].tagName === 'INPUT' && jQuery(this)[0].type !== 'checkbox') {
+            if (jQuery(this).val() !== '') {
+                jQuery('#resetFilters').prop('disabled', false).removeClass('btn-disabled');
+                jQuery('#filter-btn').addClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'true');
+                return false;
+            } else {
+                jQuery('#resetFilters').prop('disabled', true).addClass('btn-disabled');
+                jQuery('#filter-btn').removeClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'false');
+            }
+        } else if (jQuery(this)[0].tagName === 'INPUT' && jQuery(this)[0].type === 'checkbox') {
+            if (jQuery(this).prop('checked') === true) {
+                jQuery('#resetFilters').prop('disabled', false).removeClass('btn-disabled');
+                jQuery('#filter-btn').addClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'true');
+                return false;
+            } else {
+                jQuery('#resetFilters').prop('disabled', true).addClass('btn-disabled');
+                jQuery('#filter-btn').removeClass('has-filters-set');
+                sessionStorage.setItem('HasDeckSearchFiltersSet', 'false');
+            }
+        }
+    });
+
+    const conditions = {
+        deckName: deckname,
+        doesContain: cardcodeurl,
+        doesNotContain: notcardcodeurl,
+        archetype: deckarchetype,
+        author: deckauthor,
+        fromDate: fromdate,
+        toDate: todate,
+        fromPrice: fromprice,
+        toPrice: toprice,
+        format: cardFormat,
+        tournament: cardTournament,
+        deckSize: decksize,
+        sort: deckSort,
+        range: deckrange,
+        banlistCheck: jQuery('#filter-banlistcheck').is(':checked')
+    };
+
+    // Loader
+    if (checkSearchSortFilterValues(conditions)) {
+        jQuery('.searcher-placeholder-txt').html('<div class="loader" style="left: 0;"></div>');
+
+        // Clear grid of decks and remove load more button when search/sort/filters have a value
+        //jQuery('.deck-list').empty();
+
+        // remove .deck_article-card-container from every .deck-placeholder inside .deck-list
+        document.querySelectorAll('.deck-list > .deck-placeholder').forEach(placeholder => placeholder.innerHTML = '');
+
+        // remove every .deck_article-card-container inside .deck-list that was appended by the Load More button
+        document.querySelectorAll('.deck-list > .deck_article-card-container').forEach(deck => deck.remove());
+
+        jQuery('#deckPaging').empty();
+
+        // Reset offset and page number from sessionStorage
+        if (typeof(Storage) !== 'undefined') {
+            sessionStorage.setItem('DeckSearchOffset', 0);
+            sessionStorage.setItem('DeckSearchPageNumber', 1);
+        }
+    } else {
+        //jQuery('.deck-list').html('<div class="loader" style="left: 0;"></div>');
+
+        // create a full width div container for the loader element's parent
+        const loaderContainer = document.createElement('div');
+        loaderContainer.id = 'loader';
+        loaderContainer.className = 'd-flex justify-content-center w-100';
+
+        // create the loader element itself
+        const loaderDiv = document.createElement('div');
+        loaderDiv.className = 'loader';
+        loaderDiv.style.left = 0;
+
+        loaderContainer.appendChild(loaderDiv); // append the loader element to its parent full width div container
+        latestDecks.appendChild(loaderContainer); // append the loader's container element to .deck-list
+
+        // Bring back placeholder text
+        let placeholderTxt = `
+            <span class="text-center bottom-pane-subtitle">Search the Yu-Gi-Oh! Deck Repository from YGOPRODeck</span>
+            <div class="d-flex bottom-pane-extra-links">
+                <div class="text-center" style="padding: 6px 12px;">
+                    <a href="/tournaments/"><i class="fa-regular fa-trophy"></i> Tournaments</a>
+                </div>
+                <div class="text-center" style="padding: 6px 12px;">
+                    <a href="/category/top-decks/"><i class="fa-solid fa-chart-line"></i> Top Decks</a>
+                </div>
+            </div>
+        `;
+        jQuery('.searcher-placeholder-txt').html(placeholderTxt);
+    }
+
+	//Limit
+	apiurl+= "&limit=20";
+
+    checkFilters();
+
+	//Offset
+	apiurl+= "&offset="+offset;
+
+    // Remove class and empty grid of decks container
+    jQuery('.deck-searcher-bottom-pane').removeClass('search-filter-results');
+    jQuery('.searcher-placeholder-txt').removeClass('no-padding');
+    jQuery('.grid-of-decks').empty();
+
+    // Remove pagination if the search/sort/filters don't have a value
+    if (!checkSearchSortFilterValues(conditions)) {
+        jQuery('#pagination-container').empty();
+    }
+
+    //Get Decks
+    jQuery.getJSON(apiurl,
+    function(val) {
+        //jQuery('.deck-list').empty();
+
+        // if .deck-list contains the loader, remove it
+        const loader = document.getElementById('loader');
+        if (latestDecks.contains(loader)) { loader.remove() }
+
+        if ( !val.error ) {
+            // Enable previous button if disabled and not first page
+            if (jQuery('.nextDeck').find('span.page-link').length && offset !== 0) {
+                jQuery('.nextDeck').removeClass("disabled").attr('onclick', "nextDeck()").empty().append('<a class="page-link pagelink-btn" href="#">Previous</a>');
+            }
+
+            //Enable next button if Disabled
+            jQuery('.prevDeck').removeClass("disabled").attr('onclick', "previousDeck()");
+            if (jQuery('.prevDeck').find('span.page-link').length) {
+                jQuery('.prevDeck').empty().append('<a class="page-link pagelink-btn" href="#">Next</a>');
+            }
+            const count = val.length;
+
+            // Clear the bottom part of the card container, append pagination if there's none initially, and set page number in pagination if the search/sort/filters have a value.
+            // Else, bring back the load more button
+            if (checkSearchSortFilterValues(conditions)) {
+                jQuery('.deck-searcher-bottom-pane').addClass('search-filter-results');
+                jQuery('.searcher-placeholder-txt').empty().addClass('no-padding');
+
+                let paginationElement = document.getElementById('pagination-elem');
+                let pagination = `
+                    <nav id="pagination-elem" class="w-100" aria-label="Deck Search Page Navigation" style="margin-top: 22px;">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item nextDeck disabled"><span class="page-link pagelink-btn">Previous</a></li>
+                            <li class="page-item active" aria-current="page"><span class="page-link"><span id="page-num">1</span><span class="sr-only"> (current)</span></span></li>
+                            <li class="page-item prevDeck" onclick="previousDeck()"><a class="page-link pagelink-btn" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                `;
+                let paginationContainer = document.getElementById('pagination-container');
+                if (!paginationContainer.contains(paginationElement)) {
+                    jQuery('#pagination-container').append(pagination);
+                }
+
+                if (typeof(Storage) !== 'undefined') {
+                    let pageNumber = parseInt(sessionStorage.getItem('DeckSearchPageNumber'));
+                    jQuery('#page-num').text(pageNumber);
+                }
+
+                renderGridDeckCards('.grid-of-decks', val, {widths: {w1: '33.33333333%', w2: '50%'}});
+            } else {
+                let loadMoreBtn = `
+                    <button id="loadMore" class="btn d-flex align-items-center light-btn" type="button" onclick="loadMore()" style="gap: 4px;">
+                        <span id="loadMoreText">Load More</span>
+                        <div id="loadMoreIcon" class="d-flex justify-content-center align-items-center" style="width: 24px; height: 24px;">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </button>
+                `;
+                jQuery('#deckPaging').html(loadMoreBtn);
+
+                //renderGridDeckCards('.deck-list', val, {widths: {w1: '33.33333333%', w2: '50%'}});
+
+                // render a deck grid item inside its respective placeholder
+                val.forEach((item, idx) => renderGridDeckCards(`[data-counter=${idx + 1}]`, [item], {widths: {w1: '100%', w2: '100%'}}));
+            }
+
+            //Featured Deck Builders
+            if(featured == 1){
+                jQuery('.featured-list').html('<i class="fas fa-star"></i> Featured Deck Builders: ');
+                jQuery.each( featuredNames, function( key, value ) {
+                    jQuery('.featured-list').append("<span class='featured-name'>"+value+"</span>");
+                });
+            }
+
+            if(count < 20){
+                jQuery('.prevDeck').addClass("disabled").removeAttr("onclick").off("click").empty().append('<span class="page-link pagelink-btn">Next</a>');
+            }
+        }else{
+            jQuery('#pagination-container').empty();
+            jQuery('.searcher-placeholder-txt').html('<span class="not-found"><i class="fas fa-ban"></i> No Decks Found.</span>');
+            jQuery('.prevDeck').addClass("disabled").prop("onclick", null).off("click").empty().append('<span class="page-link pagelink-btn">Next</a>');
+
+            //Enable Next Deck
+            jQuery('.nextDeck').removeClass("disabled").attr('onclick', "nextDeck()");
+        }
+
+    }).fail(function() {
+        offset = 0;
+        jQuery('#pagination-container').empty();
+        jQuery('.searcher-placeholder-txt').html('<span class="not-found"><i class="fas fa-ban"></i> No Decks Found.</span>');
+		jQuery('.prevDeck').addClass("disabled").prop("onclick", null).off("click").empty().append('<span class="page-link pagelink-btn">Next</a>');
+		jQuery('.nextDeck').addClass("disabled").prop("onclick", null).off("click");
+	});
+
+    //Retreive GET query string params for Query String URL
+    var searchParams = new URLSearchParams(apiurl);
+    var apiparams = "#";
+    //Foreach query string param
+    searchParams.forEach(function(value, key) {
+      if(key !== "/api/decks/getDecks.php?" && key !== "limit"){
+          apiparams += "&"+key+"="+encodeURIComponent(value);
+
+      }
+    });
+    if(apiparams != "#"){
+       history.pushState('', 'Deck Search - YGOPRODeck', '/deck-search/'+apiparams);
+    }
+
+}
+
+function previousDeck(){
+    if (window.innerWidth <= 982) {
+        window.scrollTo({ top: 170, behavior: 'smooth' });
+    }
+
+    let pageOffset = 0;
+    let pageNumber = 1;
+
+    if (typeof(Storage) !== 'undefined') {
+        pageOffset = parseInt(sessionStorage.getItem('DeckSearchOffset'));
+        pageNumber = parseInt(sessionStorage.getItem('DeckSearchPageNumber'));
+    }
+
+    pageOffset += 20;
+    searchDecks(pageOffset);
+
+    pageNumber += 1;
+    jQuery('#page-num').text(pageNumber);
+
+    if (typeof(Storage) !== 'undefined') {
+        sessionStorage.setItem('DeckSearchOffset', pageOffset);
+        sessionStorage.setItem('DeckSearchPageNumber', pageNumber);
+    }
+    event.preventDefault();
+}
+
+function nextDeck(){
+    if (window.innerWidth <= 982) {
+        window.scrollTo({ top: 170, behavior: 'smooth' });
+    }
+    
+    let pageOffset = 0;
+    let pageNumber = 1;
+
+    if (typeof(Storage) !== 'undefined') {
+        pageOffset = parseInt(sessionStorage.getItem('DeckSearchOffset'));
+        pageNumber = parseInt(sessionStorage.getItem('DeckSearchPageNumber'));
+    }
+
+    pageOffset -= 20;
+    searchDecks(pageOffset);
+
+    pageNumber -= 1;
+    jQuery('#page-num').text(pageNumber);
+
+    if (typeof(Storage) !== 'undefined') {
+        sessionStorage.setItem('DeckSearchOffset', pageOffset);
+        sessionStorage.setItem('DeckSearchPageNumber', pageNumber);
+    }
+    event.preventDefault();
+}
+
+function resetFilters(){
+    jQuery('input[type=text],input[type=number],input[type=date]').val('');
+    jQuery('select').prop('selectedIndex', 0);
+    jQuery('input[type=checkbox]').prop('checked', false); //Uncheck all checkboxes
+    searchDecks(0);
+}
+
+//Code Inputs
+function addCodeInput(number){
+    if(number == 2){
+        jQuery('#DSPcardCode2, #addCodeButton3').css('display', 'block');
+        jQuery('#addCodeButton2').hide();
+    }else{
+        jQuery('#DSPcardCode3').css('display', 'block');
+        jQuery('#addCodeButton3').hide();
+    }
+}
+
+// Code Input (for "doesn't contain card" inputs)
+function addCodeInputx(number) {
+    if(number == 2){
+        jQuery('#DSPcardCode2x, #addCodeButton3x').css('display', 'block');
+        jQuery('#addCodeButton2x').hide();
+    }else{
+        jQuery('#DSPcardCode3x').css('display', 'block');
+        jQuery('#addCodeButton3x').hide();
+    }
+}
+
+//Clear Individual Filter
+function clearFilter(filter){
+
+    if(filter == "-Date" || filter == "+Date"){
+        jQuery('[data-filter="'+filter+'"]').val("");
+    }else if(filter == "-Price" || filter == "+Price"){
+        jQuery('[data-filter="'+filter+'"]').val("");
+    }else if(filter == "Banlist"){
+        jQuery( "#filter-banlistcheck" ).prop( "checked", false );
+    }else{
+        jQuery('[data-filter="'+filter+'"]').prop('selectedIndex',0);
+    }
+
+    searchDecks(0);
+}
+
+//Check filters for filter message above search button
+function checkFilters(){
+
+    var filtercount = 0;
+    var filterhtml = '';
+    //Selects
+    jQuery.each(jQuery('#deck-form select'), function(ind,val){
+      if(jQuery(this).find('option:selected').index() !== 0 && jQuery(this).data("filter") !== "Banlist"){
+          filtercount++;
+          var datafilter = jQuery(this).data("filter");
+          filterhtml += '<span class="dsp-filteritem"><span class="dsp-filter-label" title="Clear '+datafilter+' filter" onClick="clearFilter(\''+datafilter+'\')">'+jQuery(this).data("filter")+':</span> '+jQuery(this).find('option:selected').val()+'</span>,';
+      }
+    });
+    //Dates
+    jQuery.each(jQuery('#deck-form input[type="date"]'), function(ind,val){
+      if(jQuery(this).val()){
+          filtercount++;
+          var datafilter = jQuery(this).data("filter");
+          filterhtml += '<span class="dsp-filteritem"><span class="dsp-filter-label" title="Clear '+datafilter+' filter" onClick="clearFilter(\''+datafilter+'\')">'+jQuery(this).data("filter")+':</span> '+jQuery(this).val()+'</span>,';
+      }
+    });
+    //Prices
+    jQuery.each(jQuery('#deck-form input[type="number"]'), function(ind,val){
+      if(jQuery(this).val()){
+          filtercount++;
+          var datafilter = jQuery(this).data("filter");
+          filterhtml += '<span class="dsp-filteritem"><span class="dsp-filter-label" title="Clear '+datafilter+' filter" onClick="clearFilter(\''+datafilter+'\')">'+jQuery(this).data("filter")+':</span> '+jQuery(this).val()+'</span>,';
+      }
+    });
+    //Banlist
+    if (jQuery('#filter-banlistcheck').is(':checked')) {
+        filtercount++;
+        var datafilter = jQuery('#filter-banlistcheck').data("filter");
+        filterhtml += '<span class="dsp-filteritem"><span class="dsp-filter-label" title="Clear '+datafilter+' filter" onClick="clearFilter(\''+datafilter+'\')">'+jQuery('#filter-banlistcheck').data("filter")+':</span> '+jQuery('#filter-banlistcheck').val()+'</span>,';
+    }
+
+    //Remove last comma
+    filterhtml = filterhtml.replace(/(\s*,?\s*)*$/, "");
+
+    jQuery('.dsp-currentfilterslist').html(filterhtml);
+
+    if(filtercount > 0){
+        jQuery('#filter-area').addClass("d-block");
+        jQuery('#filter-area').removeClass("d-none");
+    }else{
+        jQuery('#filter-area') .addClass("d-none");
+        jQuery('#filter-area').removeClass("d-block");
+    }
+
+}
+
+// toggle filter panel display
+function toggleFilterPanel() {
+    $('body').toggleClass("filter-panel-open-mobile");
+    jQuery('#filter-panel').slideToggle(300);
+}
+
+// hide filter panel when clicking/tapping anywhere outside it
+jQuery(document).on('mousedown', function (e) {
+    let divToHide = document.getElementById('filter-panel');
+    const suggestions = [...document.querySelectorAll('div.autocomplete-suggestions')];
+    if (!divToHide.contains(e.target) && e.target.id !== 'filter-btn' && !suggestions.some(suggestion => suggestion.contains(e.target))) {
+        hideFilterPanel();
+    }
+});
+
+// hide filter panel
+function hideFilterPanel() {
+    jQuery('#filter-panel').slideUp(300);
+    $('body').removeClass("filter-panel-open-mobile");
+    if (sessionStorage.getItem('HasDeckSearchFiltersSet') === 'true') {
+        jQuery('#filter-btn').addClass('has-filters-set');
+    } else {
+        jQuery('#filter-btn').removeClass('has-filters-set');
+    }
+}
+
+// hide filter panel when tapping anywhere outside the filter panel (basically the shadow, only in mobile view)
+jQuery('#filter-panel').on('click', function (e) {
+    if (e.target.id === 'filter-panel') {
+        hideFilterPanel();
+    }
+});
+
+function loadMore() {
+    deckGrid += 20;
+    var apiurl = "/api/decks/getDecks.php?";
+    apiurl+= "&offset="+deckGrid;
+
+    // disable load more button when loading
+    jQuery('#loadMoreText').text('Loading...');
+    jQuery('#loadMoreIcon').html('<div class="spinner-border spinner-border-sm text-primary" role="status"></div>');
+    jQuery('#loadMore').addClass("disabled").prop('disabled', true).removeAttr("onclick").off("click");
+
+    jQuery.getJSON(apiurl, function (val) {
+        if (!val.error) {
+            renderGridDeckCards('.deck-list', val, {clearContainer: false, widths: {w1: '33.33333333%', w2: '50%'}});
+
+            // enable load more button again
+            jQuery('#loadMore').removeClass("disabled").prop('disabled', false).attr('onclick', 'loadMore()');
+        } else {
+            jQuery('.deck-list').append('<span class="not-found w-100 text-center"><i class="fas fa-ban"></i> Can\'t Load More.</span>');
+        }
+
+        // revert to the initial text content of load more button
+        jQuery('#loadMoreText').text('Load More');
+        jQuery('#loadMoreIcon').html('<i class="fa-solid fa-chevron-right"></i>');
+    }).fail(function () {
+        jQuery('.deck-list').append('<span class="not-found w-100 text-center"><i class="fas fa-ban"></i> Error Loading Additional Decks.</span>');
+        jQuery('#loadMoreText').text('Load More');
+        jQuery('#loadMoreIcon').html('<i class="fa-solid fa-chevron-right"></i>');
+    });
+}
+</script>
+<style>
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden;cursor:pointer; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+.deck{overflow:hidden;}
+.ribbon {
+  margin: 0;
+  padding: 0;
+  background: #444444;
+  color:white;
+  padding:0.1em 0;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+}
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: #444444;
+}
+.ribbon:before {
+  right:100%;
+}
+
+.ribbon:after {
+  left:100%;
+}
+.featured-list {
+    text-align: center;
+    font-weight: bold;
+}
+.featured-name {
+    border: 1px solid #17a2b8;
+    margin: 2px;
+    padding: 3px;
+    color: white;
+    background-color: #17a2b8;
+    border-radius: 5px;
+    display: inline-block;
+}
+.header-color {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.disabled{
+    cursor: not-allowed !important;
+}
+#deckPaging{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+#deckPaging button {
+    display: inline-block;
+}
+.nextDeck, .prevDeck{
+    margin-top: 0px;
+}
+.not-found {
+    font-weight: bold;
+}
+.form-group {
+    display: inline-block;
+    width: 150px;
+}
+/* .mx-auto  {
+    margin-left: 0px !important;
+} */
+.deckRow a {
+    color: unset;
+    text-decoration: none;
+}
+.header-meta-metadata i {
+    margin-left: 5px;
+}
+.header-meta-metadata {
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.deckRow {
+    border: 1px solid #b2b2b2;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 750px;
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: #fafcff;
+}
+.deckRow:hover {
+    border: 1px solid black;
+}
+.deck-header {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size:1.2em;
+}
+.deck-row-img {
+    display: inline-block;
+}
+.deck-row-img img {
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 4px;
+    margin-left: 4px;
+    min-width: 107px;
+    min-height: 150px;
+}
+#cardCode, #deckArchetype, .decksearch-input{
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-input{
+    margin-bottom: 10px;
+    display:block;
+}
+.inner-deck-text {
+    color: #404040;
+    background-color: #a7a4a42e;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inner-deck-text p{
+    margin-bottom: 0.6rem;
+}
+.heading-section{
+    margin-top: 20px;
+}
+.tooltip-meta{
+    font-size: 12px;
+}
+.tooltip-effect{
+    font-size: 11px;
+}
+.tooltip-set{
+    font-size: 10px;
+    font-style: italic;
+}
+.meta-line {
+    margin: 10px;
+    font-size: 14px;
+    margin-top:15px;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
+.meta-line-inner {
+    margin-right: 20px;
+}
+.img-container img {
+    max-width: 110px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.deckmsg {
+    text-align: center;
+    font-size: 18px;
+}
+.notfound{
+    font-weight: bold;
+}
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));
+  background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 150ms infinite linear;
+  -moz-animation: spinner 150ms infinite linear;
+  -ms-animation: spinner 150ms infinite linear;
+  -o-animation: spinner 150ms infinite linear;
+  animation: spinner 150ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.success-msg{
+    color:green;
+}
+.warning-msg{
+    color:red;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+.resources p {
+    margin-bottom: 10px;
+}
+.resources {
+    margin-top: 25px;
+}
+.card-area:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-area {
+    margin-top: 30px;
+}
+#item-area {
+    margin-top: 5px;
+	display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.item-img {
+    float: left;
+    padding-right: 20px;
+	max-width: 240px;
+	min-width: 240px;
+	text-align: center;
+}
+.item-img img {
+    max-width: 140px;
+    width: 140px;
+    object-fit: contain;
+}
+.item-misc {
+    padding-bottom: 5px;
+    display: block;
+}
+.item-desc p {
+    overflow: hidden;
+}
+input#filter-dq {
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 480px) {
+	.card-name h1 {
+		font-size: 28px;
+	}
+	.dp-text{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 770px) {
+.deck-name{font-size: 0.8em;}
+.item-img, .item-name {
+    float:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.form-group{
+ width: 49%;
+}
+#cardCode, #deckArchetype, .decksearch-input {width:90% !important;}
+.header-color {display:block;font-size:11px;margin-left:0px;}
+.header-meta-metadata {display:block;font-size:11px;}
+.meta-line-inner {font-size:11px;display: block;margin-bottom: 5px;}
+/* .info-area {text-align: center;} */
+.deckRow {width: 90%;margin-left: auto;margin-right: auto;}
+/* .mx-auto {margin-left: auto !important;margin-right: auto !important;} */
+.deck{ height: 150px; width: 150px;}
+.deck-meta{font-size:10px;}
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.4);
+}
+.bottom-pane-subtitle {
+    font-size: 23px;
+    font-weight: 500;
+}
+.bottom-pane-extra-links {
+    gap: 64px;
+}
+#filter-format {
+    width: 100px;
+}
+.search-sort-wrapper {
+    gap: 16px;
+}
+#from-price, #to-price {
+    padding: 6px 12px 6px 32px;
+    height: auto;
+    width: 125px;
+}
+#from-date, #to-date {
+    width: 163px;
+}
+.page-item > span {
+    user-select: none;
+}
+.page-item.disabled .pagelink-btn {
+    background: #E9ECEF !important;
+    opacity: 0.65;
+}
+.deck-placeholder { width: 33.33333333%; }
+@media screen and (max-width: 575px) {
+    .deck-placeholder { width: 100%; }
+}
+@media screen and (min-width: 575.02px) and (max-width: 1199px) {
+    .deck-placeholder { width: 50%; }
+}
+@media (max-width: 982px) {
+    #filter-format, #searchDecks {
+        width: 50%;
+    }
+    .bottom-pane-subtitle {
+        font-size: 16px;
+    }
+    .autocomplete-suggestions {
+        z-index: 3000000001 !important;
+    }
+}
+@media (max-width: 540px) {
+    .bottom-pane-extra-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .search-sort-wrapper {
+        gap: 8px;
+        padding-left: 52px;
+    }
+    #searchDecks, .price-input-with-icon, .date-input-with-label {
+        width: 100%;
+    }
+    .dropdown-container {
+        flex-direction: column;
+    }
+    #filter-tournamentdeck, #filter-banlist {
+        width: 100% !important;
+    }
+    #from-price, #to-price, #from-date, #to-date {
+        width: 100%;
+    }
+    .filter-panel-container {
+        height: 85vh;
+    }
+}
+</style>
+</html>
