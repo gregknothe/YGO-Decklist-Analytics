@@ -31,7 +31,7 @@ def decklistScrape(url):
     nameList, typeList, deckList, codeList, imgSourceList, count = [], [], [], [], [], []
     for deckType in ["main_deck", "extra_deck", "side_deck"]:
         for tag in html.find_all(id=deckType):
-            for tags in tag.find_all(class_="lazy master-duel-card"):
+            for tags in tag.find_all(class_="lazy"):
                 #print(tags)
                 #nameList.append(str(tags).split('data-cardname="')[1].split('"')[0])
                 nameList.append(tags.get("data-cardname"))
@@ -48,7 +48,7 @@ def decklistScrape(url):
 
 def getDeckURL(url, offset=0, limit=100):
     #Modifies the search url to the api call, then returns the deck list urls from the search.
-    url = url.replace("https://ygoprodeck.com/deck-search/#", "https://ygoprodeck.com/api/decks/getDecks.php?").replace("&offset=0", "&limit="+str(limit)+"&offset="+str(offset))
+    url = url.replace("https://ygoprodeck.com/deck-search/#", "https://ygoprodeck.com/api/decks/getDecks.php?").replace("https://ygoprodeck.com/deck-search/?", "https://ygoprodeck.com/api/decks/getDecks.php?").replace("&offset=0", "&limit="+str(limit)+"&offset="+str(offset))
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     webpage = urlopen(req, timeout=10).read()
     html = str(bs(webpage, features="lxml"))
@@ -88,15 +88,15 @@ def getStats(url, limit=100):
         values = decklist.groupby(["name", "deck", "type", "code", "imgSource"]).count().sort_values(by=["deck"])
         values.reset_index(inplace=True)
         counts.append(values)
-    #print(counts)
+    #Takes each decklist and seperates them into the main, extra, and side list.
     mainName, mainDeck, mainType, mainCode, mainImgSource, mainCount, mainApperances = [], [], [], [], [], [], []
     maindf = pd.DataFrame({"name": mainName, "deck": mainDeck, "type": mainType, "code": mainCode, "imgSource": mainImgSource, "count": mainCount, "apperances": mainApperances})
     extraName, extraDeck, extraType, extraCode, extraImgSource, extraCount, extraApperances = [], [], [], [], [], [], []
     extradf = pd.DataFrame({"name": extraName, "deck": extraDeck, "type": extraType, "code": extraCode, "imgSource": extraImgSource, "count": extraCount, "apperances": extraApperances})
     sideName, sideDeck, sideType, sideCode, sideImgSource, sideCount, sideApperances = [], [], [], [], [], [], []
     sidedf = pd.DataFrame({"name": sideName, "deck": sideDeck, "type": sideType, "code": sideCode, "imgSource": sideImgSource, "count": sideCount, "apperances": sideApperances})
+    #Calculates the counts/apperances across all decklist in the search. Forming the final dataframe. 
     for count in counts:
-        #Takes each decklist (with counts) and seperates them into the main, extra, and side list. 
         main = count[count["deck"]=="main_deck"].reset_index(drop=True)
         extra = count[count["deck"]=="extra_deck"].reset_index(drop=True)
         side = count[count["deck"]=="side_deck"].reset_index(drop=True)
@@ -114,7 +114,6 @@ def getStats(url, limit=100):
                 extradf["apperances"][loc] = extradf["apperances"][loc] + 1
             else:
                 extradf.loc[len(extradf.index)] = [extra["name"][card], "extra_deck", extra["type"][card], extra["code"][card], extra["imgSource"][card], extra["count"][card], 1]
-        
         for card in range(len(side["name"])):
             if side["name"][card] in list(sidedf["name"]):
                 loc = sidedf.index[sidedf["name"]==side["name"][card]]
@@ -126,19 +125,27 @@ def getStats(url, limit=100):
     finalDF = pd.concat([maindf, extradf, sidedf]).reset_index(drop=True)
     finalDF["avgCopies"] = finalDF.apply(lambda x: x["count"] if x["count"] < 1 else round(x["count"]/x["apperances"],2), axis=1)
     finalDF["percOfDecks"] = round(finalDF["apperances"] / len(urls),2)
-
+    #Simplfied type variable for better sorting later on. 
+    generalType = []
+    for cardType in finalDF["type"]:
+        if cardType == "Spell Card":
+            generalType.append("spell")
+        elif cardType == "Trap Card":
+            generalType.append("trap")
+        else:
+            generalType.append("monster")
+    finalDF["generalType"] = generalType
     finalDF["deck"] = pd.Categorical(finalDF["deck"], ["main_deck", "extra_deck", "side_deck"])
-    finalDF["type"] = pd.Categorical(finalDF["type"], ["Normal Monster", "Effect Monster", "Tuner Monster", "Ritual Normal Monster", "Ritual Effect Monster", "Fusion Monster",
-                                                       "Synchro Monster", "XYZ Monster", "Link Monster", "Spell Card", "Trap Card"])
+    finalDF["generalType"] = pd.Categorical(finalDF["generalType"], ["monster", "spell", "trap"])
 
-    return finalDF.sort_values(["deck", "type", "percOfDecks", "avgCopies"], ascending=[True, True, False, False])
+    return finalDF.sort_values(["deck", "generalType", "percOfDecks", "avgCopies"], ascending=[True, True, False, False]).reset_index(drop=True)
 
 
 test = "https://ygoprodeck.com/deck-search/#&cardcode=Ashoka%20Pillar%7CHa-Re%20the%20Sword%20Mikanko%7CInstant%20Fusion%7C&tournament=tier-2&from=2023-12-01&to=2024-06-12&offset=0"
-print(getStats(SESearch,30).to_string())
-#x = getStats(searchURL,10)
-#print(x)
-#print(x.index.values)
-#print(x["type"].values)
+lightsworn = "https://ygoprodeck.com/deck-search/?&cardcode=Weiss%2C%20Lightsworn%20Archfiend%7CTearlaments%20Havnis%7C&tournament=tier-2&offset=0"
+#print(getStats(lightsworn,10).to_string())
+print(getStats(test,10).to_string())
 
-#Make new variable for monster, spell and trap for more logical sorting
+#test = "https://ygoprodeck.com/deck/horus-lightsworn-tearlaments-500456"
+#print(decklistScrape(test))
+#print(decklistScrape(deckURL))
