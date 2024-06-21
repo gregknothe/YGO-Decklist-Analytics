@@ -1,5 +1,5 @@
 import pandas as pd
-from urllib.request import Request, urlopen
+import requests
 from bs4 import BeautifulSoup as bs
 
 
@@ -22,9 +22,10 @@ SESearch = "https://ygoprodeck.com/deck-search/#&cardcode=Snake-Eyes%20Poplar%7C
 def decklistScrape(url):
     #Scrapes the decklist from the URL and returns a dataframe with:
     #name of card, type of card, deck (main, extra, side), card code, image url of card
-    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
-    webpage = urlopen(req, timeout=10).read()
-    html = bs(webpage, features="lxml")
+    req = requests.get(url, headers={'User-Agent': 'XYZ/3.0'}).text
+    print(req)
+    #webpage = urlopen(req, timeout=10).read()
+    html = bs(req, features="lxml")
     nameList, typeList, deckList, codeList, imgSourceList, count = [], [], [], [], [], []
     for deckType in ["main_deck", "extra_deck", "side_deck"]:
         for tag in html.find_all(id=deckType):
@@ -141,8 +142,8 @@ def getStats(url, limit=100):
 test = "https://ygoprodeck.com/deck-search/#&cardcode=Ashoka%20Pillar%7CHa-Re%20the%20Sword%20Mikanko%7CInstant%20Fusion%7C&tournament=tier-2&from=2023-12-01&to=2024-06-12&offset=0"
 lightsworn = "https://ygoprodeck.com/deck-search/?&cardcode=Weiss%2C%20Lightsworn%20Archfiend%7CTearlaments%20Havnis%7C&tournament=tier-2&offset=0"
 #print(getStats(lightsworn,10).to_string())
-print(getStats(test,10).to_string())
+#print(getStats(test,10).to_string())
 
-#test = "https://ygoprodeck.com/deck/horus-lightsworn-tearlaments-500456"
-#print(decklistScrape(test))
+test = "https://ygoprodeck.com/deck/horus-lightsworn-tearlaments-500456"
+print(decklistScrape(test))
 #print(decklistScrape(deckURL))

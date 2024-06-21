@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <table class="cardTable">
+        <tr>
+            <th>name</th>
+            <th>type</th>
+            <th>img</th>
+            <th>% of decks</th>
+            <th>avg count</th>
+        </tr>
+        <tr>
+            <td id="name1">Ohime the Manifested Mikanko</td>
+            <td id="type1">monster</td>
+            <td id="img1">https://images.ygoprodeck.com/images/cards_small/81260679.jpg</td>
+            <td id="precDeck1">1.0</td>
+            <td id="avgCount1">3.0</td>
+        </tr>
+        <tr>
+            <td id="name1">Ohime the Manifested Mikanko</td>
+            <td id="type1">monster</td>
+            <td id="img1">https://images.ygoprodeck.com/images/cards_small/81260679.jpg</td>
+            <td id="precDeck1">1.0</td>
+            <td id="avgCount1">3.0</td>
+        </tr>
+        <tr>
+            <td id="name1">Ohime the Manifested Mikanko</td>
+            <td id="type1">monster</td>
+            <td id="img1">https://images.ygoprodeck.com/images/cards_small/81260679.jpg</td>
+            <td id="precDeck1">1.0</td>
+            <td id="avgCount1">3.0</td>
+        </tr>
+        <tr>
+            <td id="name1">Ohime the Manifested Mikanko</td>
+            <td id="type1">monster</td>
+            <td id="img1">https://images.ygoprodeck.com/images/cards_small/81260679.jpg</td>
+            <td id="precDeck1">1.0</td>
+            <td id="avgCount1">3.0</td>
+        </tr>
+    </table>
+
+
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+
+    <py-config>
+        packages = ["pandas", "bs4", "requests"]
+    </py-config>
+    
+    <py-script>
+        import pandas as pd
+        import requests
+        from bs4 import BeautifulSoup as bs
+
+        pd.options.mode.chained_assignment = None  # default='warn'
+
+        def decklistScrape(url):
+            #Scrapes the decklist from the URL and returns a dataframe with:
+            #name of card, type of card, deck (main, extra, side), card code, image url of card
+            req = requests.get(url, headers={'User-Agent': 'XYZ/3.0'}).text
+            html = bs(req, features="lxml")
+            nameList, typeList, deckList, codeList, imgSourceList, count = [], [], [], [], [], []
+            for deckType in ["main_deck", "extra_deck", "side_deck"]:
+                for tag in html.find_all(id=deckType):
+                    for tags in tag.find_all(class_="lazy"):
+                        #print(tags)
+                        #nameList.append(str(tags).split('data-cardname="')[1].split('"')[0])
+                        nameList.append(tags.get("data-cardname"))
+                        typeList.append(tags.get("data-cardtype"))
+                        codeList.append(tags.get("data-name"))
+                        imgSourceList.append(tags.get("data-src"))
+                        deckList.append(deckType)
+                        count.append(1)
+            df = pd.DataFrame({"name": nameList, "type": typeList, "deck": deckList, "code": codeList, "imgSource": imgSourceList, "count": count})
+            return df
+        
+        deckURL = "https://ygoprodeck.com/deck/mikanko-dogmatika-471741"
+        print(decklistScrape(deckURL))
+    </py-script>
+</html>
+
+
+
