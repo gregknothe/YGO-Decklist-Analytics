@@ -141,8 +141,17 @@ def getStats(url, limit=100):
 test = "https://ygoprodeck.com/deck-search/#&cardcode=Ashoka%20Pillar%7CHa-Re%20the%20Sword%20Mikanko%7CInstant%20Fusion%7C&tournament=tier-2&from=2023-12-01&to=2024-06-12&offset=0"
 lightsworn = "https://ygoprodeck.com/deck-search/?&cardcode=Weiss%2C%20Lightsworn%20Archfiend%7CTearlaments%20Havnis%7C&tournament=tier-2&offset=0"
 #print(getStats(lightsworn,10).to_string())
-print(getStats(test,10).to_string())
+#print(getStats(test,10).to_string())
 
 #test = "https://ygoprodeck.com/deck/horus-lightsworn-tearlaments-500456"
 #print(decklistScrape(test))
 #print(decklistScrape(deckURL))
+
+
+tearhorus = "https://ygoprodeck.com/deck-search/?&cardcode=Tearlaments%20Reinoheart%7CImsety%2C%20Glory%20of%20Horus%7C&tournament=tier-2&offset=0"
+lighthorus = "https://ygoprodeck.com/deck-search/?&cardcode=Lightsworn%20Dragonling%7CImsety%2C%20Glory%20of%20Horus%7C&tournament=tier-2&offset=0"
+branded = "https://ygoprodeck.com/deck-search/?&cardcode=Branded%20Fusion%7CDespian%20Luluwalilith%7C&tournament=tier-2&offset=0"
+#print(getStats(branded,50).to_csv("test.csv"))
+
+df = pd.read_csv("test.csv")
+print(df.to_string())
