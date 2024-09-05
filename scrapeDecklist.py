@@ -1,5 +1,6 @@
 import pandas as pd
 from urllib.request import Request, urlopen
+import urllib.parse
 import requests
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
@@ -89,25 +90,48 @@ print(decklistScrape(url))
 archetypeList = ["snake-eye", "fire%20king", "tenpai%20dragon", "rescue-ace", "despia", "kashtira", "voiceless%20voice", "unchained", "tearlaments", 
                  "purrely", "labrynth", "mannadium", "floowandereeze", "chimera", "runick", "yubel", "dragon%20link", "centur-ion", 
                  "spright", "vanquish%20soul", "melodious", "salamangreat", "infernoble%20knight", "rikka", "orcust", "horus", "ritual%20beast", 
-                 "plant%20link", "mikanko", "marincess", "swordsoul", "fur%20hire", "phantom%20knights", "scareclaw", "dark%20world", "hero", 
+                 "rikka", "mikanko", "marincess", "swordsoul", "fur%20hire", "phantom%20knights", "scareclaw", "dark%20world", 
                  "mathmech", "dinomorphia", "drytron", "tri-brigade", "virtual%20world", "synchron", "volcanic", "plunder%20patroll", "white%20forest", 
-                 "raidraptor", "memento", "stun", "dinosaurs", "traptrix", "gimmick%20puppet", "blackwing", "sky%20striker", "exosister", 
-                 "infernoid", "lightsworn", "shark", "ghoti", "earth%20machine", "superheavy%20samurai", "eldlich", "goblin%20biker", "altergeist", 
-                 "stardust", "@ignister", "thunder%20dragon", "bystial", "phantom%20knight", "paleozoic", "spellbook", "t.g.", "ogdoadic", 
-                 "abyss%20actor", "world%20chalice", "gold%20pride", "p.u.n.k.", "resonator", "generaider", "mimighoul", "magical%20musketeer", "vaalmonica", 
-                 "flower%20cardian", "fluffal", "shining%20sarcophagus", "dark%20magician", "buster%20blader", "evil%20eye", "chain%20burn", "ra", "naturia",
-                 "kozmo", "8-axis%20otk", "crystal%20beast", "ninja", "earthbound", "zoodiac", "shaddoll", "red%20dragon%20archfiend", "speedroid", "invoked", 
-                 "pendulum%20magicians", "gravekeeper's", "dracoslayer", "therion", "sprigans", "machina", "evolzar", "cyber%20dragon", "dogmatika", 
-                 "code%20talker", "abc", "karakuri", "stellarknight", "vernusylph", "galaxy"]
+                 "raidraptor", "memento", "traptrix", "gimmick%20puppet", "blackwing", "sky%20striker", "exosister", 
+                 "infernoid", "lightsworn", "shark", "ghoti", "machina", "infinitrack", "train", "superheavy%20samurai", "eldlich", "goblin", "altergeist", 
+                 "stardust", "@ignister", "thunder%20dragon", "bystial", "phantom%20knights", "paleozoic", "spellbook", "t.g.", "ogdoadic", 
+                 "abyss%20actor", "world%20chalice", "gold%20pride", "p.u.n.k.", "resonator", "generaider", "mimighoul", "magical%20musket", "vaalmonica", 
+                 "fluffal", "shining%20sarcophagus", "dark%20magician", "destruction%20sword", "evil%20eye", "egyptian%20god", "naturia",
+                 "kozmo", "danger!", "crystal%20beast", "ninja", "earthbound", "zoodiac", "shaddoll", "resonator", "speedroid", "invoked", 
+                 "magician", "gravekeeper's", "dracoslayer", "therion", "machina", "cyber%20dragon", "dogmatika", 
+                 "code%20talker", "abc", "karakuri", "tellarknight", "vernusylph", "galaxy", "aroma", "ragnaraika", "elemental%20hero", "destiny%20hero", "vision%20hero",
+                 ]
 
+"""
 def updateArcheTypeURLs():
     for archetype in archetypeList:
 
         currList = getURLs(archetype, limit=20)
         if len(currList) == 0:
+            print("----------------------->" + archetype + "<--------------------------------")
+        else:
             print(archetype)
     return
 
 updateArcheTypeURLs()
+"""
+
+def updateArchetypes():
+    url = "https://ygoprodeck.com/category/deck-archetypes/"
+    req = requests.get(url, headers={'User-Agent': 'XYZ/3.0'}).text
+    html = bs(req, features="lxml")
+    archetypes = html.find_all(class_="deck-layout-single-flex")
+    archetypeURL = []
+    for x in range(len(archetypes)):
+        archetypes[x] = archetypes[x].get_text().replace(" Decks", "")
+        archetypeURL.append(urllib.parse.quote(archetypes[x]))
+    df = pd.DataFrame({"archetype": archetypes, "archetypeURL": archetypeURL})
+    df["count"] = 0
+    df.to_csv("archetypes.csv",sep="|")
+    return df
+
+print(updateArchetypes())
+
+
 
 #Run this shit, find archetypes with zero hits and figure out why that is the case.
