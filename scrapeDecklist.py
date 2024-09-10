@@ -116,21 +116,68 @@ def updateArcheTypeURLs():
 updateArcheTypeURLs()
 """
 
-def updateArchetypes():
+### archetypeURL.append(urllib.parse.quote(archetypes[x])) turns archetype into url
+
+def getArchetypes():
+    #Fetches all archetype tags
     url = "https://ygoprodeck.com/category/deck-archetypes/"
     req = requests.get(url, headers={'User-Agent': 'XYZ/3.0'}).text
     html = bs(req, features="lxml")
     archetypes = html.find_all(class_="deck-layout-single-flex")
     archetypeURL = []
     for x in range(len(archetypes)):
-        archetypes[x] = archetypes[x].get_text().replace(" Decks", "")
-        archetypeURL.append(urllib.parse.quote(archetypes[x]))
-    df = pd.DataFrame({"archetype": archetypes, "archetypeURL": archetypeURL})
-    df["count"] = 0
-    df.to_csv("archetypes.csv",sep="|")
+        archetypes[x] = archetypes[x].get_text().replace(" Decks", "").replace("\n", " ")
+        # 'Mayakashi\nShiranui' might come up as a problem later, keep an eye on it
+        #archetypeURL.append(urllib.parse.quote(archetypes[x]))
+    #df = pd.DataFrame({"archetype": archetypes, "archetypeURL": archetypeURL})
+    #df["lastestDeck"] = 0
+    #df.to_csv("archetypes.csv",sep="|")
+    return archetypes
+
+def parseArchetypes(archetypeList: list):
+    #Converts list of archetypes to usable URL strings
+    archetypeURL = []
+    for x in range(len(archetypeList)):
+        archetypeURL.append(urllib.parse.quote(archetypeList[x]))
+    return archetypeURL
+
+def createArchetypeFile():
+    #Creates a fresh archetype file with variables: 
+    #   archetype: the name of the archetype
+    #   archetypeURL: the parsed version of the name 
+    #   lastDeck: deck ID of last deck added to archetyhpe
+    arch = getArchetypes()
+    archURL = parseArchetypes(arch)
+    df = pd.DataFrame({"archetype": arch, "archetypeURL": archURL})
+    df["lastDeck"] = 0
+    df.to_csv("archetypes.csv",sep="|", index=False)
     return df
 
-print(updateArchetypes())
+def updateArchetypeFile():
+    newArchList = getArchetypes()
+    oldArch = pd.read_csv("archetypes.csv", sep="|")
+    oldArchList = list(oldArch["archetype"])
+    newArchetypes = [x for x in newArchList if x not in oldArchList]
+    newArchetypesURL = parseArchetypes(newArchetypes)
+
+    if len(newArchetypes) >= 1:
+        for x in range(len(newArchetypes)):
+            print(f"--Adding new archetype: {newArchetypes[x]}")
+            newRow = {"archetype": newArchetypes[x], "archetypeURL": newArchetypesURL[x], "lastDeck": 0}
+            oldArch.loc[len(oldArch)] = newRow
+        print(oldArch)
+    else:
+        print("--No new archetypes added.")
+    return
+
+
+
+#createArchetypeFile()
+#print("done")
+updateArchetypeFile()
+
+
+
 
 
 

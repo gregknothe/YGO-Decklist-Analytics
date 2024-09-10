@@ -1,655 +1,653 @@
-|archetype|archetypeURL|count
-0|-Eyes Dragon|-Eyes%20Dragon|0
-1|"""C"""|%22C%22|0
-2|@Ignister|%40Ignister|0
-3|A-to-Z|A-to-Z|0
-4|A.I.|A.I.|0
-5|ABC|ABC|0
-6|Abyss Actor|Abyss%20Actor|0
-7|Abyss Script|Abyss%20Script|0
-8|Abyss-|Abyss-|0
-9|Adamancipator|Adamancipator|0
-10|Advanced Crystal Beast|Advanced%20Crystal%20Beast|0
-11|Adventurer Token|Adventurer%20Token|0
-12|Aesir|Aesir|0
-13|Aether|Aether|0
-14|Albaz Dragon|Albaz%20Dragon|0
-15|Alien|Alien|0
-16|Alligator|Alligator|0
-17|Allure Queen|Allure%20Queen|0
-18|Ally Of Justice|Ally%20Of%20Justice|0
-19|Altergeist|Altergeist|0
-20|Amazement|Amazement|0
-21|Amazoness|Amazoness|0
-22|Amorphage|Amorphage|0
-23|Ancient Gear|Ancient%20Gear|0
-24|Ancient Treasure|Ancient%20Treasure|0
-25|Ancient Warriors|Ancient%20Warriors|0
-26|Anime|Anime|0
-27|Anti|Anti|0
-28|Apodrakosis|Apodrakosis|0
-29|Apoqliphort|Apoqliphort|0
-30|Appliancer|Appliancer|0
-31|Aquaactress|Aquaactress|0
-32|Aquamirror|Aquamirror|0
-33|Arcana Force|Arcana%20Force|0
-34|Archfiend|Archfiend|0
-35|Armed Dragon|Armed%20Dragon|0
-36|Armityle|Armityle|0
-37|Aroma|Aroma|0
-38|Aromage|Aromage|0
-39|Artifact|Artifact|0
-40|Ashened|Ashened|0
-41|Assault|Assault|0
-42|Assault Blackwing|Assault%20Blackwing|0
-43|Assault Mode|Assault%20Mode|0
-44|Atlantean|Atlantean|0
-45|Attraction|Attraction|0
-46|Attribute Summoner|Attribute%20Summoner|0
-47|Azamina|Azamina|0
-48|B.E.S.|B.E.S.|0
-49|Bamboo Sword|Bamboo%20Sword|0
-50|Barbaros|Barbaros|0
-51|Barian's|Barian%27s|0
-52|Batteryman|Batteryman|0
-53|Battleguard|Battleguard|0
-54|Battlewasp|Battlewasp|0
-55|Battlin' Boxer|Battlin%27%20Boxer|0
-56|Battlin' Boxing|Battlin%27%20Boxing|0
-57|Battlin’ Boxer|Battlin%E2%80%99%20Boxer|0
-58|Beetrooper|Beetrooper|0
-59|Bestowed Dragon|Bestowed%20Dragon|0
-60|Black Luster Soldier|Black%20Luster%20Soldier|0
-61|Blackwing|Blackwing|0
-62|Blaze Accelerator|Blaze%20Accelerator|0
-63|Blue Tears|Blue%20Tears|0
-64|Blue-Eyes|Blue-Eyes|0
-65|Bonding|Bonding|0
-66|Book Of|Book%20Of|0
-67|Boot-Up|Boot-Up|0
-68|Borrel|Borrel|0
-69|Boss Monsters|Boss%20Monsters|0
-70|Bounzer|Bounzer|0
-71|Branded|Branded|0
-72|Brave Token|Brave%20Token|0
-73|Bridge|Bridge|0
-74|Brightfleet|Brightfleet|0
-75|Broken World|Broken%20World|0
-76|Budget|Budget|0
-77|Bugroth|Bugroth|0
-78|Buijin|Buijin|0
-79|Bujin|Bujin|0
-80|Burn|Burn|0
-81|Burning Abyss|Burning%20Abyss|0
-82|Butterfly|Butterfly|0
-83|Butterspy|Butterspy|0
-84|Bystial|Bystial|0
-85|Cardian|Cardian|0
-86|Cataclysmic|Cataclysmic|0
-87|Celtic Guard|Celtic%20Guard|0
-88|Centur-Ion|Centur-Ion|0
-89|Chaos|Chaos|0
-90|Chaos Phantom|Chaos%20Phantom|0
-91|Charmer|Charmer|0
-92|Chemicritter|Chemicritter|0
-93|Chimera|Chimera|0
-94|Chronomaly|Chronomaly|0
-95|Chrysalis|Chrysalis|0
-96|Cipher|Cipher|0
-97|Circular|Circular|0
-98|Classic|Classic|0
-99|Clear|Clear|0
-100|Clear Wing|Clear%20Wing|0
-101|Cloudian|Cloudian|0
-102|Code Talker|Code%20Talker|0
-103|Codebreaker|Codebreaker|0
-104|Combo|Combo|0
-105|Constellar|Constellar|0
-106|Contact|Contact|0
-107|Continuous Traps|Continuous%20Traps|0
-108|Control|Control|0
-109|Counter|Counter|0
-110|Counter Fairy|Counter%20Fairy|0
-111|Crusadia|Crusadia|0
-112|Crystal|Crystal|0
-113|Crystal Beast|Crystal%20Beast|0
-114|Crystron|Crystron|0
-115|Cubic|Cubic|0
-116|Cupid|Cupid|0
-117|Curse Of Dragon|Curse%20Of%20Dragon|0
-118|CXyz|CXyz|0
-119|Cyber|Cyber|0
-120|Cyber Angel|Cyber%20Angel|0
-121|Cyber Dragon|Cyber%20Dragon|0
-122|Cyber-Stein|Cyber-Stein|0
-123|Cyberdark|Cyberdark|0
-124|Cyberse|Cyberse|0
-125|Cynet|Cynet|0
-126|D.D.|D.D.|0
-127|D/D|D/D|0
-128|D/D/D|D/D/D|0
-129|Danger!|Danger%21|0
-130|Dark Contract|Dark%20Contract|0
-131|Dark Counterpart|Dark%20Counterpart|0
-132|Dark Magician|Dark%20Magician|0
-133|Dark Scorpion|Dark%20Scorpion|0
-134|Dark World|Dark%20World|0
-135|Darklord|Darklord|0
-136|Deck Destruction|Deck%20Destruction|0
-137|Deck Guide|Deck%20Guide|0
-138|Deep Sea|Deep%20Sea|0
-139|Demise|Demise|0
-140|Deskbot|Deskbot|0
-141|Deskbots|Deskbots|0
-142|Despia|Despia|0
-143|Destiny HERO|Destiny%20HERO|0
-144|Destruction Sword|Destruction%20Sword|0
-145|Diabellestarr|Diabellestarr|0
-146|Diabellstar|Diabellstar|0
-147|Dice|Dice|0
-148|Different Dimension|Different%20Dimension|0
-149|Digital Bug|Digital%20Bug|0
-150|Digital Bugs|Digital%20Bugs|0
-151|Dinomist|Dinomist|0
-152|Dinomorphia|Dinomorphia|0
-153|Dinoruffia|Dinoruffia|0
-154|Dinosaur|Dinosaur|0
-155|Dinowrestler|Dinowrestler|0
-156|Divine Dragon|Divine%20Dragon|0
-157|Djinn|Djinn|0
-158|Dododo|Dododo|0
-159|Dogmatika|Dogmatika|0
-160|Doll|Doll|0
-161|Doll Monster|Doll%20Monster|0
-162|Doodle Beast|Doodle%20Beast|0
-163|Doodlebook|Doodlebook|0
-164|Doremichord|Doremichord|0
-165|Doriado|Doriado|0
-166|Draco|Draco|0
-167|Draconia|Draconia|0
-168|Dracoslayer|Dracoslayer|0
-169|Dracoverlord|Dracoverlord|0
-170|Dragon|Dragon|0
-171|Dragon Link|Dragon%20Link|0
-172|Dragonmaid|Dragonmaid|0
-173|Dragunity|Dragunity|0
-174|Dream Mirror|Dream%20Mirror|0
-175|Drytron|Drytron|0
-176|Dual Avatar|Dual%20Avatar|0
-177|Duel Links|Duel%20Links|0
-178|Duston|Duston|0
-179|Earthbound|Earthbound|0
-180|Edge Imp|Edge%20Imp|0
-181|Egyptian God|Egyptian%20God|0
-182|Eldlich|Eldlich|0
-183|Elemental HERO|Elemental%20HERO|0
-184|Elemental Lord|Elemental%20Lord|0
-185|Elementsaber|Elementsaber|0
-186|Emblema|Emblema|0
-187|Empower|Empower|0
-188|Empowered Warrior|Empowered%20Warrior|0
-189|Endymion|Endymion|0
-190|Endymion Magistus|Endymion%20Magistus|0
-191|Evil Eye|Evil%20Eye|0
-192|Evil HERO|Evil%20HERO|0
-193|Evil★Twin|Evil%E2%98%85Twin|0
-194|Evol|Evol|0
-195|Evolsaur|Evolsaur|0
-196|Evoltile|Evoltile|0
-197|Evolzar|Evolzar|0
-198|Exchange Of The Spirit|Exchange%20Of%20The%20Spirit|0
-199|Exodd|Exodd|0
-200|Exodia|Exodia|0
-201|Exodo|Exodo|0
-202|Exorsister|Exorsister|0
-203|Exosister|Exosister|0
-204|Eyes Restrict|Eyes%20Restrict|0
-205|F.A.|F.A.|0
-206|Fabled|Fabled|0
-207|Fabled The Fabled|Fabled%20The%20Fabled|0
-208|Fairy|Fairy|0
-209|Fairy Tail|Fairy%20Tail|0
-210|Fiendsmith|Fiendsmith|0
-211|Fire Fist|Fire%20Fist|0
-212|Fire Formation|Fire%20Formation|0
-213|Fire King|Fire%20King|0
-214|Firewall|Firewall|0
-215|Fishborg|Fishborg|0
-216|Flame Swordsman|Flame%20Swordsman|0
-217|Flamvell|Flamvell|0
-218|Fleur|Fleur|0
-219|Flip|Flip|0
-220|Floowandereeze|Floowandereeze|0
-221|Flower Cardian|Flower%20Cardian|0
-222|Fluffal|Fluffal|0
-223|Forbidden|Forbidden|0
-224|Fortune Fairy|Fortune%20Fairy|0
-225|Fortune Lady|Fortune%20Lady|0
-226|Fossil|Fossil|0
-227|Frightfur|Frightfur|0
-228|Frog|Frog|0
-229|Frogs|Frogs|0
-230|From The Underworld|From%20The%20Underworld|0
-231|FTK|FTK|0
-232|Fur Hire|Fur%20Hire|0
-233|Fusion|Fusion|0
-234|G Golem|G%20Golem|0
-235|Gadget|Gadget|0
-236|Gagaga|Gagaga|0
-237|Gaia The Fierce Knight|Gaia%20The%20Fierce%20Knight|0
-238|Galaxy|Galaxy|0
-239|Galaxy-Eyes|Galaxy-Eyes|0
-240|Gandora|Gandora|0
-241|Gandora The Dragon Of Des|Gandora%20The%20Dragon%20Of%20Des|0
-242|Gate Guardian|Gate%20Guardian|0
-243|Geargia|Geargia|0
-244|Gem-|Gem-|0
-245|Gem-Knight|Gem-Knight|0
-246|Generaider|Generaider|0
-247|Genex|Genex|0
-248|Ghostrick|Ghostrick|0
-249|Ghoti|Ghoti|0
-250|Gimmick Puppet|Gimmick%20Puppet|0
-251|Gishki|Gishki|0
-252|Gizmek|Gizmek|0
-253|Glacial Beast|Glacial%20Beast|0
-254|Glacial Beast Penguin|Glacial%20Beast%20Penguin|0
-255|Gladiator Beast|Gladiator%20Beast|0
-256|Goblin|Goblin|0
-257|Gods|Gods|0
-258|Gogogo|Gogogo|0
-259|Gold Pride|Gold%20Pride|0
-260|Gold Sarcophagus Of Light|Gold%20Sarcophagus%20Of%20Light|0
-261|Golden Castle Of Stromber|Golden%20Castle%20Of%20Stromber|0
-262|Golden Castle Of Stromberg|Golden%20Castle%20Of%20Stromberg|0
-263|Golden Land|Golden%20Land|0
-264|Gorgonic|Gorgonic|0
-265|Gouki|Gouki|0
-266|Gravekeeper|Gravekeeper|0
-267|Gravekeeper's|Gravekeeper%27s|0
-268|Graydle|Graydle|0
-269|Greed|Greed|0
-270|Grepher|Grepher|0
-271|Guardian|Guardian|0
-272|Guardragon|Guardragon|0
-273|Gunkan|Gunkan|0
-274|Gusto|Gusto|0
-275|Hand Traps|Hand%20Traps|0
-276|Harpie|Harpie|0
-277|Hazy|Hazy|0
-278|Heart|Heart|0
-279|Hellfire|Hellfire|0
-280|Herald|Herald|0
-281|Heraldic|Heraldic|0
-282|Heraldry|Heraldry|0
-283|HERO|HERO|0
-284|HEROES|HEROES|0
-285|Heroic|Heroic|0
-286|Hi-Speedroid|Hi-Speedroid|0
-287|Hieratic|Hieratic|0
-288|Hole|Hole|0
-289|Holy Knight|Holy%20Knight|0
-290|Holy Night|Holy%20Night|0
-291|Horus|Horus|0
-292|Horus The Black Flame Dra|Horus%20The%20Black%20Flame%20Dra|0
-293|Horus The Black Flame Dragon|Horus%20The%20Black%20Flame%20Dragon|0
-294|Hyperion|Hyperion|0
-295|Ice Barrier|Ice%20Barrier|0
-296|Icejade|Icejade|0
-297|Igknight|Igknight|0
-298|Impcantation|Impcantation|0
-299|Infernity|Infernity|0
-300|Infernoble Knight|Infernoble%20Knight|0
-301|Infernoid|Infernoid|0
-302|Infestation|Infestation|0
-303|Infinitrack|Infinitrack|0
-304|Insect|Insect|0
-305|Invoked|Invoked|0
-306|Inzektor|Inzektor|0
-307|Iron Chain|Iron%20Chain|0
-308|Jar|Jar|0
-309|Jester|Jester|0
-310|Jinzo|Jinzo|0
-311|Junk|Junk|0
-312|Jurrac|Jurrac|0
-313|Kaiju|Kaiju|0
-314|Kairyu-Shin|Kairyu-Shin|0
-315|Karakuri|Karakuri|0
-316|Kashtira|Kashtira|0
-317|Ki-sikil|Ki-sikil|0
-318|Knight|Knight|0
-319|Knightmare|Knightmare|0
-320|Koa'ki Meiru|Koa%27ki%20Meiru|0
-321|Koala|Koala|0
-322|Kozmo|Kozmo|0
-323|Krawler|Krawler|0
-324|Kuriboh|Kuriboh|0
-325|Labrynth|Labrynth|0
-326|Labyrinth Wall|Labyrinth%20Wall|0
-327|Lady Of Lament|Lady%20Of%20Lament|0
-328|Laval|Laval|0
-329|Legado Mundial|Legado%20Mundial|0
-330|Legendary Knight|Legendary%20Knight|0
-331|Libromancer|Libromancer|0
-332|Light And Darkness Dragon|Light%20And%20Darkness%20Dragon|0
-333|Lightsworn|Lightsworn|0
-334|Lil-la|Lil-la|0
-335|Link|Link|0
-336|Links|Links|0
-337|Live/Evil|Live/Evil|0
-338|Live☆Twin|Live%E2%98%86Twin|0
-339|Lockdown|Lockdown|0
-340|Lost World|Lost%20World|0
-341|Lswarm|Lswarm|0
-342|Lunalight|Lunalight|0
-343|Lyrilusc|Lyrilusc|0
-344|M∀LICE|M%E2%88%80LICE|0
-345|Machina|Machina|0
-346|Machine|Machine|0
-347|Machine Angel|Machine%20Angel|0
-348|Madolche|Madolche|0
-349|Madoor|Madoor|0
-350|Magical Musket|Magical%20Musket|0
-351|Magician|Magician|0
-352|Magician Girl|Magician%20Girl|0
-353|Magicians|Magicians|0
-354|Magikey|Magikey|0
-355|Magistus|Magistus|0
-356|Magnet|Magnet|0
-357|Magnet Warrior|Magnet%20Warrior|0
-358|Majespecter|Majespecter|0
-359|Majestic|Majestic|0
-360|Maju|Maju|0
-361|Malefic|Malefic|0
-362|Malicevorous|Malicevorous|0
-363|Maliss|Maliss|0
-364|Man-Eater Bug|Man-Eater%20Bug|0
-365|Manadome|Manadome|0
-366|Mannadium|Mannadium|0
-367|Marincess|Marincess|0
-368|Martial Art Spirit|Martial%20Art%20Spirit|0
-369|Mask|Mask|0
-370|Masked HERO|Masked%20HERO|0
-371|Master Rule 5|Master%20Rule%205|0
-372|Materiactor|Materiactor|0
-373|Mathmech|Mathmech|0
-374|"Mayakashi
-Shiranui"|Mayakashi%0AShiranui|0
-375|Mayakashi|Mayakashi|0
-376|Mecha Phantom Beast|Mecha%20Phantom%20Beast|0
-377|Megalith|Megalith|0
-378|Mekk-Knight|Mekk-Knight|0
-379|Meklord|Meklord|0
-380|Melffy|Melffy|0
-381|Melodious|Melodious|0
-382|Memento|Memento|0
-383|Mermail|Mermail|0
-384|Meta|Meta|0
-385|Metalfoes|Metalfoes|0
-386|Metalmorph|Metalmorph|0
-387|Metaphys|Metaphys|0
-388|Mikanko|Mikanko|0
-389|Millennium|Millennium|0
-390|Mimighoul|Mimighoul|0
-391|Mirror Trap|Mirror%20Trap|0
-392|Mist Valley|Mist%20Valley|0
-393|Mokey Mokey|Mokey%20Mokey|0
-394|Monarch|Monarch|0
-395|Morganite|Morganite|0
-396|Morphtronic|Morphtronic|0
-397|Mulcharmy|Mulcharmy|0
-398|Mystical Beast Of The For|Mystical%20Beast%20Of%20The%20For|0
-399|Mystical Beast Of The Forest|Mystical%20Beast%20Of%20The%20Forest|0
-400|Mythical Beast|Mythical%20Beast|0
-401|Myutant|Myutant|0
-402|Naturia|Naturia|0
-403|Nekroz|Nekroz|0
-404|Nemeses|Nemeses|0
-405|Nemesis|Nemesis|0
-406|Nemleria|Nemleria|0
-407|Nemurelia|Nemurelia|0
-408|Neo Space|Neo%20Space|0
-409|Neo-Spacian|Neo-Spacian|0
-410|Nephthys|Nephthys|0
-411|Nimble|Nimble|0
-412|Ninja|Ninja|0
-413|Ninjitsu Art|Ninjitsu%20Art|0
-414|Noble Arms|Noble%20Arms|0
-415|Noble Knight|Noble%20Knight|0
-416|Nordic|Nordic|0
-417|Nouvelles|Nouvelles|0
-418|Nouvellez|Nouvellez|0
-419|Number|Number|0
-420|Numeron|Numeron|0
-421|Odd-Eyes|Odd-Eyes|0
-422|Of Rituals|Of%20Rituals|0
-423|Ogdoadic|Ogdoadic|0
-424|Ojama|Ojama|0
-425|Onomat|Onomat|0
-426|Orcust|Orcust|0
-427|OTK|OTK|0
-428|Overlay|Overlay|0
-429|P.U.N.K.|P.U.N.K.|0
-430|Paladins Of Dragons|Paladins%20Of%20Dragons|0
-431|Paleozoic|Paleozoic|0
-432|Parasite|Parasite|0
-433|Parody|Parody|0
-434|Parshath|Parshath|0
-435|Pendulum|Pendulum|0
-436|Pendulum Dragon|Pendulum%20Dragon|0
-437|Penguin|Penguin|0
-438|Performage|Performage|0
-439|Performapal|Performapal|0
-440|Phantasm|Phantasm|0
-441|Phantasm Spiral|Phantasm%20Spiral|0
-442|Phantom Knight|Phantom%20Knight|0
-443|Phantom Knights|Phantom%20Knights|0
-444|Phantom Rage|Phantom%20Rage|0
-445|Photon|Photon|0
-446|Plunder Patroll|Plunder%20Patroll|0
-447|Polymerization|Polymerization|0
-448|Possessed|Possessed|0
-449|Potan|Potan|0
-450|Power Tool|Power%20Tool|0
-451|Prank-Kids|Prank-Kids|0
-452|Predap|Predap|0
-453|Predaplant|Predaplant|0
-454|Prediction Princess|Prediction%20Princess|0
-455|Priestess|Priestess|0
-456|Primoredial|Primoredial|0
-457|Prophecy|Prophecy|0
-458|PSY-Frame|PSY-Frame|0
-459|Puppet|Puppet|0
-460|Purrely|Purrely|0
-461|Qli|Qli|0
-462|Ragnaraika|Ragnaraika|0
-463|Raidraptor|Raidraptor|0
-464|Raika|Raika|0
-465|Rainbow Bridge|Rainbow%20Bridge|0
-466|Raizeol|Raizeol|0
-467|Rank-Up-Magic|Rank-Up-Magic|0
-468|Recipe|Recipe|0
-469|Red|Red|0
-470|Red-Eyes|Red-Eyes|0
-471|Relinquished|Relinquished|0
-472|Reptilianne|Reptilianne|0
-473|Rescue Squad|Rescue%20Squad|0
-474|Rescue-ACE|Rescue-ACE|0
-475|Resonator|Resonator|0
-476|Rikka|Rikka|0
-477|Risebell|Risebell|0
-478|Ritual|Ritual|0
-479|Ritual Beast|Ritual%20Beast|0
-480|Rituals|Rituals|0
-481|Roid|Roid|0
-482|Rokket|Rokket|0
-483|Roland|Roland|0
-484|Rose|Rose|0
-485|Rose Dragon|Rose%20Dragon|0
-486|Runick|Runick|0
-487|Rush Duel|Rush%20Duel|0
-488|Ryu-Ge|Ryu-Ge|0
-489|Ryzeal|Ryzeal|0
-490|S-Force|S-Force|0
-491|Saber|Saber|0
-492|Sacred Beast|Sacred%20Beast|0
-493|Salamandra|Salamandra|0
-494|Salamangreat|Salamangreat|0
-495|Sangen|Sangen|0
-496|Satellarknight|Satellarknight|0
-497|Scareclaw|Scareclaw|0
-498|Scrap|Scrap|0
-499|Scrap-Iron|Scrap-Iron|0
-500|Sea Stealth|Sea%20Stealth|0
-501|Secret Six Samurai|Secret%20Six%20Samurai|0
-502|Senka|Senka|0
-503|Sennen|Sennen|0
-504|Seven Emperors|Seven%20Emperors|0
-505|Seventh|Seventh|0
-506|Shaddoll|Shaddoll|0
-507|Shark|Shark|0
-508|Shining Sarcophagus|Shining%20Sarcophagus|0
-509|Shinobird|Shinobird|0
-510|Shiranui|Shiranui|0
-511|Signature Move|Signature%20Move|0
-512|Silenforc|Silenforc|0
-513|Silent Magician|Silent%20Magician|0
-514|Silent Swordsman|Silent%20Swordsman|0
-515|Simorgh|Simorgh|0
-516|Sinful Spoils|Sinful%20Spoils|0
-517|Six Samurai|Six%20Samurai|0
-518|Six Strike|Six%20Strike|0
-519|Skilled Magician|Skilled%20Magician|0
-520|Skull Servant|Skull%20Servant|0
-521|Sky Scourge|Sky%20Scourge|0
-522|Sky Striker|Sky%20Striker|0
-523|Slime|Slime|0
-524|Snake-Eye|Snake-Eye|0
-525|Solemn|Solemn|0
-526|Solfachord|Solfachord|0
-527|Speed Duel|Speed%20Duel|0
-528|Speedroid|Speedroid|0
-529|Spellbook|Spellbook|0
-530|Sphinx|Sphinx|0
-531|Spider|Spider|0
-532|Spirit Message|Spirit%20Message|0
-533|Spiritual Art|Spiritual%20Art|0
-534|Sprigguns|Sprigguns|0
-535|Spright|Spright|0
-536|Springans|Springans|0
-537|Spyral|Spyral|0
-538|Stall|Stall|0
-539|Star|Star|0
-540|Star Seraph|Star%20Seraph|0
-541|Stardust|Stardust|0
-542|Starliege|Starliege|0
-543|Starry Knight|Starry%20Knight|0
-544|Steelswarm|Steelswarm|0
-545|Stellarknight|Stellarknight|0
-546|Structure Deck|Structure%20Deck|0
-547|Subterror|Subterror|0
-548|Sunavalon|Sunavalon|0
-549|Sunseed|Sunseed|0
-550|Sunvine|Sunvine|0
-551|Super Defense Robot|Super%20Defense%20Robot|0
-552|Super Quant|Super%20Quant|0
-553|Superheavy|Superheavy|0
-554|Superheavy Samurai|Superheavy%20Samurai|0
-555|Supreme King|Supreme%20King|0
-556|Swarm Of|Swarm%20Of|0
-557|Swordsoul|Swordsoul|0
-558|Sylvan|Sylvan|0
-559|Symphonic|Symphonic|0
-560|Symphonic Warrior|Symphonic%20Warrior|0
-561|Synchro|Synchro|0
-562|Synchron|Synchron|0
-563|T.G.|T.G.|0
-564|Tainted Treasure|Tainted%20Treasure|0
-565|Tearlaments|Tearlaments|0
-566|Tellarknight|Tellarknight|0
-567|Tenpai Dragon|Tenpai%20Dragon|0
-568|Tenyi|Tenyi|0
-569|The Agent|The%20Agent|0
-570|The Sanctuary In The Sky|The%20Sanctuary%20In%20The%20Sky|0
-571|The Weather|The%20Weather|0
-572|Therion|Therion|0
-573|Thunder Dragon|Thunder%20Dragon|0
-574|Time Thief|Time%20Thief|0
-575|Timelord|Timelord|0
-576|Tindangle|Tindangle|0
-577|Tistina|Tistina|0
-578|Token|Token|0
-579|Toon|Toon|0
-580|Toon Chaos|Toon%20Chaos|0
-581|Toy|Toy|0
-582|Train|Train|0
-583|Transcendosaurus|Transcendosaurus|0
-584|Transcendrake|Transcendrake|0
-585|Trap|Trap|0
-586|Trap Hole|Trap%20Hole|0
-587|Trap Monster|Trap%20Monster|0
-588|Traptrix|Traptrix|0
-589|Tri-Brigade|Tri-Brigade|0
-590|Triamid|Triamid|0
-591|Tribute|Tribute|0
-592|Trickstar|Trickstar|0
-593|True Draco|True%20Draco|0
-594|True King|True%20King|0
-595|U.A.|U.A.|0
-596|Umbral Horror|Umbral%20Horror|0
-597|Umi|Umi|0
-598|Unchained|Unchained|0
-599|Underworld|Underworld|0
-600|Uniform Nomenclature|Uniform%20Nomenclature|0
-601|Ursarctic|Ursarctic|0
-602|Utopia|Utopia|0
-603|Utopic|Utopic|0
-604|Vaalmonica|Vaalmonica|0
-605|Valkyrie|Valkyrie|0
-606|Valmonica|Valmonica|0
-607|Vampire|Vampire|0
-608|Vanquish Soul|Vanquish%20Soul|0
-609|Vassal|Vassal|0
-610|Vaylantz|Vaylantz|0
-611|Veda|Veda|0
-612|Vendread|Vendread|0
-613|Venom|Venom|0
-614|Vernusylph|Vernusylph|0
-615|Virtual World|Virtual%20World|0
-616|Visas|Visas|0
-617|Vision HERO|Vision%20HERO|0
-618|Voiceless Voice|Voiceless%20Voice|0
-619|Void|Void|0
-620|Volcanic|Volcanic|0
-621|Vylon|Vylon|0
-622|War Rock|War%20Rock|0
-623|Warrior|Warrior|0
-624|Watt|Watt|0
-625|Weather Painter|Weather%20Painter|0
-626|Wedju|Wedju|0
-627|White|White|0
-628|White Forest|White%20Forest|0
-629|White Woods|White%20Woods|0
-630|Wicked God|Wicked%20God|0
-631|Wight|Wight|0
-632|Wind-Up|Wind-Up|0
-633|Windwitch|Windwitch|0
-634|Witchcrafter|Witchcrafter|0
-635|With Eyes Of Blue|With%20Eyes%20Of%20Blue|0
-636|World Chalice|World%20Chalice|0
-637|World Championship|World%20Championship|0
-638|World Legacy|World%20Legacy|0
-639|Worm|Worm|0
-640|X-Saber|X-Saber|0
-641|Xiangjian|Xiangjian|0
-642|Xyz|Xyz|0
-643|XYZ Rank|XYZ%20Rank|0
-644|Yang Zing|Yang%20Zing|0
-645|Yosenju|Yosenju|0
-646|Yubel|Yubel|0
-647|Yugioh|Yugioh|0
-648|Zefra|Zefra|0
-649|Zera|Zera|0
-650|ZEXAL|ZEXAL|0
-651|Zombie|Zombie|0
-652|Zoodiac|Zoodiac|0
+archetype|archetypeURL|lastDeck
+-Eyes Dragon|-Eyes%20Dragon|0
+"""C"""|%22C%22|0
+@Ignister|%40Ignister|0
+A-to-Z|A-to-Z|0
+A.I.|A.I.|0
+ABC|ABC|0
+Abyss Actor|Abyss%20Actor|0
+Abyss Script|Abyss%20Script|0
+Abyss-|Abyss-|0
+Adamancipator|Adamancipator|0
+Advanced Crystal Beast|Advanced%20Crystal%20Beast|0
+Adventurer Token|Adventurer%20Token|0
+Aesir|Aesir|0
+Aether|Aether|0
+Albaz Dragon|Albaz%20Dragon|0
+Alien|Alien|0
+Alligator|Alligator|0
+Allure Queen|Allure%20Queen|0
+Ally Of Justice|Ally%20Of%20Justice|0
+Altergeist|Altergeist|0
+Amazement|Amazement|0
+Amazoness|Amazoness|0
+Amorphage|Amorphage|0
+Ancient Gear|Ancient%20Gear|0
+Ancient Treasure|Ancient%20Treasure|0
+Ancient Warriors|Ancient%20Warriors|0
+Anime|Anime|0
+Anti|Anti|0
+Apodrakosis|Apodrakosis|0
+Apoqliphort|Apoqliphort|0
+Appliancer|Appliancer|0
+Aquaactress|Aquaactress|0
+Aquamirror|Aquamirror|0
+Arcana Force|Arcana%20Force|0
+Archfiend|Archfiend|0
+ARG☆S|ARG%E2%98%86S|0
+Armed Dragon|Armed%20Dragon|0
+Armityle|Armityle|0
+Aroma|Aroma|0
+Aromage|Aromage|0
+Artifact|Artifact|0
+Ashened|Ashened|0
+Assault|Assault|0
+Assault Blackwing|Assault%20Blackwing|0
+Assault Mode|Assault%20Mode|0
+Atlantean|Atlantean|0
+Attraction|Attraction|0
+Attribute Summoner|Attribute%20Summoner|0
+Azamina|Azamina|0
+B.E.S.|B.E.S.|0
+Bamboo Sword|Bamboo%20Sword|0
+Barbaros|Barbaros|0
+Barian's|Barian%27s|0
+Batteryman|Batteryman|0
+Battleguard|Battleguard|0
+Battlewasp|Battlewasp|0
+Battlin' Boxer|Battlin%27%20Boxer|0
+Battlin' Boxing|Battlin%27%20Boxing|0
+Battlin’ Boxer|Battlin%E2%80%99%20Boxer|0
+Beetrooper|Beetrooper|0
+Bestowed Dragon|Bestowed%20Dragon|0
+Black Luster Soldier|Black%20Luster%20Soldier|0
+Blackwing|Blackwing|0
+Blaze Accelerator|Blaze%20Accelerator|0
+Blue Tears|Blue%20Tears|0
+Blue-Eyes|Blue-Eyes|0
+Bonding|Bonding|0
+Book Of|Book%20Of|0
+Boot-Up|Boot-Up|0
+Borrel|Borrel|0
+Boss Monsters|Boss%20Monsters|0
+Bounzer|Bounzer|0
+Branded|Branded|0
+Brave Token|Brave%20Token|0
+Bridge|Bridge|0
+Brightfleet|Brightfleet|0
+Broken World|Broken%20World|0
+Budget|Budget|0
+Bugroth|Bugroth|0
+Buijin|Buijin|0
+Bujin|Bujin|0
+Burn|Burn|0
+Burning Abyss|Burning%20Abyss|0
+Butterfly|Butterfly|0
+Butterspy|Butterspy|0
+Bystial|Bystial|0
+Cardian|Cardian|0
+Cataclysmic|Cataclysmic|0
+Celtic Guard|Celtic%20Guard|0
+Centur-Ion|Centur-Ion|0
+Chaos|Chaos|0
+Chaos Phantom|Chaos%20Phantom|0
+Charmer|Charmer|0
+Chemicritter|Chemicritter|0
+Chimera|Chimera|0
+Chronomaly|Chronomaly|0
+Chrysalis|Chrysalis|0
+Cipher|Cipher|0
+Circular|Circular|0
+Classic|Classic|0
+Clear|Clear|0
+Clear Wing|Clear%20Wing|0
+Cloudian|Cloudian|0
+Code Talker|Code%20Talker|0
+Codebreaker|Codebreaker|0
+Combo|Combo|0
+Constellar|Constellar|0
+Contact|Contact|0
+Continuous Traps|Continuous%20Traps|0
+Control|Control|0
+Counter|Counter|0
+Counter Fairy|Counter%20Fairy|0
+Crusadia|Crusadia|0
+Crystal|Crystal|0
+Crystal Beast|Crystal%20Beast|0
+Crystron|Crystron|0
+Cubic|Cubic|0
+Cupid|Cupid|0
+Curse Of Dragon|Curse%20Of%20Dragon|0
+CXyz|CXyz|0
+Cyber|Cyber|0
+Cyber Angel|Cyber%20Angel|0
+Cyber Dragon|Cyber%20Dragon|0
+Cyber-Stein|Cyber-Stein|0
+Cyberdark|Cyberdark|0
+Cyberse|Cyberse|0
+Cynet|Cynet|0
+D.D.|D.D.|0
+D/D|D/D|0
+D/D/D|D/D/D|0
+Danger!|Danger%21|0
+Dark Contract|Dark%20Contract|0
+Dark Counterpart|Dark%20Counterpart|0
+Dark Magician|Dark%20Magician|0
+Dark Scorpion|Dark%20Scorpion|0
+Dark World|Dark%20World|0
+Darklord|Darklord|0
+Deck Destruction|Deck%20Destruction|0
+Deck Guide|Deck%20Guide|0
+Deep Sea|Deep%20Sea|0
+Demise|Demise|0
+Deskbot|Deskbot|0
+Deskbots|Deskbots|0
+Despia|Despia|0
+Destiny HERO|Destiny%20HERO|0
+Destruction Sword|Destruction%20Sword|0
+Diabellestarr|Diabellestarr|0
+Diabellstar|Diabellstar|0
+Dice|Dice|0
+Different Dimension|Different%20Dimension|0
+Digital Bug|Digital%20Bug|0
+Digital Bugs|Digital%20Bugs|0
+Dinomist|Dinomist|0
+Dinomorphia|Dinomorphia|0
+Dinoruffia|Dinoruffia|0
+Dinosaur|Dinosaur|0
+Dinowrestler|Dinowrestler|0
+Divine Dragon|Divine%20Dragon|0
+Djinn|Djinn|0
+Dododo|Dododo|0
+Dogmatika|Dogmatika|0
+Doll|Doll|0
+Doll Monster|Doll%20Monster|0
+Doodle Beast|Doodle%20Beast|0
+Doodlebook|Doodlebook|0
+Doremichord|Doremichord|0
+Doriado|Doriado|0
+Draco|Draco|0
+Draconia|Draconia|0
+Dracoslayer|Dracoslayer|0
+Dracoverlord|Dracoverlord|0
+Dragon|Dragon|0
+Dragon Link|Dragon%20Link|0
+Dragonmaid|Dragonmaid|0
+Dragunity|Dragunity|0
+Dream Mirror|Dream%20Mirror|0
+Drytron|Drytron|0
+Dual Avatar|Dual%20Avatar|0
+Duel Links|Duel%20Links|0
+Duston|Duston|0
+Earthbound|Earthbound|0
+Edge Imp|Edge%20Imp|0
+Egyptian God|Egyptian%20God|0
+Eldlich|Eldlich|0
+Elemental HERO|Elemental%20HERO|0
+Elemental Lord|Elemental%20Lord|0
+Elementsaber|Elementsaber|0
+Emblema|Emblema|0
+Empower|Empower|0
+Empowered Warrior|Empowered%20Warrior|0
+Endymion|Endymion|0
+Endymion Magistus|Endymion%20Magistus|0
+Evil Eye|Evil%20Eye|0
+Evil HERO|Evil%20HERO|0
+Evil★Twin|Evil%E2%98%85Twin|0
+Evol|Evol|0
+Evolsaur|Evolsaur|0
+Evoltile|Evoltile|0
+Evolzar|Evolzar|0
+Exchange Of The Spirit|Exchange%20Of%20The%20Spirit|0
+Exodd|Exodd|0
+Exodia|Exodia|0
+Exodo|Exodo|0
+Exorsister|Exorsister|0
+Exosister|Exosister|0
+Eyes Restrict|Eyes%20Restrict|0
+F.A.|F.A.|0
+Fabled|Fabled|0
+Fabled The Fabled|Fabled%20The%20Fabled|0
+Fairy|Fairy|0
+Fairy Tail|Fairy%20Tail|0
+Fiendsmith|Fiendsmith|0
+Fire Fist|Fire%20Fist|0
+Fire Formation|Fire%20Formation|0
+Fire King|Fire%20King|0
+Firewall|Firewall|0
+Fishborg|Fishborg|0
+Flame Swordsman|Flame%20Swordsman|0
+Flamvell|Flamvell|0
+Fleur|Fleur|0
+Flip|Flip|0
+Floowandereeze|Floowandereeze|0
+Flower Cardian|Flower%20Cardian|0
+Fluffal|Fluffal|0
+Forbidden|Forbidden|0
+Fortune Fairy|Fortune%20Fairy|0
+Fortune Lady|Fortune%20Lady|0
+Fossil|Fossil|0
+Frightfur|Frightfur|0
+Frog|Frog|0
+Frogs|Frogs|0
+From The Underworld|From%20The%20Underworld|0
+FTK|FTK|0
+Fur Hire|Fur%20Hire|0
+Fusion|Fusion|0
+G Golem|G%20Golem|0
+Gadget|Gadget|0
+Gagaga|Gagaga|0
+Gaia The Fierce Knight|Gaia%20The%20Fierce%20Knight|0
+Galaxy|Galaxy|0
+Galaxy-Eyes|Galaxy-Eyes|0
+Gandora|Gandora|0
+Gandora The Dragon Of Des|Gandora%20The%20Dragon%20Of%20Des|0
+Gate Guardian|Gate%20Guardian|0
+Geargia|Geargia|0
+Gem-|Gem-|0
+Gem-Knight|Gem-Knight|0
+Generaider|Generaider|0
+Genex|Genex|0
+Ghostrick|Ghostrick|0
+Ghoti|Ghoti|0
+Gimmick Puppet|Gimmick%20Puppet|0
+Gishki|Gishki|0
+Gizmek|Gizmek|0
+Glacial Beast|Glacial%20Beast|0
+Glacial Beast Penguin|Glacial%20Beast%20Penguin|0
+Gladiator Beast|Gladiator%20Beast|0
+Goblin|Goblin|0
+Gods|Gods|0
+Gogogo|Gogogo|0
+Gold Pride|Gold%20Pride|0
+Gold Sarcophagus Of Light|Gold%20Sarcophagus%20Of%20Light|0
+Golden Castle Of Stromber|Golden%20Castle%20Of%20Stromber|0
+Golden Castle Of Stromberg|Golden%20Castle%20Of%20Stromberg|0
+Golden Land|Golden%20Land|0
+Gorgonic|Gorgonic|0
+Gouki|Gouki|0
+Gravekeeper|Gravekeeper|0
+Gravekeeper's|Gravekeeper%27s|0
+Graydle|Graydle|0
+Greed|Greed|0
+Grepher|Grepher|0
+Guardian|Guardian|0
+Guardragon|Guardragon|0
+Gunkan|Gunkan|0
+Gusto|Gusto|0
+Hand Traps|Hand%20Traps|0
+Harpie|Harpie|0
+Hazy|Hazy|0
+Heart|Heart|0
+Hellfire|Hellfire|0
+Herald|Herald|0
+Heraldic|Heraldic|0
+Heraldry|Heraldry|0
+HERO|HERO|0
+HEROES|HEROES|0
+Heroic|Heroic|0
+Hi-Speedroid|Hi-Speedroid|0
+Hieratic|Hieratic|0
+Hole|Hole|0
+Holy Knight|Holy%20Knight|0
+Holy Night|Holy%20Night|0
+Horus|Horus|0
+Horus The Black Flame Dra|Horus%20The%20Black%20Flame%20Dra|0
+Horus The Black Flame Dragon|Horus%20The%20Black%20Flame%20Dragon|0
+Hyperion|Hyperion|0
+Ice Barrier|Ice%20Barrier|0
+Icejade|Icejade|0
+Igknight|Igknight|0
+Impcantation|Impcantation|0
+Infernity|Infernity|0
+Infernoble Knight|Infernoble%20Knight|0
+Infernoid|Infernoid|0
+Infestation|Infestation|0
+Infinitrack|Infinitrack|0
+Insect|Insect|0
+Invoked|Invoked|0
+Inzektor|Inzektor|0
+Iron Chain|Iron%20Chain|0
+Jar|Jar|0
+Jester|Jester|0
+Jinzo|Jinzo|0
+Junk|Junk|0
+Jurrac|Jurrac|0
+Kaiju|Kaiju|0
+Kairyu-Shin|Kairyu-Shin|0
+Karakuri|Karakuri|0
+Kashtira|Kashtira|0
+Ki-sikil|Ki-sikil|0
+Knight|Knight|0
+Knightmare|Knightmare|0
+Koa'ki Meiru|Koa%27ki%20Meiru|0
+Koala|Koala|0
+Kozmo|Kozmo|0
+Krawler|Krawler|0
+Kuriboh|Kuriboh|0
+Labrynth|Labrynth|0
+Labyrinth Wall|Labyrinth%20Wall|0
+Lady Of Lament|Lady%20Of%20Lament|0
+Laval|Laval|0
+Legado Mundial|Legado%20Mundial|0
+Legendary Knight|Legendary%20Knight|0
+Libromancer|Libromancer|0
+Light And Darkness Dragon|Light%20And%20Darkness%20Dragon|0
+Lightsworn|Lightsworn|0
+Lil-la|Lil-la|0
+Link|Link|0
+Links|Links|0
+Live/Evil|Live/Evil|0
+Live☆Twin|Live%E2%98%86Twin|0
+Lockdown|Lockdown|0
+Lost World|Lost%20World|0
+Lswarm|Lswarm|0
+Lunalight|Lunalight|0
+Lyrilusc|Lyrilusc|0
+M∀LICE|M%E2%88%80LICE|0
+Machina|Machina|0
+Machine|Machine|0
+Machine Angel|Machine%20Angel|0
+Madolche|Madolche|0
+Madoor|Madoor|0
+Magical Musket|Magical%20Musket|0
+Magician|Magician|0
+Magician Girl|Magician%20Girl|0
+Magicians|Magicians|0
+Magikey|Magikey|0
+Magistus|Magistus|0
+Magnet|Magnet|0
+Magnet Warrior|Magnet%20Warrior|0
+Majespecter|Majespecter|0
+Majestic|Majestic|0
+Maju|Maju|0
+Malefic|Malefic|0
+Malicevorous|Malicevorous|0
+Maliss|Maliss|0
+Man-Eater Bug|Man-Eater%20Bug|0
+Manadome|Manadome|0
+Mannadium|Mannadium|0
+Marincess|Marincess|0
+Martial Art Spirit|Martial%20Art%20Spirit|0
+Mask|Mask|0
+Masked HERO|Masked%20HERO|0
+Master Rule 5|Master%20Rule%205|0
+Materiactor|Materiactor|0
+Mayakashi Shiranui|Mayakashi%20Shiranui|0
+Mayakashi|Mayakashi|0
+Mecha Phantom Beast|Mecha%20Phantom%20Beast|0
+Megalith|Megalith|0
+Mekk-Knight|Mekk-Knight|0
+Meklord|Meklord|0
+Melffy|Melffy|0
+Melodious|Melodious|0
+Memento|Memento|0
+Meta|Meta|0
+Metalfoes|Metalfoes|0
+Metalmorph|Metalmorph|0
+Metaphys|Metaphys|0
+Mikanko|Mikanko|0
+Millennium|Millennium|0
+Mimighoul|Mimighoul|0
+Mirror Trap|Mirror%20Trap|0
+Mist Valley|Mist%20Valley|0
+Mokey Mokey|Mokey%20Mokey|0
+Monarch|Monarch|0
+Morganite|Morganite|0
+Morphtronic|Morphtronic|0
+Mulcharmy|Mulcharmy|0
+Mystical Beast Of The For|Mystical%20Beast%20Of%20The%20For|0
+Mystical Beast Of The Forest|Mystical%20Beast%20Of%20The%20Forest|0
+Mythical Beast|Mythical%20Beast|0
+Myutant|Myutant|0
+Naturia|Naturia|0
+Nekroz|Nekroz|0
+Nemeses|Nemeses|0
+Nemesis|Nemesis|0
+Nemleria|Nemleria|0
+Nemurelia|Nemurelia|0
+Neo Space|Neo%20Space|0
+Neo-Spacian|Neo-Spacian|0
+Nephthys|Nephthys|0
+Nimble|Nimble|0
+Ninja|Ninja|0
+Ninjitsu Art|Ninjitsu%20Art|0
+Noble Arms|Noble%20Arms|0
+Noble Knight|Noble%20Knight|0
+Nordic|Nordic|0
+Nouvelles|Nouvelles|0
+Nouvellez|Nouvellez|0
+Number|Number|0
+Numeron|Numeron|0
+Odd-Eyes|Odd-Eyes|0
+Of Rituals|Of%20Rituals|0
+Ogdoadic|Ogdoadic|0
+Ojama|Ojama|0
+Onomat|Onomat|0
+Orcust|Orcust|0
+OTK|OTK|0
+Overlay|Overlay|0
+P.U.N.K.|P.U.N.K.|0
+Paladins Of Dragons|Paladins%20Of%20Dragons|0
+Paleozoic|Paleozoic|0
+Parasite|Parasite|0
+Parody|Parody|0
+Parshath|Parshath|0
+Pendulum|Pendulum|0
+Pendulum Dragon|Pendulum%20Dragon|0
+Penguin|Penguin|0
+Performage|Performage|0
+Performapal|Performapal|0
+Phantasm|Phantasm|0
+Phantasm Spiral|Phantasm%20Spiral|0
+Phantom Knight|Phantom%20Knight|0
+Phantom Knights|Phantom%20Knights|0
+Phantom Rage|Phantom%20Rage|0
+Photon|Photon|0
+Plunder Patroll|Plunder%20Patroll|0
+Polymerization|Polymerization|0
+Possessed|Possessed|0
+Potan|Potan|0
+Power Tool|Power%20Tool|0
+Prank-Kids|Prank-Kids|0
+Predap|Predap|0
+Predaplant|Predaplant|0
+Prediction Princess|Prediction%20Princess|0
+Priestess|Priestess|0
+Primoredial|Primoredial|0
+Prophecy|Prophecy|0
+PSY-Frame|PSY-Frame|0
+Puppet|Puppet|0
+Purrely|Purrely|0
+Qli|Qli|0
+Ragnaraika|Ragnaraika|0
+Raidraptor|Raidraptor|0
+Raika|Raika|0
+Rainbow Bridge|Rainbow%20Bridge|0
+Raizeol|Raizeol|0
+Rank-Up-Magic|Rank-Up-Magic|0
+Recipe|Recipe|0
+Red|Red|0
+Red-Eyes|Red-Eyes|0
+Relinquished|Relinquished|0
+Reptilianne|Reptilianne|0
+Rescue Squad|Rescue%20Squad|0
+Rescue-ACE|Rescue-ACE|0
+Resonator|Resonator|0
+Rikka|Rikka|0
+Risebell|Risebell|0
+Ritual|Ritual|0
+Ritual Beast|Ritual%20Beast|0
+Rituals|Rituals|0
+Roid|Roid|0
+Rokket|Rokket|0
+Roland|Roland|0
+Rose|Rose|0
+Rose Dragon|Rose%20Dragon|0
+Runick|Runick|0
+Rush Duel|Rush%20Duel|0
+Ryu-Ge|Ryu-Ge|0
+Ryzeal|Ryzeal|0
+S-Force|S-Force|0
+Saber|Saber|0
+Sacred Beast|Sacred%20Beast|0
+Salamandra|Salamandra|0
+Salamangreat|Salamangreat|0
+Sangen|Sangen|0
+Satellarknight|Satellarknight|0
+Scareclaw|Scareclaw|0
+Scrap|Scrap|0
+Scrap-Iron|Scrap-Iron|0
+Sea Stealth|Sea%20Stealth|0
+Secret Six Samurai|Secret%20Six%20Samurai|0
+Senka|Senka|0
+Sennen|Sennen|0
+Seven Emperors|Seven%20Emperors|0
+Seventh|Seventh|0
+Shaddoll|Shaddoll|0
+Shark|Shark|0
+Shining Sarcophagus|Shining%20Sarcophagus|0
+Shinobird|Shinobird|0
+Shiranui|Shiranui|0
+Signature Move|Signature%20Move|0
+Silenforc|Silenforc|0
+Silent Magician|Silent%20Magician|0
+Silent Swordsman|Silent%20Swordsman|0
+Simorgh|Simorgh|0
+Sinful Spoils|Sinful%20Spoils|0
+Six Samurai|Six%20Samurai|0
+Six Strike|Six%20Strike|0
+Skilled Magician|Skilled%20Magician|0
+Skull Servant|Skull%20Servant|0
+Sky Scourge|Sky%20Scourge|0
+Sky Striker|Sky%20Striker|0
+Slime|Slime|0
+Snake-Eye|Snake-Eye|0
+Solemn|Solemn|0
+Solfachord|Solfachord|0
+Speed Duel|Speed%20Duel|0
+Speedroid|Speedroid|0
+Spellbook|Spellbook|0
+Sphinx|Sphinx|0
+Spider|Spider|0
+Spirit Message|Spirit%20Message|0
+Spiritual Art|Spiritual%20Art|0
+Sprigguns|Sprigguns|0
+Spright|Spright|0
+Springans|Springans|0
+Spyral|Spyral|0
+Stall|Stall|0
+Star|Star|0
+Star Seraph|Star%20Seraph|0
+Stardust|Stardust|0
+Starliege|Starliege|0
+Starry Knight|Starry%20Knight|0
+Steelswarm|Steelswarm|0
+Stellarknight|Stellarknight|0
+Structure Deck|Structure%20Deck|0
+Subterror|Subterror|0
+Sunavalon|Sunavalon|0
+Sunseed|Sunseed|0
+Sunvine|Sunvine|0
+Super Defense Robot|Super%20Defense%20Robot|0
+Super Quant|Super%20Quant|0
+Superheavy|Superheavy|0
+Superheavy Samurai|Superheavy%20Samurai|0
+Supreme King|Supreme%20King|0
+Swarm Of|Swarm%20Of|0
+Swordsoul|Swordsoul|0
+Sylvan|Sylvan|0
+Symphonic|Symphonic|0
+Symphonic Warrior|Symphonic%20Warrior|0
+Synchro|Synchro|0
+Synchron|Synchron|0
+T.G.|T.G.|0
+Tainted Treasure|Tainted%20Treasure|0
+Tearlaments|Tearlaments|0
+Tellarknight|Tellarknight|0
+Tenpai Dragon|Tenpai%20Dragon|0
+Tenyi|Tenyi|0
+The Agent|The%20Agent|0
+The Sanctuary In The Sky|The%20Sanctuary%20In%20The%20Sky|0
+The Weather|The%20Weather|0
+Therion|Therion|0
+Thunder Dragon|Thunder%20Dragon|0
+Time Thief|Time%20Thief|0
+Timelord|Timelord|0
+Tindangle|Tindangle|0
+Tistina|Tistina|0
+Token|Token|0
+Toon|Toon|0
+Toon Chaos|Toon%20Chaos|0
+Toy|Toy|0
+Train|Train|0
+Transcendosaurus|Transcendosaurus|0
+Transcendrake|Transcendrake|0
+Trap|Trap|0
+Trap Hole|Trap%20Hole|0
+Trap Monster|Trap%20Monster|0
+Traptrix|Traptrix|0
+Tri-Brigade|Tri-Brigade|0
+Triamid|Triamid|0
+Tribute|Tribute|0
+Trickstar|Trickstar|0
+True Draco|True%20Draco|0
+True King|True%20King|0
+U.A.|U.A.|0
+Umbral Horror|Umbral%20Horror|0
+Umi|Umi|0
+Unchained|Unchained|0
+Underworld|Underworld|0
+Uniform Nomenclature|Uniform%20Nomenclature|0
+Ursarctic|Ursarctic|0
+Utopia|Utopia|0
+Utopic|Utopic|0
+Vaalmonica|Vaalmonica|0
+Valkyrie|Valkyrie|0
+Valmonica|Valmonica|0
+Vampire|Vampire|0
+Vanquish Soul|Vanquish%20Soul|0
+Vassal|Vassal|0
+Vaylantz|Vaylantz|0
+Veda|Veda|0
+Vendread|Vendread|0
+Venom|Venom|0
+Vernusylph|Vernusylph|0
+Virtual World|Virtual%20World|0
+Visas|Visas|0
+Vision HERO|Vision%20HERO|0
+Voiceless Voice|Voiceless%20Voice|0
+Void|Void|0
+Volcanic|Volcanic|0
+Vylon|Vylon|0
+War Rock|War%20Rock|0
+Warrior|Warrior|0
+Watt|Watt|0
+Weather Painter|Weather%20Painter|0
+Wedju|Wedju|0
+White|White|0
+White Forest|White%20Forest|0
+White Woods|White%20Woods|0
+Wicked God|Wicked%20God|0
+Wight|Wight|0
+Wind-Up|Wind-Up|0
+Windwitch|Windwitch|0
+Witchcrafter|Witchcrafter|0
+With Eyes Of Blue|With%20Eyes%20Of%20Blue|0
+World Chalice|World%20Chalice|0
+World Championship|World%20Championship|0
+World Legacy|World%20Legacy|0
+Worm|Worm|0
+X-Saber|X-Saber|0
+Xiangjian|Xiangjian|0
+Xyz|Xyz|0
+XYZ Rank|XYZ%20Rank|0
+Yang Zing|Yang%20Zing|0
+Yosenju|Yosenju|0
+Yubel|Yubel|0
+Yugioh|Yugioh|0
+Zefra|Zefra|0
+Zera|Zera|0
+ZEXAL|ZEXAL|0
+Zombie|Zombie|0
+Zoodiac|Zoodiac|0
