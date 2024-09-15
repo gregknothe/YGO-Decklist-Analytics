@@ -4,6 +4,9 @@ import urllib.parse
 import requests
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
+import random as rand
+import time
+import numpy as np
 
 
 def decklistScrape(url):
@@ -50,7 +53,7 @@ def decklistScrape(url):
     df["deckID"], df["date"], df["format"], df["tags"] = deckID, formatedDate, format, "|".join(archetypeTags)
     return df
 
-def getDeckURL(archetype, offset=0, limit=100):
+def getDeckURL(archetype, offset=0, limit=1000):
     #Gets all tournament top cut decks from specified archetype
     url = "https://ygoprodeck.com/api/decks/getDecks.php?tournament=tier-2&_sft_post_tag="+ archetype + "&offset=" + str(offset) + "&limit=" + str(limit)
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
@@ -62,7 +65,9 @@ def getDeckURL(archetype, offset=0, limit=100):
     deckURLs.pop(0)
     return deckURLs
 
-def getURLs(archetype, limit=100):
+
+
+def getURLs(archetype, limit=1000):
     #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
     urlList = []
     for x in range(round(limit/20)+1):
@@ -73,7 +78,8 @@ def getURLs(archetype, limit=100):
     allurls = [j for i in urlList for j in i]
     return allurls
 
-  
+#print(getURLs("Spright"))
+
 """
 #Testing single deck scraping
 #url = "https://ygoprodeck.com/deck/branded-despia-520607"
@@ -150,10 +156,12 @@ def createArchetypeFile():
     archURL = parseArchetypes(arch)
     df = pd.DataFrame({"archetype": arch, "archetypeURL": archURL})
     df["lastDeck"] = 0
+    df["deckCount"] = 0
     df.to_csv("archetypes.csv",sep="|", index=False)
     return df
 
 def updateArchetypeFile():
+    #Adds new archetypes to the bottom of the archetypes.csv
     newArchList = getArchetypes()
     oldArch = pd.read_csv("archetypes.csv", sep="|")
     oldArchList = list(oldArch["archetype"])
@@ -166,19 +174,136 @@ def updateArchetypeFile():
             newRow = {"archetype": newArchetypes[x], "archetypeURL": newArchetypesURL[x], "lastDeck": 0}
             oldArch.loc[len(oldArch)] = newRow
         print(oldArch)
+        oldArch.to_csv("archetypes.csv",sep="|", index=False)
     else:
         print("--No new archetypes added.")
+    return oldArch
+
+#updateArchetypeFile()
+
+#print(getURLs("Jinzo"))
+
+def createDeckListFile():
+    #Scrapes every single deck list possible for all archetypes
+    #arch = updateArchetypeFile()
+    arch = pd.read_csv("testtypes.csv", sep="|")
+    archList = list(arch["archetypeURL"])
+    urlList = []
+    newestURL, deckCount = [], []
+    pop = 1
+
+    for currType in archList:
+        currList = getURLs(currType)
+        if len(currList) == 0:
+            print(str(pop) + " -0: " + str(currType))
+            newestURL.append(0)
+            deckCount.append(0)
+        else:
+            print(str(pop) + " +" + str(len(currList)) + ": " +  str(currType))
+            urlList.extend(currList)
+            newestURL.append(np.char.rpartition(currList[0], "-")[2])
+            deckCount.append(len(currList))
+            #res = np.char.rpartition(test_string, ', ')
+        pop += 1 
+        time.sleep(1)
+
+    df = pd.DataFrame({'url': urlList})
+    df.to_csv('testlist.csv', index=False)
+    arch["lastDeck"] = newestURL
+    arch["count"] = deckCount
+    arch.to_csv("testtypes.csv", sep='|', index=False)
     return
 
 
+#Find a way to update the old archetype file when pulling new data
+#updateDataFrame()
+
+#print(getURLs("tearlaments"))
+
+#createDeckListFile()
 
 #createArchetypeFile()
 #print("done")
-updateArchetypeFile()
+
+def uniqueURLs():
+    arch = pd.read_csv("list.csv", sep="|")
+    uniqueURL = arch['url'].unique()
+    df = pd.DataFrame({'url': uniqueURL})
+    df.to_csv("uniqueURL.csv", sep='|', index=False)
+    return
+
+#uniqueURLs()
+
+"""
+def dsgfsdfsdf(limit=1000):
+    #Gets all tournament top cut decks from specified archetype
+    url = "https://ygoprodeck.com/deck-search/?tournament=tier-2&offset=0"
+    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+    webpage = urlopen(req, timeout=10).read()
+    html = str(bs(webpage, features="lxml"))
+    deckURLs = html.split('"pretty_url":"')
+    for x in range(len(deckURLs)):
+        deckURLs[x] = deckURLs[x].split('"')[0]
+    deckURLs.pop(0)
+    df = pd.DataFrame({'url': deckURLs})
+    df.to_csv("uniqueURL2.csv", sep='|', index=False)
+    return 
+
+#dsgfsdfsdf()
+"""
+
+def getDeckURL2(offset=0, limit=20000):
+    #Gets all tournament top cut decks from specified archetype
+    #url = "https://ygoprodeck.com/deck-search/?tournament=tier-2&offset=" + str(offset) + "&limit=" + str(limit)
+    url = "https://ygoprodeck.com/deck-search/?_sft_category=Tournament%20Meta%20Decks&offset=" + str(offset)
+    req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
+    webpage = urlopen(req, timeout=10).read()
+    html = str(bs(webpage, features="lxml"))
+    deckURLs = html.split('"pretty_url":"')
+    for x in range(len(deckURLs)):
+        deckURLs[x] = deckURLs[x].split('"')[0]
+        print(deckURLs[x])
+    deckURLs.pop(0)
+    return deckURLs
+
+print(getDeckURL2(offset=0))
+#figure out why this returning empty list
+"""
+def getURLs2(limit=1000000):
+    #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
+    urlList = []
+    for x in range(round(limit/20)+1):
+        if x%100 == 0:
+            print(x)
+        try:
+            urlList.append(getDeckURL2(offset=(x*20), limit=limit))
+        except:
+            break
+    allurls = [j for i in urlList for j in i]
+    return allurls
+"""
+
+def getURLs2(limit=200000):
+    #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
+    urlList = []
+    for x in range(round(limit/20)+1):
+        try:
+            urlList.extend(getDeckURL2(offset=(x*20), limit=limit))
+            print(urlList)
+            if x%100 == 0:
+                print(str(x) + ": " + str(urlList[-1]))
+        except:
+            print("its done")
+            break
+            
+    allurls = [j for i in urlList for j in i]
+    return allurls
 
 
 
+#deckURLs = getURLs2()
+#df = pd.DataFrame({'url': deckURLs})
+#df.to_csv("uniqueURL2.csv", sep='|', index=False)
 
-
-
-#Run this shit, find archetypes with zero hits and figure out why that is the case.
+#Use limit to limit thea mmount pulled so you can updatge the dataframe by pulling the most recent
+#like 200 deck list to nto have to pul the rest.
