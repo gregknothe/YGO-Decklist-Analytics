@@ -65,8 +65,6 @@ def getDeckURL(archetype, offset=0, limit=1000):
     deckURLs.pop(0)
     return deckURLs
 
-
-
 def getURLs(archetype, limit=1000):
     #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
     urlList = []
@@ -214,7 +212,6 @@ def createDeckListFile():
     arch.to_csv("testtypes.csv", sep='|', index=False)
     return
 
-
 #Find a way to update the old archetype file when pulling new data
 #updateDataFrame()
 
@@ -252,58 +249,58 @@ def dsgfsdfsdf(limit=1000):
 #dsgfsdfsdf()
 """
 
-def getDeckURL2(offset=0, limit=20000):
-    #Gets all tournament top cut decks from specified archetype
-    #url = "https://ygoprodeck.com/deck-search/?tournament=tier-2&offset=" + str(offset) + "&limit=" + str(limit)
-    url = "https://ygoprodeck.com/deck-search/?_sft_category=Tournament%20Meta%20Decks&offset=" + str(offset)
+def getPageURL(offset=0, limit=20000):
+    #Creates list with URL for each decklist on page.
+    url = "https://ygoprodeck.com/api/decks/getDecks.php?tournament=tier-2&offset=" + str(offset) + "&limit=" + str(limit)
     req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
     webpage = urlopen(req, timeout=10).read()
     html = str(bs(webpage, features="lxml"))
     deckURLs = html.split('"pretty_url":"')
     for x in range(len(deckURLs)):
         deckURLs[x] = deckURLs[x].split('"')[0]
-        print(deckURLs[x])
     deckURLs.pop(0)
     return deckURLs
 
-print(getDeckURL2(offset=0))
-#figure out why this returning empty list
-"""
-def getURLs2(limit=1000000):
-    #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
-    urlList = []
-    for x in range(round(limit/20)+1):
-        if x%100 == 0:
-            print(x)
-        try:
-            urlList.append(getDeckURL2(offset=(x*20), limit=limit))
-        except:
-            break
-    allurls = [j for i in urlList for j in i]
-    return allurls
-"""
-
-def getURLs2(limit=200000):
-    #Gets all deck urls from search results. Does round up limit to the nearest 20s to make it easier.
+def getURL(limit=200000, filename="urlList.csv"):
+    #Creates a csv file with URL for each topping decklist.
     urlList = []
     for x in range(round(limit/20)+1):
         try:
-            urlList.extend(getDeckURL2(offset=(x*20), limit=limit))
-            print(urlList)
-            if x%100 == 0:
+            urlList.extend(getPageURL(offset=(x*20), limit=limit))
+            if x%20 == 0:
                 print(str(x) + ": " + str(urlList[-1]))
         except:
-            print("its done")
             break
-            
-    allurls = [j for i in urlList for j in i]
-    return allurls
+    df = pd.DataFrame({'url': urlList})
+    if filename == "new":
+        return df
+    else:
+        df.to_csv(filename, sep='|', index=False)
+        return
+
+def updateURL(limit=200000, filename="urlList.csv"):
+    oldList = pd.read_csv("urlList.csv", sep="|")
+    newList = getURL(limit=limit, filename="new")
+    new = newList["url"].to_list()
+    old = oldList["url"].to_list()
+    diff = list(set(new)-set(old))
+    if len(diff) > 0:
+        print("--New decklist being added:")
+        for currDeck in diff:
+            oldList.loc[len(oldList.index)] = [currDeck]
+            print(currDeck)
+    else:
+        print("--No new decklist available.")
+    oldList.to_csv(filename, sep="|", index=False)
+    return diff
+
+#order list before updating and after to access the most recent decklist id (if needed)
+
+print(updateURL(40))
 
 
 
-#deckURLs = getURLs2()
-#df = pd.DataFrame({'url': deckURLs})
-#df.to_csv("uniqueURL2.csv", sep='|', index=False)
+
 
 #Use limit to limit thea mmount pulled so you can updatge the dataframe by pulling the most recent
 #like 200 deck list to nto have to pul the rest.
