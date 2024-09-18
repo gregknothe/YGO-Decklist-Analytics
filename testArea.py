@@ -1,21 +1,23 @@
 import random as rand
 import pandas as pd
+import datetime
+import requests
+from bs4 import BeautifulSoup as bs
+
+x = datetime.datetime.strptime("9-24-2024", "%m-%d-%Y")
+y = datetime.datetime.strptime("10-25-2024", "%m-%d-%Y")
 
 
 
-name = ["dog", "cat", "dragon", "car"]
-type = ["monster", "tuner monster", "spell", "trap"]
-tag = ["animal", "animal","dragon","vehicle"]
-value = [1,1,2,3]
+onemonth = x-datetime.timedelta(days=31)
+threemonth = x-datetime.timedelta(days=63)
+oneyear = x-datetime.timedelta(days=365)
 
-df = pd.DataFrame({"name": name, "type": type, "tag": tag, "value": value})
-#print(df)
+#print(datetime.timedelta(days=31))
 
-#print(df.loc[df["tag"] == "animal"])
-#print(df.loc[df["value"] == 1])
-
-x = [1,2,3]
-y = [1,2,4]
-
-z = list(set(x)-set(y))
-print(z)
+today = datetime.datetime.today()
+x = pd.read_csv("cardListFile.csv", delimiter="|")
+x["date"] = pd.to_datetime(x["date"], format="%Y-%m-%d")
+x["delta"] = x["date"].apply(lambda x: today - x)
+#print(x["delta"])
+print(x[x["delta"] > datetime.timedelta(days=31)])
