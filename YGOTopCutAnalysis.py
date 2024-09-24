@@ -4,6 +4,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import datetime
 import numpy as np
+import os
+from pathlib import Path
 
 
 
@@ -160,25 +162,59 @@ def updateCardList(newURLListFile, cardListFile):
 
 
 
-def deckAnalytics():
+def deckPartitioner():
     x = pd.read_csv("cardListFile.csv", delimiter="|")
     x["date"] = pd.to_datetime(x["date"])
-    #mainArchetypeList = list(set(x["tag1"].to_list()))
-    mainArchetypeList = ["Snake-Eye", "Melodious", "Mikanko"]
+    mainArchetypeList = list(set(x["tag1"].to_list()))
+    #mainArchetypeList = ["Snake-Eye", "Melodious", "Mikanko"]
+    #mainArchetypeList = ["Snake-Eye"]
     subArchetypeList = list(set(x["tag2"].to_list() + x["tag3"].to_list()))
     today = datetime.datetime.today()
+    num = 1
+    print("Total Archetypes: " + str(len(list(set(x["tag1"].to_list())))))
     for archetype in mainArchetypeList:
-        typeEmptyFlag = 0
-        typeDF = x[x["tag1"] == archetype]
+        #typeDF = x[x["tag1"] == archetype]
+        archetypeName = "".join(x for x in str(archetype) if x.isalnum())
+        print(str(num) + " " + str(archetypeName))
+        num += 1
         for formats in ["TCG", "OCG"]:
-            formatDF = typeDF[typeDF["format"] == formats]
-            for timeFrame in [datetime.timedelta(days=31), datetime.timedelta(days=63), datetime.timedelta(days=365), datetime.timedelta(days=100000)]:
-                #timeDF = formatDF[formatDF["date"]<]
+            #formatDF = typeDF[typeDF["format"] == formats]
+            for timeFrame in [datetime.timedelta(days=31), datetime.timedelta(days=93), datetime.timedelta(days=365), datetime.timedelta(days=100000)]:
+                #timeDF = formatDF[today - formatDF["date"] <= timeFrame]
                 for deckType in ["main_deck", "extra_deck", "side_deck"]:
-                    print("dog")
+                    os.makedirs("dataframes/"+archetypeName, exist_ok=True)
+                    #df = timeDF[timeDF["deck"]== deckType]
+                    df = x[(x["tag1"]==archetype) & (x["format"]==formats) & (today - x["date"] <= timeFrame) & (x["deck"]==deckType)]
+                    df.to_csv("dataframes/"+archetypeName+"/"+formats+"_"+str(timeFrame).split(",")[0]+"_"+deckType+".csv", sep="|", index=False)
+    return
+
+#deckPartitioner()
+
+def deckAnalytics():
+    x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
+    cardIDList = list(set(x["code"].to_list()))
+    cardNameList = list(set(x["name"].to_list()))
+    print(len(cardNameList))
+    print(len(cardIDList))
+    totalDeckCount = len(list(set(x["deckID"].to_list())))
+    cardDeckCount, cardAverageCount = [], []
+    for cardID in cardIDList:
+        cardDF = x[x["code"]==cardID]
+        cardDeckList = list(set(cardDF["deckID"].to_list()))
+        cardDeckCount.append(len(cardDeckList))
+        #cardDeckCount.append()
+    df = pd.DataFrame({"name": cardNameList, "cardID": cardIDList, "deckCount": cardDeckCount})
+    df["deckCount"] = round(df["deckCount"] / totalDeckCount, 2)
+    print(df)
     return
 
 #deckAnalytics()
 
+x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
+cardIDList = list(set(x["code"].to_list()))
+cardNameList = list(set(x["name"].to_list()))
+print(cardIDList)
+print(cardNameList)
 
-#Figure out how to calcuate the time delta from the delta list and see if you are splicing the dataframes correctly before proccedding.
+
+#find out why the lenght of the two above things differ.
