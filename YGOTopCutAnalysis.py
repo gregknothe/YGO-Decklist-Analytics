@@ -6,7 +6,7 @@ import datetime
 import numpy as np
 import os
 from pathlib import Path
-
+from collections import Counter
 
 
 def getPageURL(offset=0, limit=20000):
@@ -190,31 +190,66 @@ def deckPartitioner():
 
 #deckPartitioner()
 
+def codeCorrector(df):
+    nameList = list(set(df["name"].to_list()))
+    for name in nameList:
+        if name == "":
+            break
+        else:
+            subDF = df[df["name"]==name].sort_values(by="code")
+            minID = min(subDF["code"].to_list())
+            indexList = subDF.index
+            subDF = subDF.reset_index(drop=True)
+            imgSource = subDF["imgSource"].iloc[0]
+            for index in indexList:
+                df.at[index, "code"] = minID
+                df.at[index, "imgSource"] = imgSource
+    return df
+
 def deckAnalytics():
-    x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
+    #x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|").fillna("")
+    x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
+    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
+    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_side_deck.csv", sep="|").fillna("")
+    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_extra_deck.csv", sep="|").fillna("")
     cardIDList = list(set(x["code"].to_list()))
     cardNameList = list(set(x["name"].to_list()))
-    print(len(cardNameList))
-    print(len(cardIDList))
+    if len(cardIDList) != len(cardNameList):
+        x = codeCorrector(x)
+        cardIDList = list(set(x["code"].to_list()))
+        #print(x[x["name"]=="Ash Blossom & Joyous Spring"])
     totalDeckCount = len(list(set(x["deckID"].to_list())))
-    cardDeckCount, cardAverageCount = [], []
+    cardDeckCount, cardAvgCount, cardName, cardImgSource = [], [], [], []
     for cardID in cardIDList:
-        cardDF = x[x["code"]==cardID]
+        cardDF = x[x["code"]==cardID].reset_index(drop=True)
         cardDeckList = list(set(cardDF["deckID"].to_list()))
+        cardAvgCount.append(round(np.mean(list(Counter(cardDF["deckID"]).values())),3))
         cardDeckCount.append(len(cardDeckList))
+        cardImgSource.append(cardDF["imgSource"].iloc[0])
         #cardDeckCount.append()
-    df = pd.DataFrame({"name": cardNameList, "cardID": cardIDList, "deckCount": cardDeckCount})
-    df["deckCount"] = round(df["deckCount"] / totalDeckCount, 2)
-    print(df)
+        cardName.append(x.loc[x["code"]==cardID, "name"].iloc[0])
+    df = pd.DataFrame({"code": cardIDList, "deckCount": cardDeckCount, "imgSource": cardImgSource, "avgCount": cardAvgCount})
+    df["deckPerc"] = round(df["deckCount"] / totalDeckCount, 3)
+    #df = df.drop(columns=["deckCount"])
+    df["name"] = cardName
+    
+    df = df[["name", "code", "imgSource", "deckPerc", "avgCount"]].sort_values(["deckPerc", "avgCount"], ascending=False).reset_index(drop=True)
+    print(df.to_string())
     return
 
-#deckAnalytics()
+deckAnalytics()
 
-x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
+#x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
+'''
 cardIDList = list(set(x["code"].to_list()))
 cardNameList = list(set(x["name"].to_list()))
 print(cardIDList)
+pd.DataFrame({"name": cardNameList}).to_csv("nametest.csv", index=False)
+pd.DataFrame({"id": cardIDList}).to_csv("idtest.csv", index=False)
 print(cardNameList)
+'''
+#x = codeCorrector(x)
+#x = x[x["name"]=="Ash Blossom & Joyous Spring"]
+#print(x)
 
 
-#find out why the lenght of the two above things differ.
