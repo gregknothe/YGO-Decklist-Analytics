@@ -39,6 +39,7 @@ def createURL(limit=200000, filename="urlList.csv"):
         for x in df["url"].to_list():
             id.append(int(np.char.rpartition(x, "-")[2]))
         df["id"] = id
+        df = df.drop_duplicates()
         df = df.sort_values(by="id", ascending=True)
         df.to_csv(filename, sep='|', index=False)
         return
@@ -152,15 +153,11 @@ def updateCardList(newURLListFile, cardListFile):
 #updateURL(40)
 #updateCardList("newURLList.csv", "cardListFile.csv")
 
-
-
 #x = pd.read_csv("cardListFile.csv", delimiter="|")
 #print(x[x["format"].isna()].reset_index(drop=True).to_csv("issueList.csv", sep="|"))
 
 
 #print(getDeckList("therion-horus-350696", "350696"))
-
-
 
 def deckPartitioner():
     x = pd.read_csv("cardListFile.csv", delimiter="|")
@@ -208,7 +205,8 @@ def codeCorrector(df):
 
 def deckAnalytics():
     #x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|").fillna("")
-    x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
+    x = pd.read_csv("dataframes/SnakeEye/TCG_93 days_main_deck.csv", sep="|").fillna("")
+    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
     #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
     #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_side_deck.csv", sep="|").fillna("")
     #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_extra_deck.csv", sep="|").fillna("")
@@ -252,4 +250,7 @@ print(cardNameList)
 #x = x[x["name"]=="Ash Blossom & Joyous Spring"]
 #print(x)
 
+#--------------------------Clean Set Up---------------------------------            446394
+#createURL() #4:35
+#createCardList("urlList.csv", "cardListFile.csv") #1:30:23
 
