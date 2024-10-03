@@ -203,54 +203,58 @@ def codeCorrector(df):
                 df.at[index, "imgSource"] = imgSource
     return df
 
-def deckAnalytics():
-    #x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|").fillna("")
-    x = pd.read_csv("dataframes/SnakeEye/TCG_93 days_main_deck.csv", sep="|").fillna("")
-    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
-    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
-    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_side_deck.csv", sep="|").fillna("")
-    #x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_extra_deck.csv", sep="|").fillna("")
-    cardIDList = list(set(x["code"].to_list()))
-    cardNameList = list(set(x["name"].to_list()))
+def deckAnalysis(df):
+    df = df.fillna("")
+    cardIDList = list(set(df["code"].to_list()))
+    cardNameList = list(set(df["name"].to_list()))
     if len(cardIDList) != len(cardNameList):
-        x = codeCorrector(x)
-        cardIDList = list(set(x["code"].to_list()))
+        df = codeCorrector(df)
+        cardIDList = list(set(df["code"].to_list()))
         #print(x[x["name"]=="Ash Blossom & Joyous Spring"])
-    totalDeckCount = len(list(set(x["deckID"].to_list())))
+    totalDeckCount = len(list(set(df["deckID"].to_list())))
     cardDeckCount, cardAvgCount, cardName, cardImgSource = [], [], [], []
     for cardID in cardIDList:
-        cardDF = x[x["code"]==cardID].reset_index(drop=True)
+        cardDF = df[df["code"]==cardID].reset_index(drop=True)
         cardDeckList = list(set(cardDF["deckID"].to_list()))
         cardAvgCount.append(round(np.mean(list(Counter(cardDF["deckID"]).values())),3))
         cardDeckCount.append(len(cardDeckList))
         cardImgSource.append(cardDF["imgSource"].iloc[0])
         #cardDeckCount.append()
-        cardName.append(x.loc[x["code"]==cardID, "name"].iloc[0])
+        cardName.append(df.loc[df["code"]==cardID, "name"].iloc[0])
     df = pd.DataFrame({"code": cardIDList, "deckCount": cardDeckCount, "imgSource": cardImgSource, "avgCount": cardAvgCount})
     df["deckPerc"] = round(df["deckCount"] / totalDeckCount, 3)
     #df = df.drop(columns=["deckCount"])
     df["name"] = cardName
     
     df = df[["name", "code", "imgSource", "deckPerc", "avgCount"]].sort_values(["deckPerc", "avgCount"], ascending=False).reset_index(drop=True)
-    print(df.to_string())
+    #print(df.to_string())
+    return df
+
+#deckAnalysis(pd.read_csv("dataframes/SnakeEye/TCG_93 days_main_deck.csv", sep="|"))
+
+def createArchetypeTables():
+    print(os.getcwd())
+    archetypes = os.listdir("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes")
+    dateRanges = ["OCG_31 days_main_deck", "OCG_93 days_main_deck", "OCG_100000 days_main_deck",
+                "OCG_31 days_extra_deck", "OCG_93 days_extra_deck", "OCG_100000 days_extra_deck",
+                "OCG_31 days_side_deck", "OCG_93 days_side_deck", "OCG_100000 days_side_deck",
+                "TCG_31 days_main_deck", "TCG_93 days_main_deck", "TCG_100000 days_main_deck",
+                "TCG_31 days_extra_deck", "TCG_93 days_extra_deck", "TCG_100000 days_extra_deck",
+                "TCG_31 days_side_deck", "TCG_93 days_side_deck", "TCG_100000 days_side_deck",]
+    for archetype in archetypes: 
+        print(archetype)
+        for dateRange in dateRanges:
+            df = pd.read_csv("dataframes/" + archetype + "/" + dateRange + ".csv", sep="|")
+            archetypeTable = deckAnalysis(df)
+            os.makedirs("tables/"+archetype, exist_ok=True)
+            archetypeTable.to_csv("tables/" + archetype + "/" + dateRange + ".csv", sep="|", index=False)
     return
 
-deckAnalytics()
-
-#x = pd.read_csv("dataframes/Melodious/TCG_93 days_main_deck.csv", sep="|")
-'''
-cardIDList = list(set(x["code"].to_list()))
-cardNameList = list(set(x["name"].to_list()))
-print(cardIDList)
-pd.DataFrame({"name": cardNameList}).to_csv("nametest.csv", index=False)
-pd.DataFrame({"id": cardIDList}).to_csv("idtest.csv", index=False)
-print(cardNameList)
-'''
-#x = codeCorrector(x)
-#x = x[x["name"]=="Ash Blossom & Joyous Spring"]
-#print(x)
+createArchetypeTables()
 
 #--------------------------Clean Set Up---------------------------------            446394
-#createURL() #4:35
+#createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
+#deckPartitioner() #6:10
+#createArchetypeTables()
 
