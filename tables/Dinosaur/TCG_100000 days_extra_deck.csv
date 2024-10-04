@@ -1,29 +1,29 @@
-name|code|imgSource|deckPerc|avgCount
-Evolzar Dolkka|42752141|https://images.ygoprodeck.com/images/cards_small/42752141.jpg|1.0|1.286
-Linkuriboh|41999284|https://images.ygoprodeck.com/images/cards_small/41999284.jpg|1.0|1.143
-Abyss Dweller|21044178|https://images.ygoprodeck.com/images/cards_small/21044178.jpg|1.0|1.143
-Tornado Dragon|6983839|https://images.ygoprodeck.com/images/cards_small/6983839.jpg|1.0|1.0
-PSY-Framelord Lambda|8802510|https://images.ygoprodeck.com/images/cards_small/8802510.jpg|1.0|1.0
-Knightmare Phoenix|2857636|https://images.ygoprodeck.com/images/cards_small/2857636.jpg|0.857|1.0
-Pentestag|72336818|https://images.ygoprodeck.com/images/cards_small/72336818.jpg|0.857|1.0
-Knightmare Unicorn|38342335|https://images.ygoprodeck.com/images/cards_small/38342335.jpg|0.857|1.0
-Number 60: Dugares the Timeless|66011101|https://images.ygoprodeck.com/images/cards_small/66011101.jpg|0.857|1.0
-Secure Gardna|2220237|https://images.ygoprodeck.com/images/cards_small/2220237.jpg|0.714|1.2
-Evolzar Laggia|74294676|https://images.ygoprodeck.com/images/cards_small/74294676.jpg|0.714|1.0
-Accesscode Talker|86066372|https://images.ygoprodeck.com/images/cards_small/86066372.jpg|0.714|1.0
-PSY-Framelord Omega|74586817|https://images.ygoprodeck.com/images/cards_small/74586817.jpg|0.571|1.0
-Number 41: Bagooska the Terribly Tired Tapir|90590304|https://images.ygoprodeck.com/images/cards_small/90590304.jpg|0.429|1.0
-Knightmare Cerberus|75452921|https://images.ygoprodeck.com/images/cards_small/75452921.jpg|0.429|1.0
-Borreload Savage Dragon|27548199|https://images.ygoprodeck.com/images/cards_small/27548199.jpg|0.286|1.0
-Predaplant Verte Anaconda|70369116|https://images.ygoprodeck.com/images/cards_small/70369116.jpg|0.286|1.0
-Scrap Wyvern|47363932|https://images.ygoprodeck.com/images/cards_small/47363932.jpg|0.286|1.0
-Red-Eyes Dark Dragoon|37818794|https://images.ygoprodeck.com/images/cards_small/37818794.jpg|0.143|1.0
-Time Wizard of Tomorrow|26273196|https://images.ygoprodeck.com/images/cards_small/26273196.jpg|0.143|1.0
-Relinquished Anima|94259633|https://images.ygoprodeck.com/images/cards_small/94259633.jpg|0.143|1.0
-El Shaddoll Grysta|48424886|https://images.ygoprodeck.com/images/cards_small/48424886.jpg|0.143|1.0
-El Shaddoll Apkallone|50907446|https://images.ygoprodeck.com/images/cards_small/50907446.jpg|0.143|1.0
-Apollousa, Bow of the Goddess|4280258|https://images.ygoprodeck.com/images/cards_small/4280258.jpg|0.143|1.0
-Crystron Halqifibrax|50588353|https://images.ygoprodeck.com/images/cards_small/50588353.jpg|0.143|1.0
-Crystron Phoenix|2743001|https://images.ygoprodeck.com/images/cards_small/2743001.jpg|0.143|1.0
-Shooting Riser Dragon|68431965|https://images.ygoprodeck.com/images/cards_small/68431965.jpg|0.143|1.0
-Millennium-Eyes Restrict|41578483|https://images.ygoprodeck.com/images/cards_small/41578483.jpg|0.143|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/42752141.jpg|Evolzar Dolkka|1.0|1.286
+https://images.ygoprodeck.com/images/cards/41999284.jpg|Linkuriboh|1.0|1.143
+https://images.ygoprodeck.com/images/cards/21044178.jpg|Abyss Dweller|1.0|1.143
+https://images.ygoprodeck.com/images/cards/6983839.jpg|Tornado Dragon|1.0|1.0
+https://images.ygoprodeck.com/images/cards/8802510.jpg|PSY-Framelord Lambda|1.0|1.0
+https://images.ygoprodeck.com/images/cards/2857636.jpg|Knightmare Phoenix|0.857|1.0
+https://images.ygoprodeck.com/images/cards/72336818.jpg|Pentestag|0.857|1.0
+https://images.ygoprodeck.com/images/cards/38342335.jpg|Knightmare Unicorn|0.857|1.0
+https://images.ygoprodeck.com/images/cards/66011101.jpg|Number 60: Dugares the Timeless|0.857|1.0
+https://images.ygoprodeck.com/images/cards/2220237.jpg|Secure Gardna|0.714|1.2
+https://images.ygoprodeck.com/images/cards/74294676.jpg|Evolzar Laggia|0.714|1.0
+https://images.ygoprodeck.com/images/cards/86066372.jpg|Accesscode Talker|0.714|1.0
+https://images.ygoprodeck.com/images/cards/74586817.jpg|PSY-Framelord Omega|0.571|1.0
+https://images.ygoprodeck.com/images/cards/90590304.jpg|Number 41: Bagooska the Terribly Tired Tapir|0.429|1.0
+https://images.ygoprodeck.com/images/cards/75452921.jpg|Knightmare Cerberus|0.429|1.0
+https://images.ygoprodeck.com/images/cards/27548199.jpg|Borreload Savage Dragon|0.286|1.0
+https://images.ygoprodeck.com/images/cards/70369116.jpg|Predaplant Verte Anaconda|0.286|1.0
+https://images.ygoprodeck.com/images/cards/47363932.jpg|Scrap Wyvern|0.286|1.0
+https://images.ygoprodeck.com/images/cards/37818794.jpg|Red-Eyes Dark Dragoon|0.143|1.0
+https://images.ygoprodeck.com/images/cards/26273196.jpg|Time Wizard of Tomorrow|0.143|1.0
+https://images.ygoprodeck.com/images/cards/94259633.jpg|Relinquished Anima|0.143|1.0
+https://images.ygoprodeck.com/images/cards/48424886.jpg|El Shaddoll Grysta|0.143|1.0
+https://images.ygoprodeck.com/images/cards/50907446.jpg|El Shaddoll Apkallone|0.143|1.0
+https://images.ygoprodeck.com/images/cards/4280258.jpg|Apollousa, Bow of the Goddess|0.143|1.0
+https://images.ygoprodeck.com/images/cards/50588353.jpg|Crystron Halqifibrax|0.143|1.0
+https://images.ygoprodeck.com/images/cards/2743001.jpg|Crystron Phoenix|0.143|1.0
+https://images.ygoprodeck.com/images/cards/68431965.jpg|Shooting Riser Dragon|0.143|1.0
+https://images.ygoprodeck.com/images/cards/41578483.jpg|Millennium-Eyes Restrict|0.143|1.0

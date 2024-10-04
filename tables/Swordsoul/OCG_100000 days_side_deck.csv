@@ -1,31 +1,31 @@
-name|code|imgSource|deckPerc|avgCount
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|1.0|1.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.778|2.429
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.667|2.167
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.556|1.8
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.556|1.2
-Ghost Ogre & Snow Rabbit|59438930|https://images.ygoprodeck.com/images/cards_small/59438930.jpg|0.556|1.2
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|0.556|1.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.444|2.0
-Macro Cosmos|30241314|https://images.ygoprodeck.com/images/cards_small/30241314.jpg|0.333|2.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.333|2.0
-Kurikara Divincarnate|35405755|https://images.ygoprodeck.com/images/cards_small/35405755.jpg|0.333|1.333
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.333|1.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.333|1.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.333|1.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.222|3.0
-Shadow-Imprisoning Mirror|99735427|https://images.ygoprodeck.com/images/cards_small/99735427.jpg|0.222|2.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.222|2.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.222|2.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.222|1.5
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.222|1.0
-Solemn Scolding|92512625|https://images.ygoprodeck.com/images/cards_small/92512625.jpg|0.222|1.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.111|2.0
-Gameciel, the Sea Turtle Kaiju|55063751|https://images.ygoprodeck.com/images/cards_small/55063751.jpg|0.111|2.0
-Forbidden Lance|27243130|https://images.ygoprodeck.com/images/cards_small/27243130.jpg|0.111|2.0
-Rivalry of Warlords|90846359|https://images.ygoprodeck.com/images/cards_small/90846359.jpg|0.111|1.0
-Bystial Baldrake|72656408|https://images.ygoprodeck.com/images/cards_small/72656408.jpg|0.111|1.0
-Ghost Mourner & Moonlit Chill|52038441|https://images.ygoprodeck.com/images/cards_small/52038441.jpg|0.111|1.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.111|1.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.111|1.0
-Herald of the Abyss|94016752|https://images.ygoprodeck.com/images/cards_small/94016752.jpg|0.111|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|1.0|1.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.778|2.429
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.667|2.167
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.556|1.8
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.556|1.2
+https://images.ygoprodeck.com/images/cards/59438930.jpg|Ghost Ogre & Snow Rabbit|0.556|1.2
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|0.556|1.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.444|2.0
+https://images.ygoprodeck.com/images/cards/30241314.jpg|Macro Cosmos|0.333|2.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.333|2.0
+https://images.ygoprodeck.com/images/cards/35405755.jpg|Kurikara Divincarnate|0.333|1.333
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.333|1.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.333|1.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.333|1.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.222|3.0
+https://images.ygoprodeck.com/images/cards/99735427.jpg|Shadow-Imprisoning Mirror|0.222|2.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.222|2.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.222|2.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.222|1.5
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.222|1.0
+https://images.ygoprodeck.com/images/cards/92512625.jpg|Solemn Scolding|0.222|1.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.111|2.0
+https://images.ygoprodeck.com/images/cards/55063751.jpg|Gameciel, the Sea Turtle Kaiju|0.111|2.0
+https://images.ygoprodeck.com/images/cards/27243130.jpg|Forbidden Lance|0.111|2.0
+https://images.ygoprodeck.com/images/cards/90846359.jpg|Rivalry of Warlords|0.111|1.0
+https://images.ygoprodeck.com/images/cards/72656408.jpg|Bystial Baldrake|0.111|1.0
+https://images.ygoprodeck.com/images/cards/52038441.jpg|Ghost Mourner & Moonlit Chill|0.111|1.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.111|1.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.111|1.0
+https://images.ygoprodeck.com/images/cards/94016752.jpg|Herald of the Abyss|0.111|1.0

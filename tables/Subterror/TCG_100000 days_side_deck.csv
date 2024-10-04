@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|1.0|2.333
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.667|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.667|3.0
-Soul Drain|73599290|https://images.ygoprodeck.com/images/cards_small/73599290.jpg|0.667|2.5
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.333|3.0
-Light-Imprisoning Mirror|53341729|https://images.ygoprodeck.com/images/cards_small/53341729.jpg|0.333|3.0
-Destructive Daruma Karma Cannon|30748475|https://images.ygoprodeck.com/images/cards_small/30748475.jpg|0.333|3.0
-Shadow-Imprisoning Mirror|99735427|https://images.ygoprodeck.com/images/cards_small/99735427.jpg|0.333|3.0
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.333|3.0
-Silent Graveyard|53778229|https://images.ygoprodeck.com/images/cards_small/53778229.jpg|0.333|3.0
-Necrovalley|47355498|https://images.ygoprodeck.com/images/cards_small/47355498.jpg|0.333|1.0
-Waking the Dragon|10813327|https://images.ygoprodeck.com/images/cards_small/10813327.jpg|0.333|1.0
-Metaverse|89208725|https://images.ygoprodeck.com/images/cards_small/89208725.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|1.0|2.333
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.667|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.667|3.0
+https://images.ygoprodeck.com/images/cards/73599290.jpg|Soul Drain|0.667|2.5
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.333|3.0
+https://images.ygoprodeck.com/images/cards/53341729.jpg|Light-Imprisoning Mirror|0.333|3.0
+https://images.ygoprodeck.com/images/cards/30748475.jpg|Destructive Daruma Karma Cannon|0.333|3.0
+https://images.ygoprodeck.com/images/cards/99735427.jpg|Shadow-Imprisoning Mirror|0.333|3.0
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.333|3.0
+https://images.ygoprodeck.com/images/cards/53778229.jpg|Silent Graveyard|0.333|3.0
+https://images.ygoprodeck.com/images/cards/47355498.jpg|Necrovalley|0.333|1.0
+https://images.ygoprodeck.com/images/cards/10813327.jpg|Waking the Dragon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/89208725.jpg|Metaverse|0.333|1.0

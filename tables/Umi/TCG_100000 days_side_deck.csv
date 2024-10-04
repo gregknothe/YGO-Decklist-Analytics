@@ -1,12 +1,12 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|1.0|3.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|1.0|3.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.5|3.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.5|3.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.5|3.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.5|2.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.5|2.0
-Kurikara Divincarnate|35405755|https://images.ygoprodeck.com/images/cards_small/35405755.jpg|0.5|2.0
-Gameciel, the Sea Turtle Kaiju|55063751|https://images.ygoprodeck.com/images/cards_small/55063751.jpg|0.5|1.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.5|1.0
-Numen erat Testudo|83061014|https://images.ygoprodeck.com/images/cards_small/83061014.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|1.0|3.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|1.0|3.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.5|3.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.5|3.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.5|3.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.5|2.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.5|2.0
+https://images.ygoprodeck.com/images/cards/35405755.jpg|Kurikara Divincarnate|0.5|2.0
+https://images.ygoprodeck.com/images/cards/55063751.jpg|Gameciel, the Sea Turtle Kaiju|0.5|1.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.5|1.0
+https://images.ygoprodeck.com/images/cards/83061014.jpg|Numen erat Testudo|0.5|1.0

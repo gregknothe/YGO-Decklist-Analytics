@@ -1,8 +1,8 @@
-name|code|imgSource|deckPerc|avgCount
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|1.0|3.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|1.0|3.0
-|42141493|https://images.ygoprodeck.com/images/cards_small/42141493.jpg|1.0|3.0
-Heat Wave|45141013|https://images.ygoprodeck.com/images/cards_small/45141013.jpg|1.0|3.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|1.0|1.0
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|1.0|1.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|1.0|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|1.0|3.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|1.0|3.0
+https://images.ygoprodeck.com/images/cards/42141493.jpg||1.0|3.0
+https://images.ygoprodeck.com/images/cards/45141013.jpg|Heat Wave|1.0|3.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|1.0|1.0
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|1.0|1.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|1.0|1.0

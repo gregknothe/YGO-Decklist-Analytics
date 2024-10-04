@@ -1,8 +1,8 @@
-name|code|imgSource|deckPerc|avgCount
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|1.0|3.0
-Raigeki|12580477|https://images.ygoprodeck.com/images/cards_small/12580477.jpg|1.0|3.0
-Eradicator Epidemic Virus|54974237|https://images.ygoprodeck.com/images/cards_small/54974237.jpg|1.0|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.5|3.0
-Chaos Daedalus|26873574|https://images.ygoprodeck.com/images/cards_small/26873574.jpg|0.5|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.5|3.0
-Kurikara Divincarnate|35405755|https://images.ygoprodeck.com/images/cards_small/35405755.jpg|0.5|3.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|1.0|3.0
+https://images.ygoprodeck.com/images/cards/12580477.jpg|Raigeki|1.0|3.0
+https://images.ygoprodeck.com/images/cards/54974237.jpg|Eradicator Epidemic Virus|1.0|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.5|3.0
+https://images.ygoprodeck.com/images/cards/26873574.jpg|Chaos Daedalus|0.5|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.5|3.0
+https://images.ygoprodeck.com/images/cards/35405755.jpg|Kurikara Divincarnate|0.5|3.0

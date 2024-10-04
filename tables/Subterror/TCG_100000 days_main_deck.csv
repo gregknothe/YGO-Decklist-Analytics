@@ -1,34 +1,34 @@
-name|code|imgSource|deckPerc|avgCount
-The Hidden City|5697558|https://images.ygoprodeck.com/images/cards_small/5697558.jpg|1.0|3.0
-Subterror Fiendess|74762582|https://images.ygoprodeck.com/images/cards_small/74762582.jpg|1.0|3.0
-Red-Eyes Fusion|6172122|https://images.ygoprodeck.com/images/cards_small/6172122.jpg|1.0|3.0
-Subterror Guru|16428514|https://images.ygoprodeck.com/images/cards_small/16428514.jpg|1.0|3.0
-Pot of Prosperity|84211599|https://images.ygoprodeck.com/images/cards_small/84211599.jpg|1.0|2.333
-Crackdown|36975314|https://images.ygoprodeck.com/images/cards_small/36975314.jpg|1.0|2.333
-Solemn Strike|40605147|https://images.ygoprodeck.com/images/cards_small/40605147.jpg|1.0|2.333
-Subterror Final Battle|74640994|https://images.ygoprodeck.com/images/cards_small/74640994.jpg|1.0|2.333
-Subterror Nemesis Archer|39581190|https://images.ygoprodeck.com/images/cards_small/39581190.jpg|1.0|1.0
-Terraforming|73628505|https://images.ygoprodeck.com/images/cards_small/73628505.jpg|1.0|1.0
-There Can Be Only One|24207889|https://images.ygoprodeck.com/images/cards_small/24207889.jpg|0.667|3.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|0.667|3.0
-Skill Drain|82732705|https://images.ygoprodeck.com/images/cards_small/82732705.jpg|0.667|3.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.667|3.0
-Dark Magician|46986414|https://images.ygoprodeck.com/images/cards_small/46986414.jpg|0.667|1.0
-Set Rotation|73468603|https://images.ygoprodeck.com/images/cards_small/73468603.jpg|0.667|1.0
-Necrovalley|47355498|https://images.ygoprodeck.com/images/cards_small/47355498.jpg|0.667|1.0
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.667|1.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.333|3.0
-Pot of Extravagance|49238328|https://images.ygoprodeck.com/images/cards_small/49238328.jpg|0.333|3.0
-Book of Moon|14087893|https://images.ygoprodeck.com/images/cards_small/14087893.jpg|0.333|3.0
-Pot of Duality|98645731|https://images.ygoprodeck.com/images/cards_small/98645731.jpg|0.333|3.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.333|2.0
-|14558128|https://images.ygoprodeck.com/images/cards_small/14558128.jpg|0.333|2.0
-Terrors in the Hidden City|6589707|https://images.ygoprodeck.com/images/cards_small/6589707.jpg|0.333|1.0
-Subterror Cave Clash|68001309|https://images.ygoprodeck.com/images/cards_small/68001309.jpg|0.333|1.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|0.333|1.0
-Red-Eyes Black Dragon|74677422|https://images.ygoprodeck.com/images/cards_small/74677422.jpg|0.333|1.0
-Red-Eyes Black Dragon|74677424|https://images.ygoprodeck.com/images/cards_small/74677424.jpg|0.333|1.0
-Red-Eyes Black Dragon|74677425|https://images.ygoprodeck.com/images/cards_small/74677425.jpg|0.333|1.0
-Dark Magician|46986416|https://images.ygoprodeck.com/images/cards_small/46986416.jpg|0.333|1.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.333|1.0
-Subterror Behemoth Umastryx|42713844|https://images.ygoprodeck.com/images/cards_small/42713844.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/5697558.jpg|The Hidden City|1.0|3.0
+https://images.ygoprodeck.com/images/cards/74762582.jpg|Subterror Fiendess|1.0|3.0
+https://images.ygoprodeck.com/images/cards/6172122.jpg|Red-Eyes Fusion|1.0|3.0
+https://images.ygoprodeck.com/images/cards/16428514.jpg|Subterror Guru|1.0|3.0
+https://images.ygoprodeck.com/images/cards/84211599.jpg|Pot of Prosperity|1.0|2.333
+https://images.ygoprodeck.com/images/cards/36975314.jpg|Crackdown|1.0|2.333
+https://images.ygoprodeck.com/images/cards/40605147.jpg|Solemn Strike|1.0|2.333
+https://images.ygoprodeck.com/images/cards/74640994.jpg|Subterror Final Battle|1.0|2.333
+https://images.ygoprodeck.com/images/cards/39581190.jpg|Subterror Nemesis Archer|1.0|1.0
+https://images.ygoprodeck.com/images/cards/73628505.jpg|Terraforming|1.0|1.0
+https://images.ygoprodeck.com/images/cards/24207889.jpg|There Can Be Only One|0.667|3.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|0.667|3.0
+https://images.ygoprodeck.com/images/cards/82732705.jpg|Skill Drain|0.667|3.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.667|3.0
+https://images.ygoprodeck.com/images/cards/46986414.jpg|Dark Magician|0.667|1.0
+https://images.ygoprodeck.com/images/cards/73468603.jpg|Set Rotation|0.667|1.0
+https://images.ygoprodeck.com/images/cards/47355498.jpg|Necrovalley|0.667|1.0
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.667|1.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.333|3.0
+https://images.ygoprodeck.com/images/cards/49238328.jpg|Pot of Extravagance|0.333|3.0
+https://images.ygoprodeck.com/images/cards/14087893.jpg|Book of Moon|0.333|3.0
+https://images.ygoprodeck.com/images/cards/98645731.jpg|Pot of Duality|0.333|3.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.333|2.0
+https://images.ygoprodeck.com/images/cards/14558128.jpg||0.333|2.0
+https://images.ygoprodeck.com/images/cards/6589707.jpg|Terrors in the Hidden City|0.333|1.0
+https://images.ygoprodeck.com/images/cards/68001309.jpg|Subterror Cave Clash|0.333|1.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|0.333|1.0
+https://images.ygoprodeck.com/images/cards/74677422.jpg|Red-Eyes Black Dragon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/74677424.jpg|Red-Eyes Black Dragon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/74677425.jpg|Red-Eyes Black Dragon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/46986416.jpg|Dark Magician|0.333|1.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.333|1.0
+https://images.ygoprodeck.com/images/cards/42713844.jpg|Subterror Behemoth Umastryx|0.333|1.0

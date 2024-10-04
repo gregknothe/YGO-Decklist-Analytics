@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|1.0|2.5
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|1.0|1.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.5|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.5|3.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.5|3.0
-Fantastical Dragon Phantazmay|78661338|https://images.ygoprodeck.com/images/cards_small/78661338.jpg|0.5|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.5|2.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.5|2.0
-Dinowrestler Pankratops|82385847|https://images.ygoprodeck.com/images/cards_small/82385847.jpg|0.5|2.0
-Dimensional Fissure|81674782|https://images.ygoprodeck.com/images/cards_small/81674782.jpg|0.5|2.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.5|1.0
-Bystial Baldrake|72656408|https://images.ygoprodeck.com/images/cards_small/72656408.jpg|0.5|1.0
-Raigeki|12580477|https://images.ygoprodeck.com/images/cards_small/12580477.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|1.0|2.5
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|1.0|1.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.5|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.5|3.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.5|3.0
+https://images.ygoprodeck.com/images/cards/78661338.jpg|Fantastical Dragon Phantazmay|0.5|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.5|2.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.5|2.0
+https://images.ygoprodeck.com/images/cards/82385847.jpg|Dinowrestler Pankratops|0.5|2.0
+https://images.ygoprodeck.com/images/cards/81674782.jpg|Dimensional Fissure|0.5|2.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.5|1.0
+https://images.ygoprodeck.com/images/cards/72656408.jpg|Bystial Baldrake|0.5|1.0
+https://images.ygoprodeck.com/images/cards/12580477.jpg|Raigeki|0.5|1.0

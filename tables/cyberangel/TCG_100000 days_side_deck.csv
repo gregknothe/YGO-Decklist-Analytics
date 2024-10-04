@@ -1,32 +1,32 @@
-name|code|imgSource|deckPerc|avgCount
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.8|2.875
-Twin Twisters|43898403|https://images.ygoprodeck.com/images/cards_small/43898403.jpg|0.7|2.429
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|0.7|1.0
-Token Collector|43534808|https://images.ygoprodeck.com/images/cards_small/43534808.jpg|0.6|1.333
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.5|2.2
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.4|2.25
-Lava Golem|102380|https://images.ygoprodeck.com/images/cards_small/102380.jpg|0.4|2.25
-Artifact Lancea|34267821|https://images.ygoprodeck.com/images/cards_small/34267821.jpg|0.4|1.25
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.4|1.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.3|3.0
-Mystic Mine|76375976|https://images.ygoprodeck.com/images/cards_small/76375976.jpg|0.3|2.333
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.2|3.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.2|2.5
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.2|1.5
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.1|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|0.1|3.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.1|3.0
-Denko Sekka|13974207|https://images.ygoprodeck.com/images/cards_small/13974207.jpg|0.1|2.0
-Chaos Hunter|97940434|https://images.ygoprodeck.com/images/cards_small/97940434.jpg|0.1|2.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.1|2.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.1|2.0
-Zombie World|4064256|https://images.ygoprodeck.com/images/cards_small/4064256.jpg|0.1|1.0
-Cyber Angel Natasha|99427357|https://images.ygoprodeck.com/images/cards_small/99427357.jpg|0.1|1.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|0.1|1.0
-Skill Drain|82732705|https://images.ygoprodeck.com/images/cards_small/82732705.jpg|0.1|1.0
-Change of Heart|4031928|https://images.ygoprodeck.com/images/cards_small/4031928.jpg|0.1|1.0
-Royal Decree|51452091|https://images.ygoprodeck.com/images/cards_small/51452091.jpg|0.1|1.0
-Necroworld Banshee|66570171|https://images.ygoprodeck.com/images/cards_small/66570171.jpg|0.1|1.0
-Gozen Match|53334471|https://images.ygoprodeck.com/images/cards_small/53334471.jpg|0.1|1.0
-Angel O7|56784842|https://images.ygoprodeck.com/images/cards_small/56784842.jpg|0.1|1.0
-Forbidden Chalice|25789292|https://images.ygoprodeck.com/images/cards_small/25789292.jpg|0.1|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.8|2.875
+https://images.ygoprodeck.com/images/cards/43898403.jpg|Twin Twisters|0.7|2.429
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|0.7|1.0
+https://images.ygoprodeck.com/images/cards/43534808.jpg|Token Collector|0.6|1.333
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.5|2.2
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.4|2.25
+https://images.ygoprodeck.com/images/cards/102380.jpg|Lava Golem|0.4|2.25
+https://images.ygoprodeck.com/images/cards/34267821.jpg|Artifact Lancea|0.4|1.25
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.4|1.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.3|3.0
+https://images.ygoprodeck.com/images/cards/76375976.jpg|Mystic Mine|0.3|2.333
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.2|3.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.2|2.5
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.2|1.5
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.1|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|0.1|3.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.1|3.0
+https://images.ygoprodeck.com/images/cards/13974207.jpg|Denko Sekka|0.1|2.0
+https://images.ygoprodeck.com/images/cards/97940434.jpg|Chaos Hunter|0.1|2.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.1|2.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.1|2.0
+https://images.ygoprodeck.com/images/cards/4064256.jpg|Zombie World|0.1|1.0
+https://images.ygoprodeck.com/images/cards/99427357.jpg|Cyber Angel Natasha|0.1|1.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|0.1|1.0
+https://images.ygoprodeck.com/images/cards/82732705.jpg|Skill Drain|0.1|1.0
+https://images.ygoprodeck.com/images/cards/4031928.jpg|Change of Heart|0.1|1.0
+https://images.ygoprodeck.com/images/cards/51452091.jpg|Royal Decree|0.1|1.0
+https://images.ygoprodeck.com/images/cards/66570171.jpg|Necroworld Banshee|0.1|1.0
+https://images.ygoprodeck.com/images/cards/53334471.jpg|Gozen Match|0.1|1.0
+https://images.ygoprodeck.com/images/cards/56784842.jpg|Angel O7|0.1|1.0
+https://images.ygoprodeck.com/images/cards/25789292.jpg|Forbidden Chalice|0.1|1.0

@@ -1,37 +1,37 @@
-name|code|imgSource|deckPerc|avgCount
-Spright Blue|76145933|https://images.ygoprodeck.com/images/cards_small/76145933.jpg|1.0|3.0
-Nimble Beaver|68353324|https://images.ygoprodeck.com/images/cards_small/68353324.jpg|1.0|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Spright Starter|15443125|https://images.ygoprodeck.com/images/cards_small/15443125.jpg|1.0|3.0
-Spright Jet|13533678|https://images.ygoprodeck.com/images/cards_small/13533678.jpg|1.0|3.0
-Swap Frog|9126351|https://images.ygoprodeck.com/images/cards_small/9126351.jpg|1.0|2.857
-Nimble Angler|88686573|https://images.ygoprodeck.com/images/cards_small/88686573.jpg|1.0|2.143
-Spright Red|75922381|https://images.ygoprodeck.com/images/cards_small/75922381.jpg|1.0|1.857
-Spright Carrot|2311090|https://images.ygoprodeck.com/images/cards_small/2311090.jpg|1.0|1.143
-Freezing Chains of the Ice Barrier|43582229|https://images.ygoprodeck.com/images/cards_small/43582229.jpg|1.0|1.0
-Mirror Mage of the Ice Barrier|9396662|https://images.ygoprodeck.com/images/cards_small/9396662.jpg|1.0|1.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.857|3.0
-Spright Double Cross|68250822|https://images.ygoprodeck.com/images/cards_small/68250822.jpg|0.857|1.0
-Angel Statue - Azurune|44822037|https://images.ygoprodeck.com/images/cards_small/44822037.jpg|0.714|1.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.714|1.0
-Fiendsmith Engraver|60764609|https://images.ygoprodeck.com/images/cards_small/60764609.jpg|0.571|3.0
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|0.571|2.0
-Fiendsmith's Tract|98567237|https://images.ygoprodeck.com/images/cards_small/98567237.jpg|0.571|1.5
-Fabled Lurrie|97651498|https://images.ygoprodeck.com/images/cards_small/97651498.jpg|0.571|1.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.429|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.429|2.333
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.429|1.333
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.429|1.0
-Mulcharmy Purulia|84192580|https://images.ygoprodeck.com/images/cards_small/84192580.jpg|0.286|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.286|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.143|3.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.143|1.0
-Nimble Sunfish|2843014|https://images.ygoprodeck.com/images/cards_small/2843014.jpg|0.143|1.0
-Pot of Prosperity|84211599|https://images.ygoprodeck.com/images/cards_small/84211599.jpg|0.143|1.0
-Bystial Baldrake|72656408|https://images.ygoprodeck.com/images/cards_small/72656408.jpg|0.143|1.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.143|1.0
-Silhouhatte Trick|24440742|https://images.ygoprodeck.com/images/cards_small/24440742.jpg|0.143|1.0
-Foolish Burial|81439174|https://images.ygoprodeck.com/images/cards_small/81439174.jpg|0.143|1.0
-Spright Smashers|88836438|https://images.ygoprodeck.com/images/cards_small/88836438.jpg|0.143|1.0
-Spright Gamma Burst|42431833|https://images.ygoprodeck.com/images/cards_small/42431833.jpg|0.143|1.0
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.143|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/76145933.jpg|Spright Blue|1.0|3.0
+https://images.ygoprodeck.com/images/cards/68353324.jpg|Nimble Beaver|1.0|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/15443125.jpg|Spright Starter|1.0|3.0
+https://images.ygoprodeck.com/images/cards/13533678.jpg|Spright Jet|1.0|3.0
+https://images.ygoprodeck.com/images/cards/9126351.jpg|Swap Frog|1.0|2.857
+https://images.ygoprodeck.com/images/cards/88686573.jpg|Nimble Angler|1.0|2.143
+https://images.ygoprodeck.com/images/cards/75922381.jpg|Spright Red|1.0|1.857
+https://images.ygoprodeck.com/images/cards/2311090.jpg|Spright Carrot|1.0|1.143
+https://images.ygoprodeck.com/images/cards/43582229.jpg|Freezing Chains of the Ice Barrier|1.0|1.0
+https://images.ygoprodeck.com/images/cards/9396662.jpg|Mirror Mage of the Ice Barrier|1.0|1.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.857|3.0
+https://images.ygoprodeck.com/images/cards/68250822.jpg|Spright Double Cross|0.857|1.0
+https://images.ygoprodeck.com/images/cards/44822037.jpg|Angel Statue - Azurune|0.714|1.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.714|1.0
+https://images.ygoprodeck.com/images/cards/60764609.jpg|Fiendsmith Engraver|0.571|3.0
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|0.571|2.0
+https://images.ygoprodeck.com/images/cards/98567237.jpg|Fiendsmith's Tract|0.571|1.5
+https://images.ygoprodeck.com/images/cards/97651498.jpg|Fabled Lurrie|0.571|1.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.429|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.429|2.333
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.429|1.333
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.429|1.0
+https://images.ygoprodeck.com/images/cards/84192580.jpg|Mulcharmy Purulia|0.286|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.286|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.143|3.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.143|1.0
+https://images.ygoprodeck.com/images/cards/2843014.jpg|Nimble Sunfish|0.143|1.0
+https://images.ygoprodeck.com/images/cards/84211599.jpg|Pot of Prosperity|0.143|1.0
+https://images.ygoprodeck.com/images/cards/72656408.jpg|Bystial Baldrake|0.143|1.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.143|1.0
+https://images.ygoprodeck.com/images/cards/24440742.jpg|Silhouhatte Trick|0.143|1.0
+https://images.ygoprodeck.com/images/cards/81439174.jpg|Foolish Burial|0.143|1.0
+https://images.ygoprodeck.com/images/cards/88836438.jpg|Spright Smashers|0.143|1.0
+https://images.ygoprodeck.com/images/cards/42431833.jpg|Spright Gamma Burst|0.143|1.0
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.143|1.0

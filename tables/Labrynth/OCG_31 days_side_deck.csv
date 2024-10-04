@@ -1,15 +1,15 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|1.0|2.5
-Radian, the Multidimensional Kaiju|28674152|https://images.ygoprodeck.com/images/cards_small/28674152.jpg|0.5|3.0
-|42141493|https://images.ygoprodeck.com/images/cards_small/42141493.jpg|0.5|3.0
-Mistaken Arrest|4227096|https://images.ygoprodeck.com/images/cards_small/4227096.jpg|0.5|3.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.5|3.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.5|2.0
-Mulcharmy Purulia|84192580|https://images.ygoprodeck.com/images/cards_small/84192580.jpg|0.5|2.0
-Different Dimension Ground|31849106|https://images.ygoprodeck.com/images/cards_small/31849106.jpg|0.5|2.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.5|2.0
-Eradicator Epidemic Virus|54974237|https://images.ygoprodeck.com/images/cards_small/54974237.jpg|0.5|1.0
-Simul Archfiends|94423983|https://images.ygoprodeck.com/images/cards_small/94423983.jpg|0.5|1.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.5|1.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.5|1.0
-Ariane the Labrynth Servant|75730490|https://images.ygoprodeck.com/images/cards_small/75730490.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|1.0|2.5
+https://images.ygoprodeck.com/images/cards/28674152.jpg|Radian, the Multidimensional Kaiju|0.5|3.0
+https://images.ygoprodeck.com/images/cards/42141493.jpg||0.5|3.0
+https://images.ygoprodeck.com/images/cards/4227096.jpg|Mistaken Arrest|0.5|3.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.5|3.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.5|2.0
+https://images.ygoprodeck.com/images/cards/84192580.jpg|Mulcharmy Purulia|0.5|2.0
+https://images.ygoprodeck.com/images/cards/31849106.jpg|Different Dimension Ground|0.5|2.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.5|2.0
+https://images.ygoprodeck.com/images/cards/54974237.jpg|Eradicator Epidemic Virus|0.5|1.0
+https://images.ygoprodeck.com/images/cards/94423983.jpg|Simul Archfiends|0.5|1.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.5|1.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.5|1.0
+https://images.ygoprodeck.com/images/cards/75730490.jpg|Ariane the Labrynth Servant|0.5|1.0

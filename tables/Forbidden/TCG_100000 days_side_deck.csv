@@ -1,17 +1,17 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.667|3.0
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.667|2.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.667|2.0
-There Can Be Only One|24207889|https://images.ygoprodeck.com/images/cards_small/24207889.jpg|0.667|2.0
-The End of Anubis|65403020|https://images.ygoprodeck.com/images/cards_small/65403020.jpg|0.667|1.0
-King Tiger Wanghu|83986578|https://images.ygoprodeck.com/images/cards_small/83986578.jpg|0.667|1.0
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.667|1.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.333|3.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.333|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.333|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.333|3.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|0.333|3.0
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.333|2.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.333|2.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.333|1.0
-Red Resonator|40975574|https://images.ygoprodeck.com/images/cards_small/40975574.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.667|3.0
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.667|2.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.667|2.0
+https://images.ygoprodeck.com/images/cards/24207889.jpg|There Can Be Only One|0.667|2.0
+https://images.ygoprodeck.com/images/cards/65403020.jpg|The End of Anubis|0.667|1.0
+https://images.ygoprodeck.com/images/cards/83986578.jpg|King Tiger Wanghu|0.667|1.0
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.667|1.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.333|3.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.333|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.333|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.333|3.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|0.333|3.0
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.333|2.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.333|2.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.333|1.0
+https://images.ygoprodeck.com/images/cards/40975574.jpg|Red Resonator|0.333|1.0

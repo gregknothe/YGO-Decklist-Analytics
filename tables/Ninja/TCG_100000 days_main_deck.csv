@@ -1,26 +1,26 @@
-name|code|imgSource|deckPerc|avgCount
-Pot of Prosperity|84211599|https://images.ygoprodeck.com/images/cards_small/84211599.jpg|1.0|3.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|1.0|3.0
-Ninja Grandmaster Hanzo|95027497|https://images.ygoprodeck.com/images/cards_small/95027497.jpg|1.0|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Tobari the Sky Ninja|31887806|https://images.ygoprodeck.com/images/cards_small/31887806.jpg|1.0|3.0
-Mitsu the Insect Ninja|67282505|https://images.ygoprodeck.com/images/cards_small/67282505.jpg|1.0|3.0
-Ninjitsu Art Notebook of Mystery|95545183|https://images.ygoprodeck.com/images/cards_small/95545183.jpg|1.0|3.0
-Ninjitsu Art of Dancing Leaves|68038375|https://images.ygoprodeck.com/images/cards_small/68038375.jpg|1.0|2.667
-Ninjitsu Art of Duplication|50766506|https://images.ygoprodeck.com/images/cards_small/50766506.jpg|1.0|2.0
-Green Ninja|15198996|https://images.ygoprodeck.com/images/cards_small/15198996.jpg|1.0|1.333
-Jioh the Gravity Ninja|92962242|https://images.ygoprodeck.com/images/cards_small/92962242.jpg|1.0|1.333
-Kagero the Cannon Ninja|20065259|https://images.ygoprodeck.com/images/cards_small/20065259.jpg|1.0|1.333
-Reinforcement of the Army|32807846|https://images.ygoprodeck.com/images/cards_small/32807846.jpg|1.0|1.0
-Baku the Beast Ninja|94670654|https://images.ygoprodeck.com/images/cards_small/94670654.jpg|1.0|1.0
-Instant Fusion|1845204|https://images.ygoprodeck.com/images/cards_small/1845204.jpg|1.0|1.0
-Ninjitsu Art Tool - Iron Digger|32939238|https://images.ygoprodeck.com/images/cards_small/32939238.jpg|1.0|1.0
-Book of Moon|14087893|https://images.ygoprodeck.com/images/cards_small/14087893.jpg|0.667|3.0
-Book of Eclipse|35480699|https://images.ygoprodeck.com/images/cards_small/35480699.jpg|0.667|3.0
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|0.667|1.0
-Lord of the Heavenly Prison|9822220|https://images.ygoprodeck.com/images/cards_small/9822220.jpg|0.333|3.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.333|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.333|3.0
-Destructive Daruma Karma Cannon|30748475|https://images.ygoprodeck.com/images/cards_small/30748475.jpg|0.333|1.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.333|1.0
-Hidden Village of Ninjitsu Arts|26232916|https://images.ygoprodeck.com/images/cards_small/26232916.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/84211599.jpg|Pot of Prosperity|1.0|3.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|1.0|3.0
+https://images.ygoprodeck.com/images/cards/95027497.jpg|Ninja Grandmaster Hanzo|1.0|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/31887806.jpg|Tobari the Sky Ninja|1.0|3.0
+https://images.ygoprodeck.com/images/cards/67282505.jpg|Mitsu the Insect Ninja|1.0|3.0
+https://images.ygoprodeck.com/images/cards/95545183.jpg|Ninjitsu Art Notebook of Mystery|1.0|3.0
+https://images.ygoprodeck.com/images/cards/68038375.jpg|Ninjitsu Art of Dancing Leaves|1.0|2.667
+https://images.ygoprodeck.com/images/cards/50766506.jpg|Ninjitsu Art of Duplication|1.0|2.0
+https://images.ygoprodeck.com/images/cards/15198996.jpg|Green Ninja|1.0|1.333
+https://images.ygoprodeck.com/images/cards/92962242.jpg|Jioh the Gravity Ninja|1.0|1.333
+https://images.ygoprodeck.com/images/cards/20065259.jpg|Kagero the Cannon Ninja|1.0|1.333
+https://images.ygoprodeck.com/images/cards/32807846.jpg|Reinforcement of the Army|1.0|1.0
+https://images.ygoprodeck.com/images/cards/94670654.jpg|Baku the Beast Ninja|1.0|1.0
+https://images.ygoprodeck.com/images/cards/1845204.jpg|Instant Fusion|1.0|1.0
+https://images.ygoprodeck.com/images/cards/32939238.jpg|Ninjitsu Art Tool - Iron Digger|1.0|1.0
+https://images.ygoprodeck.com/images/cards/14087893.jpg|Book of Moon|0.667|3.0
+https://images.ygoprodeck.com/images/cards/35480699.jpg|Book of Eclipse|0.667|3.0
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|0.667|1.0
+https://images.ygoprodeck.com/images/cards/9822220.jpg|Lord of the Heavenly Prison|0.333|3.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.333|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.333|3.0
+https://images.ygoprodeck.com/images/cards/30748475.jpg|Destructive Daruma Karma Cannon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.333|1.0
+https://images.ygoprodeck.com/images/cards/26232916.jpg|Hidden Village of Ninjitsu Arts|0.333|1.0

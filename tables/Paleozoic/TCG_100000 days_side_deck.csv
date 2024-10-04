@@ -1,12 +1,12 @@
-name|code|imgSource|deckPerc|avgCount
-Witch's Strike|36458063|https://images.ygoprodeck.com/images/cards_small/36458063.jpg|1.0|3.0
-Volcanic Scattershot|69750546|https://images.ygoprodeck.com/images/cards_small/69750546.jpg|1.0|3.0
-Blaze Accelerator Reload|52198054|https://images.ygoprodeck.com/images/cards_small/52198054.jpg|1.0|1.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.5|3.0
-Zombie World|4064256|https://images.ygoprodeck.com/images/cards_small/4064256.jpg|0.5|2.0
-Heavy Storm Duster|23924608|https://images.ygoprodeck.com/images/cards_small/23924608.jpg|0.5|2.0
-Fairy Wind|73507661|https://images.ygoprodeck.com/images/cards_small/73507661.jpg|0.5|2.0
-Fiend Comedian|81172177|https://images.ygoprodeck.com/images/cards_small/81172177.jpg|0.5|2.0
-Different Dimension Ground|31849106|https://images.ygoprodeck.com/images/cards_small/31849106.jpg|0.5|2.0
-Metaverse|89208725|https://images.ygoprodeck.com/images/cards_small/89208725.jpg|0.5|2.0
-Ice Dragon's Prison|20899496|https://images.ygoprodeck.com/images/cards_small/20899496.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/36458063.jpg|Witch's Strike|1.0|3.0
+https://images.ygoprodeck.com/images/cards/69750546.jpg|Volcanic Scattershot|1.0|3.0
+https://images.ygoprodeck.com/images/cards/52198054.jpg|Blaze Accelerator Reload|1.0|1.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.5|3.0
+https://images.ygoprodeck.com/images/cards/4064256.jpg|Zombie World|0.5|2.0
+https://images.ygoprodeck.com/images/cards/23924608.jpg|Heavy Storm Duster|0.5|2.0
+https://images.ygoprodeck.com/images/cards/73507661.jpg|Fairy Wind|0.5|2.0
+https://images.ygoprodeck.com/images/cards/81172177.jpg|Fiend Comedian|0.5|2.0
+https://images.ygoprodeck.com/images/cards/31849106.jpg|Different Dimension Ground|0.5|2.0
+https://images.ygoprodeck.com/images/cards/89208725.jpg|Metaverse|0.5|2.0
+https://images.ygoprodeck.com/images/cards/20899496.jpg|Ice Dragon's Prison|0.5|1.0

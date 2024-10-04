@@ -18,18 +18,28 @@ h2 {
     padding-bottom: 20;
 }
 
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12;
+}
+
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+    /* border-collapse: collapse; */
+    /*width: 100%;*/
     color: rgb(255, 255, 255);
     background-color: rgb(29, 29, 29);
+    border-style: solid;
+    border-collapse:collapse;
+
 }
 
 th, td {
-    border: 1px solid #8f0404;
     text-align: left;
     padding: 8px;
+    border-style : hidden!important;
 }
 
 th {
@@ -38,11 +48,11 @@ th {
 }
 
 th:nth-child(odd) {
-    background-color:rgb(179, 179, 179);
+    background-color:rgb(73, 66, 90);
 }
 
 th:nth-child(even) {
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(73, 66, 90);
 }
 
 tr:nth-child(odd) {
@@ -60,6 +70,7 @@ tr:nth-child(even) {
     border: white;
     border-width: 1px;
     align-items: center;
+    margin: 10px 0;
 }
 
 .labels {

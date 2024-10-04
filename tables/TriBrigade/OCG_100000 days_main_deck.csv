@@ -1,43 +1,43 @@
-name|code|imgSource|deckPerc|avgCount
-"Maxx ""C"""|23434538|https://images.ygoprodeck.com/images/cards_small/23434538.jpg|1.0|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|1.0|2.889
-Tri-Brigade Kitt|56196385|https://images.ygoprodeck.com/images/cards_small/56196385.jpg|1.0|2.556
-Tri-Brigade Fraktall|87209160|https://images.ygoprodeck.com/images/cards_small/87209160.jpg|1.0|2.111
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|1.0|2.0
-Tri-Brigade Nervall|14816857|https://images.ygoprodeck.com/images/cards_small/14816857.jpg|1.0|2.0
-Tri-Brigade Kerass|50810455|https://images.ygoprodeck.com/images/cards_small/50810455.jpg|1.0|1.778
-Tri-Brigade Revolt|40975243|https://images.ygoprodeck.com/images/cards_small/40975243.jpg|1.0|1.0
-Crossout Designator|65681983|https://images.ygoprodeck.com/images/cards_small/65681983.jpg|1.0|1.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.889|1.75
-Foolish Burial|81439173|https://images.ygoprodeck.com/images/cards_small/81439173.jpg|0.889|1.0
-Nimble Beaver|68353324|https://images.ygoprodeck.com/images/cards_small/68353324.jpg|0.667|3.0
-Fire Formation - Tenki|57103969|https://images.ygoprodeck.com/images/cards_small/57103969.jpg|0.667|2.333
-Spright Red|75922381|https://images.ygoprodeck.com/images/cards_small/75922381.jpg|0.667|1.667
-Spright Blue|76145933|https://images.ygoprodeck.com/images/cards_small/76145933.jpg|0.667|1.0
-Tri-Brigade Mercourier|19096726|https://images.ygoprodeck.com/images/cards_small/19096726.jpg|0.667|1.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.667|1.0
-Spright Carrot|2311090|https://images.ygoprodeck.com/images/cards_small/2311090.jpg|0.667|1.0
-Spright Starter|15443125|https://images.ygoprodeck.com/images/cards_small/15443125.jpg|0.667|1.0
-Branded Sword|81767888|https://images.ygoprodeck.com/images/cards_small/81767888.jpg|0.667|1.0
-Nimble Angler|88686573|https://images.ygoprodeck.com/images/cards_small/88686573.jpg|0.667|1.0
-Spright Jet|13533678|https://images.ygoprodeck.com/images/cards_small/13533678.jpg|0.667|1.0
-Albion the Shrouded Dragon|25451383|https://images.ygoprodeck.com/images/cards_small/25451383.jpg|0.667|1.0
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.444|1.0
-Scareclaw Reichheart|82361809|https://images.ygoprodeck.com/images/cards_small/82361809.jpg|0.333|3.0
-A Hero Lives|8949584|https://images.ygoprodeck.com/images/cards_small/8949584.jpg|0.333|3.0
-Elemental HERO Prisma|89312388|https://images.ygoprodeck.com/images/cards_small/89312388.jpg|0.333|2.0
-Visas Starfrost|56099748|https://images.ygoprodeck.com/images/cards_small/56099748.jpg|0.333|2.0
-Ghost Mourner & Moonlit Chill|52038441|https://images.ygoprodeck.com/images/cards_small/52038441.jpg|0.333|1.333
-Scareclaw Twinsaw|95245571|https://images.ygoprodeck.com/images/cards_small/95245571.jpg|0.333|1.0
-Scareclaw Acro|46877100|https://images.ygoprodeck.com/images/cards_small/46877100.jpg|0.333|1.0
-Primitive Planet Reichphobia|56063182|https://images.ygoprodeck.com/images/cards_small/56063182.jpg|0.333|1.0
-The Fabled Cerburrel|82888408|https://images.ygoprodeck.com/images/cards_small/82888408.jpg|0.333|1.0
-Scareclaw Arrival|83558891|https://images.ygoprodeck.com/images/cards_small/83558891.jpg|0.333|1.0
-Visas Samsara|14391625|https://images.ygoprodeck.com/images/cards_small/14391625.jpg|0.222|2.5
-One for One|2295440|https://images.ygoprodeck.com/images/cards_small/2295440.jpg|0.111|1.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.111|1.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|0.111|1.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.111|1.0
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|0.111|1.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.111|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/23434538.jpg|"Maxx ""C"""|1.0|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|1.0|2.889
+https://images.ygoprodeck.com/images/cards/56196385.jpg|Tri-Brigade Kitt|1.0|2.556
+https://images.ygoprodeck.com/images/cards/87209160.jpg|Tri-Brigade Fraktall|1.0|2.111
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|1.0|2.0
+https://images.ygoprodeck.com/images/cards/14816857.jpg|Tri-Brigade Nervall|1.0|2.0
+https://images.ygoprodeck.com/images/cards/50810455.jpg|Tri-Brigade Kerass|1.0|1.778
+https://images.ygoprodeck.com/images/cards/40975243.jpg|Tri-Brigade Revolt|1.0|1.0
+https://images.ygoprodeck.com/images/cards/65681983.jpg|Crossout Designator|1.0|1.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.889|1.75
+https://images.ygoprodeck.com/images/cards/81439173.jpg|Foolish Burial|0.889|1.0
+https://images.ygoprodeck.com/images/cards/68353324.jpg|Nimble Beaver|0.667|3.0
+https://images.ygoprodeck.com/images/cards/57103969.jpg|Fire Formation - Tenki|0.667|2.333
+https://images.ygoprodeck.com/images/cards/75922381.jpg|Spright Red|0.667|1.667
+https://images.ygoprodeck.com/images/cards/76145933.jpg|Spright Blue|0.667|1.0
+https://images.ygoprodeck.com/images/cards/19096726.jpg|Tri-Brigade Mercourier|0.667|1.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.667|1.0
+https://images.ygoprodeck.com/images/cards/2311090.jpg|Spright Carrot|0.667|1.0
+https://images.ygoprodeck.com/images/cards/15443125.jpg|Spright Starter|0.667|1.0
+https://images.ygoprodeck.com/images/cards/81767888.jpg|Branded Sword|0.667|1.0
+https://images.ygoprodeck.com/images/cards/88686573.jpg|Nimble Angler|0.667|1.0
+https://images.ygoprodeck.com/images/cards/13533678.jpg|Spright Jet|0.667|1.0
+https://images.ygoprodeck.com/images/cards/25451383.jpg|Albion the Shrouded Dragon|0.667|1.0
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.444|1.0
+https://images.ygoprodeck.com/images/cards/82361809.jpg|Scareclaw Reichheart|0.333|3.0
+https://images.ygoprodeck.com/images/cards/8949584.jpg|A Hero Lives|0.333|3.0
+https://images.ygoprodeck.com/images/cards/89312388.jpg|Elemental HERO Prisma|0.333|2.0
+https://images.ygoprodeck.com/images/cards/56099748.jpg|Visas Starfrost|0.333|2.0
+https://images.ygoprodeck.com/images/cards/52038441.jpg|Ghost Mourner & Moonlit Chill|0.333|1.333
+https://images.ygoprodeck.com/images/cards/95245571.jpg|Scareclaw Twinsaw|0.333|1.0
+https://images.ygoprodeck.com/images/cards/46877100.jpg|Scareclaw Acro|0.333|1.0
+https://images.ygoprodeck.com/images/cards/56063182.jpg|Primitive Planet Reichphobia|0.333|1.0
+https://images.ygoprodeck.com/images/cards/82888408.jpg|The Fabled Cerburrel|0.333|1.0
+https://images.ygoprodeck.com/images/cards/83558891.jpg|Scareclaw Arrival|0.333|1.0
+https://images.ygoprodeck.com/images/cards/14391625.jpg|Visas Samsara|0.222|2.5
+https://images.ygoprodeck.com/images/cards/2295440.jpg|One for One|0.111|1.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.111|1.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|0.111|1.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.111|1.0
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|0.111|1.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.111|1.0

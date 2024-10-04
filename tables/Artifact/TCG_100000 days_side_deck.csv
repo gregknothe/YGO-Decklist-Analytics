@@ -1,31 +1,31 @@
-name|code|imgSource|deckPerc|avgCount
-Artifact Lancea|34267821|https://images.ygoprodeck.com/images/cards_small/34267821.jpg|0.875|2.286
-Token Collector|43534808|https://images.ygoprodeck.com/images/cards_small/43534808.jpg|0.5|2.5
-PSY-Framegear Gamma|38814750|https://images.ygoprodeck.com/images/cards_small/38814750.jpg|0.375|3.0
-Twin Twisters|43898403|https://images.ygoprodeck.com/images/cards_small/43898403.jpg|0.375|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.375|3.0
-PSY-Frame Driver|49036338|https://images.ygoprodeck.com/images/cards_small/49036338.jpg|0.375|1.0
-Artifact Sanctum|12444060|https://images.ygoprodeck.com/images/cards_small/12444060.jpg|0.25|3.0
-Crossout Designator|65681983|https://images.ygoprodeck.com/images/cards_small/65681983.jpg|0.25|3.0
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|0.25|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.25|2.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.25|1.0
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|0.25|1.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.125|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.125|3.0
-Ghost Reaper & Winter Cherries|62015408|https://images.ygoprodeck.com/images/cards_small/62015408.jpg|0.125|3.0
-Denko Sekka|13974207|https://images.ygoprodeck.com/images/cards_small/13974207.jpg|0.125|3.0
-The Winged Dragon of Ra - Sphere Mode|10000080|https://images.ygoprodeck.com/images/cards_small/10000080.jpg|0.125|3.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.125|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.125|3.0
-Gadarla, the Mystery Dust Kaiju|36956512|https://images.ygoprodeck.com/images/cards_small/36956512.jpg|0.125|3.0
-Raigeki|12580477|https://images.ygoprodeck.com/images/cards_small/12580477.jpg|0.125|3.0
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.125|2.0
-Lava Golem|102380|https://images.ygoprodeck.com/images/cards_small/102380.jpg|0.125|2.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.125|1.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.125|1.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|0.125|1.0
-Dinowrestler Pankratops|82385847|https://images.ygoprodeck.com/images/cards_small/82385847.jpg|0.125|1.0
-Change of Heart|4031928|https://images.ygoprodeck.com/images/cards_small/4031928.jpg|0.125|1.0
-Artifact Scythe|20292186|https://images.ygoprodeck.com/images/cards_small/20292186.jpg|0.125|1.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.125|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/34267821.jpg|Artifact Lancea|0.875|2.286
+https://images.ygoprodeck.com/images/cards/43534808.jpg|Token Collector|0.5|2.5
+https://images.ygoprodeck.com/images/cards/38814750.jpg|PSY-Framegear Gamma|0.375|3.0
+https://images.ygoprodeck.com/images/cards/43898403.jpg|Twin Twisters|0.375|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.375|3.0
+https://images.ygoprodeck.com/images/cards/49036338.jpg|PSY-Frame Driver|0.375|1.0
+https://images.ygoprodeck.com/images/cards/12444060.jpg|Artifact Sanctum|0.25|3.0
+https://images.ygoprodeck.com/images/cards/65681983.jpg|Crossout Designator|0.25|3.0
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|0.25|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.25|2.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.25|1.0
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|0.25|1.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.125|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.125|3.0
+https://images.ygoprodeck.com/images/cards/62015408.jpg|Ghost Reaper & Winter Cherries|0.125|3.0
+https://images.ygoprodeck.com/images/cards/13974207.jpg|Denko Sekka|0.125|3.0
+https://images.ygoprodeck.com/images/cards/10000080.jpg|The Winged Dragon of Ra - Sphere Mode|0.125|3.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.125|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.125|3.0
+https://images.ygoprodeck.com/images/cards/36956512.jpg|Gadarla, the Mystery Dust Kaiju|0.125|3.0
+https://images.ygoprodeck.com/images/cards/12580477.jpg|Raigeki|0.125|3.0
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.125|2.0
+https://images.ygoprodeck.com/images/cards/102380.jpg|Lava Golem|0.125|2.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.125|1.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.125|1.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|0.125|1.0
+https://images.ygoprodeck.com/images/cards/82385847.jpg|Dinowrestler Pankratops|0.125|1.0
+https://images.ygoprodeck.com/images/cards/4031928.jpg|Change of Heart|0.125|1.0
+https://images.ygoprodeck.com/images/cards/20292186.jpg|Artifact Scythe|0.125|1.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.125|1.0

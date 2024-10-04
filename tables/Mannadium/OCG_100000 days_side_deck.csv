@@ -1,21 +1,21 @@
-name|code|imgSource|deckPerc|avgCount
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|1.0|2.5
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.75|2.333
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.75|1.333
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.75|1.0
-Fantastical Dragon Phantazmay|78661339|https://images.ygoprodeck.com/images/cards_small/78661339.jpg|0.5|2.5
-Artifact Lancea|34267821|https://images.ygoprodeck.com/images/cards_small/34267821.jpg|0.5|2.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.5|2.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|0.5|1.0
-Kaiser Colosseum|35059553|https://images.ygoprodeck.com/images/cards_small/35059553.jpg|0.25|3.0
-Book of Eclipse|35480699|https://images.ygoprodeck.com/images/cards_small/35480699.jpg|0.25|2.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.25|2.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.25|2.0
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|0.25|2.0
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.25|2.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.25|2.0
-Ghost Ogre & Snow Rabbit|59438930|https://images.ygoprodeck.com/images/cards_small/59438930.jpg|0.25|2.0
-Mannadium Prime-Heart|90465153|https://images.ygoprodeck.com/images/cards_small/90465153.jpg|0.25|1.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.25|1.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.25|1.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.25|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|1.0|2.5
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.75|2.333
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.75|1.333
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.75|1.0
+https://images.ygoprodeck.com/images/cards/78661339.jpg|Fantastical Dragon Phantazmay|0.5|2.5
+https://images.ygoprodeck.com/images/cards/34267821.jpg|Artifact Lancea|0.5|2.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.5|2.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|0.5|1.0
+https://images.ygoprodeck.com/images/cards/35059553.jpg|Kaiser Colosseum|0.25|3.0
+https://images.ygoprodeck.com/images/cards/35480699.jpg|Book of Eclipse|0.25|2.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.25|2.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.25|2.0
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|0.25|2.0
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.25|2.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.25|2.0
+https://images.ygoprodeck.com/images/cards/59438930.jpg|Ghost Ogre & Snow Rabbit|0.25|2.0
+https://images.ygoprodeck.com/images/cards/90465153.jpg|Mannadium Prime-Heart|0.25|1.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.25|1.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.25|1.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.25|1.0

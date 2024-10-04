@@ -1,23 +1,23 @@
-name|code|imgSource|deckPerc|avgCount
-Branded Fusion|44362883|https://images.ygoprodeck.com/images/cards_small/44362883.jpg|1.0|3.0
-Cornfield Coatl|92565383|https://images.ygoprodeck.com/images/cards_small/92565383.jpg|1.0|3.0
-Gazelle the King of Mythical Claws|23076639|https://images.ygoprodeck.com/images/cards_small/23076639.jpg|1.0|3.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|1.0|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Super Polymerization|48130397|https://images.ygoprodeck.com/images/cards_small/48130397.jpg|1.0|3.0
-Mirror Swordknight|28954097|https://images.ygoprodeck.com/images/cards_small/28954097.jpg|1.0|3.0
-Crossout Designator|65681983|https://images.ygoprodeck.com/images/cards_small/65681983.jpg|1.0|2.667
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|1.0|2.667
-Chimera Fusion|63136489|https://images.ygoprodeck.com/images/cards_small/63136489.jpg|1.0|2.667
-Fallen of Albaz|68468459|https://images.ygoprodeck.com/images/cards_small/68468459.jpg|1.0|2.0
-Big-Winged Berfomet|55461744|https://images.ygoprodeck.com/images/cards_small/55461744.jpg|1.0|2.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|1.0|1.0
-Pot of Prosperity|84211599|https://images.ygoprodeck.com/images/cards_small/84211599.jpg|0.667|3.0
-Kashtira Fenrir|32909498|https://images.ygoprodeck.com/images/cards_small/32909498.jpg|0.667|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.667|2.0
-The Light - Hex-Sealed Fusion|15717011|https://images.ygoprodeck.com/images/cards_small/15717011.jpg|0.667|1.0
-Master Tao the Chanter|34541543|https://images.ygoprodeck.com/images/cards_small/34541543.jpg|0.667|1.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.333|2.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.333|2.0
-Versago the Destroyer|50259460|https://images.ygoprodeck.com/images/cards_small/50259460.jpg|0.333|1.0
-Springans Kitt|45484331|https://images.ygoprodeck.com/images/cards_small/45484331.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/44362883.jpg|Branded Fusion|1.0|3.0
+https://images.ygoprodeck.com/images/cards/92565383.jpg|Cornfield Coatl|1.0|3.0
+https://images.ygoprodeck.com/images/cards/23076639.jpg|Gazelle the King of Mythical Claws|1.0|3.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|1.0|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/48130397.jpg|Super Polymerization|1.0|3.0
+https://images.ygoprodeck.com/images/cards/28954097.jpg|Mirror Swordknight|1.0|3.0
+https://images.ygoprodeck.com/images/cards/65681983.jpg|Crossout Designator|1.0|2.667
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|1.0|2.667
+https://images.ygoprodeck.com/images/cards/63136489.jpg|Chimera Fusion|1.0|2.667
+https://images.ygoprodeck.com/images/cards/68468459.jpg|Fallen of Albaz|1.0|2.0
+https://images.ygoprodeck.com/images/cards/55461744.jpg|Big-Winged Berfomet|1.0|2.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|1.0|1.0
+https://images.ygoprodeck.com/images/cards/84211599.jpg|Pot of Prosperity|0.667|3.0
+https://images.ygoprodeck.com/images/cards/32909498.jpg|Kashtira Fenrir|0.667|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.667|2.0
+https://images.ygoprodeck.com/images/cards/15717011.jpg|The Light - Hex-Sealed Fusion|0.667|1.0
+https://images.ygoprodeck.com/images/cards/34541543.jpg|Master Tao the Chanter|0.667|1.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.333|2.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.333|2.0
+https://images.ygoprodeck.com/images/cards/50259460.jpg|Versago the Destroyer|0.333|1.0
+https://images.ygoprodeck.com/images/cards/45484331.jpg|Springans Kitt|0.333|1.0

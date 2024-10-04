@@ -1,17 +1,17 @@
-name|code|imgSource|deckPerc|avgCount
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|1.0|1.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.667|3.0
-Solemn Strike|40605147|https://images.ygoprodeck.com/images/cards_small/40605147.jpg|0.667|3.0
-Ultimate Slayer|2263869|https://images.ygoprodeck.com/images/cards_small/2263869.jpg|0.667|2.0
-Skill Drain|82732705|https://images.ygoprodeck.com/images/cards_small/82732705.jpg|0.667|1.0
-Ghost Ogre & Snow Rabbit|59438930|https://images.ygoprodeck.com/images/cards_small/59438930.jpg|0.667|1.0
-Heavy Storm|19613556|https://images.ygoprodeck.com/images/cards_small/19613556.jpg|0.667|1.0
-|100438010|https://images.ygoprodeck.com/images/cards_small/100438010.jpg|0.667|1.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.667|1.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|0.667|1.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.333|3.0
-"Retaliating ""C"""|46502744|https://images.ygoprodeck.com/images/cards_small/46502744.jpg|0.333|3.0
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.333|2.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.333|2.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.333|2.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.333|2.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|1.0|1.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.667|3.0
+https://images.ygoprodeck.com/images/cards/40605147.jpg|Solemn Strike|0.667|3.0
+https://images.ygoprodeck.com/images/cards/2263869.jpg|Ultimate Slayer|0.667|2.0
+https://images.ygoprodeck.com/images/cards/82732705.jpg|Skill Drain|0.667|1.0
+https://images.ygoprodeck.com/images/cards/59438930.jpg|Ghost Ogre & Snow Rabbit|0.667|1.0
+https://images.ygoprodeck.com/images/cards/19613556.jpg|Heavy Storm|0.667|1.0
+https://images.ygoprodeck.com/images/cards/100438010.jpg||0.667|1.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.667|1.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|0.667|1.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.333|3.0
+https://images.ygoprodeck.com/images/cards/46502744.jpg|"Retaliating ""C"""|0.333|3.0
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.333|2.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.333|2.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.333|2.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.333|2.0

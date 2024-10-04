@@ -1,7 +1,7 @@
-name|code|imgSource|deckPerc|avgCount
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|1.0|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|1.0|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|1.0|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|1.0|3.0
-Twin Twisters|43898403|https://images.ygoprodeck.com/images/cards_small/43898403.jpg|1.0|2.0
-Imperial Order|61740673|https://images.ygoprodeck.com/images/cards_small/61740673.jpg|1.0|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|1.0|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|1.0|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|1.0|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|1.0|3.0
+https://images.ygoprodeck.com/images/cards/43898403.jpg|Twin Twisters|1.0|2.0
+https://images.ygoprodeck.com/images/cards/61740673.jpg|Imperial Order|1.0|1.0

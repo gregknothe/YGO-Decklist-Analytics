@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|1.0|2.5
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|1.0|2.0
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|1.0|1.5
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|1.0|1.5
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|1.0|1.0
-Dinowrestler Pankratops|82385847|https://images.ygoprodeck.com/images/cards_small/82385847.jpg|1.0|1.0
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|1.0|1.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.5|2.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.5|2.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.5|2.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.5|1.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|0.5|1.0
-Heavy Storm|19613556|https://images.ygoprodeck.com/images/cards_small/19613556.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|1.0|2.5
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|1.0|2.0
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|1.0|1.5
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|1.0|1.5
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|1.0|1.0
+https://images.ygoprodeck.com/images/cards/82385847.jpg|Dinowrestler Pankratops|1.0|1.0
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|1.0|1.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.5|2.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.5|2.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.5|2.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.5|1.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|0.5|1.0
+https://images.ygoprodeck.com/images/cards/19613556.jpg|Heavy Storm|0.5|1.0

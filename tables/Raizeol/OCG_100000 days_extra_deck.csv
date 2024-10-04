@@ -1,16 +1,16 @@
-name|code|imgSource|deckPerc|avgCount
-|100438006|https://images.ygoprodeck.com/images/cards_small/100438006.jpg|1.0|2.667
-|100438007|https://images.ygoprodeck.com/images/cards_small/100438007.jpg|1.0|2.667
-Tornado Dragon|6983839|https://images.ygoprodeck.com/images/cards_small/6983839.jpg|1.0|1.0
-Evilswarm Exciton Knight|46772449|https://images.ygoprodeck.com/images/cards_small/46772449.jpg|1.0|1.0
-Divine Arsenal AA-ZEUS - Sky Thunder|90448279|https://images.ygoprodeck.com/images/cards_small/90448279.jpg|1.0|1.0
-Mereologic Aggregator|9940036|https://images.ygoprodeck.com/images/cards_small/9940036.jpg|1.0|1.0
-Castel, the Skyblaster Musketeer|82633039|https://images.ygoprodeck.com/images/cards_small/82633039.jpg|1.0|1.0
-Abyss Dweller|21044178|https://images.ygoprodeck.com/images/cards_small/21044178.jpg|1.0|1.0
-Number 41: Bagooska the Terribly Tired Tapir|90590303|https://images.ygoprodeck.com/images/cards_small/90590303.jpg|1.0|1.0
-Full Armored Utopic Ray Lancer|1269512|https://images.ygoprodeck.com/images/cards_small/1269512.jpg|0.667|1.0
-Number 103: Ragnazero|94380860|https://images.ygoprodeck.com/images/cards_small/94380860.jpg|0.667|1.0
-Number 105: Battlin' Boxer Star Cestus|59627393|https://images.ygoprodeck.com/images/cards_small/59627393.jpg|0.333|1.0
-Starliege Photon Blast Dragon|16643334|https://images.ygoprodeck.com/images/cards_small/16643334.jpg|0.333|1.0
-Number 104: Masquerade|2061963|https://images.ygoprodeck.com/images/cards_small/2061963.jpg|0.333|1.0
-Daigusto Emeral|581014|https://images.ygoprodeck.com/images/cards_small/581014.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/100438006.jpg||1.0|2.667
+https://images.ygoprodeck.com/images/cards/100438007.jpg||1.0|2.667
+https://images.ygoprodeck.com/images/cards/6983839.jpg|Tornado Dragon|1.0|1.0
+https://images.ygoprodeck.com/images/cards/46772449.jpg|Evilswarm Exciton Knight|1.0|1.0
+https://images.ygoprodeck.com/images/cards/90448279.jpg|Divine Arsenal AA-ZEUS - Sky Thunder|1.0|1.0
+https://images.ygoprodeck.com/images/cards/9940036.jpg|Mereologic Aggregator|1.0|1.0
+https://images.ygoprodeck.com/images/cards/82633039.jpg|Castel, the Skyblaster Musketeer|1.0|1.0
+https://images.ygoprodeck.com/images/cards/21044178.jpg|Abyss Dweller|1.0|1.0
+https://images.ygoprodeck.com/images/cards/90590303.jpg|Number 41: Bagooska the Terribly Tired Tapir|1.0|1.0
+https://images.ygoprodeck.com/images/cards/1269512.jpg|Full Armored Utopic Ray Lancer|0.667|1.0
+https://images.ygoprodeck.com/images/cards/94380860.jpg|Number 103: Ragnazero|0.667|1.0
+https://images.ygoprodeck.com/images/cards/59627393.jpg|Number 105: Battlin' Boxer Star Cestus|0.333|1.0
+https://images.ygoprodeck.com/images/cards/16643334.jpg|Starliege Photon Blast Dragon|0.333|1.0
+https://images.ygoprodeck.com/images/cards/2061963.jpg|Number 104: Masquerade|0.333|1.0
+https://images.ygoprodeck.com/images/cards/581014.jpg|Daigusto Emeral|0.333|1.0

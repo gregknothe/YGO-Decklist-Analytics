@@ -1,10 +1,10 @@
-name|code|imgSource|deckPerc|avgCount
-Amano-Iwato|32181268|https://images.ygoprodeck.com/images/cards_small/32181268.jpg|1.0|3.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|1.0|2.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|1.0|2.0
-Hey, Trunade!|64697431|https://images.ygoprodeck.com/images/cards_small/64697431.jpg|1.0|2.0
-Raigeki|12580477|https://images.ygoprodeck.com/images/cards_small/12580477.jpg|1.0|2.0
-Secret Village of the Spellcasters|68462976|https://images.ygoprodeck.com/images/cards_small/68462976.jpg|1.0|1.0
-Herald of the Abyss|94016752|https://images.ygoprodeck.com/images/cards_small/94016752.jpg|1.0|1.0
-Red Reboot|23002292|https://images.ygoprodeck.com/images/cards_small/23002292.jpg|1.0|1.0
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|1.0|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/32181268.jpg|Amano-Iwato|1.0|3.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|1.0|2.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|1.0|2.0
+https://images.ygoprodeck.com/images/cards/64697431.jpg|Hey, Trunade!|1.0|2.0
+https://images.ygoprodeck.com/images/cards/12580477.jpg|Raigeki|1.0|2.0
+https://images.ygoprodeck.com/images/cards/68462976.jpg|Secret Village of the Spellcasters|1.0|1.0
+https://images.ygoprodeck.com/images/cards/94016752.jpg|Herald of the Abyss|1.0|1.0
+https://images.ygoprodeck.com/images/cards/23002292.jpg|Red Reboot|1.0|1.0
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|1.0|1.0

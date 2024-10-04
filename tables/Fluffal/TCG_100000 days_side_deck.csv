@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.5|3.0
-Twin Twisters|43898403|https://images.ygoprodeck.com/images/cards_small/43898403.jpg|0.5|3.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.5|3.0
-Radian, the Multidimensional Kaiju|28674152|https://images.ygoprodeck.com/images/cards_small/28674152.jpg|0.5|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.5|3.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.5|3.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.5|1.0
-Edge Imp Scythe|29280589|https://images.ygoprodeck.com/images/cards_small/29280589.jpg|0.5|1.0
-Abyss Dweller|21044178|https://images.ygoprodeck.com/images/cards_small/21044178.jpg|0.5|1.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.5|1.0
-Dinowrestler Pankratops|82385847|https://images.ygoprodeck.com/images/cards_small/82385847.jpg|0.5|1.0
-Change of Heart|4031928|https://images.ygoprodeck.com/images/cards_small/4031928.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.5|3.0
+https://images.ygoprodeck.com/images/cards/43898403.jpg|Twin Twisters|0.5|3.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.5|3.0
+https://images.ygoprodeck.com/images/cards/28674152.jpg|Radian, the Multidimensional Kaiju|0.5|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.5|3.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.5|3.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.5|1.0
+https://images.ygoprodeck.com/images/cards/29280589.jpg|Edge Imp Scythe|0.5|1.0
+https://images.ygoprodeck.com/images/cards/21044178.jpg|Abyss Dweller|0.5|1.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.5|1.0
+https://images.ygoprodeck.com/images/cards/82385847.jpg|Dinowrestler Pankratops|0.5|1.0
+https://images.ygoprodeck.com/images/cards/4031928.jpg|Change of Heart|0.5|1.0

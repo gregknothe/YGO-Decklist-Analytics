@@ -1,22 +1,22 @@
-name|code|imgSource|deckPerc|avgCount
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.75|2.333
-Change of Heart|4031928|https://images.ygoprodeck.com/images/cards_small/4031928.jpg|0.75|1.0
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.75|1.0
-Lose 1 Turn|24348804|https://images.ygoprodeck.com/images/cards_small/24348804.jpg|0.5|2.5
-Harpie's Feather Storm|87639778|https://images.ygoprodeck.com/images/cards_small/87639778.jpg|0.5|2.5
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.5|2.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.5|1.5
-Snatch Steal|45986603|https://images.ygoprodeck.com/images/cards_small/45986603.jpg|0.5|1.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.5|1.0
-Ultimate Slayer|2263869|https://images.ygoprodeck.com/images/cards_small/2263869.jpg|0.25|3.0
-Fantastical Dragon Phantazmay|78661338|https://images.ygoprodeck.com/images/cards_small/78661338.jpg|0.25|3.0
-Ghost Sister & Spooky Dogwood|60643554|https://images.ygoprodeck.com/images/cards_small/60643554.jpg|0.25|3.0
-Spellbound|3259760|https://images.ygoprodeck.com/images/cards_small/3259760.jpg|0.25|3.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.25|2.0
-Dimensional Fissure|81674782|https://images.ygoprodeck.com/images/cards_small/81674782.jpg|0.25|2.0
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.25|2.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.25|2.0
-Mystical Space Typhoon|5318639|https://images.ygoprodeck.com/images/cards_small/5318639.jpg|0.25|2.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.25|2.0
-Dark Simorgh|11366199|https://images.ygoprodeck.com/images/cards_small/11366199.jpg|0.25|1.0
-Herald of the Abyss|94016752|https://images.ygoprodeck.com/images/cards_small/94016752.jpg|0.25|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.75|2.333
+https://images.ygoprodeck.com/images/cards/4031928.jpg|Change of Heart|0.75|1.0
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.75|1.0
+https://images.ygoprodeck.com/images/cards/24348804.jpg|Lose 1 Turn|0.5|2.5
+https://images.ygoprodeck.com/images/cards/87639778.jpg|Harpie's Feather Storm|0.5|2.5
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.5|2.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.5|1.5
+https://images.ygoprodeck.com/images/cards/45986603.jpg|Snatch Steal|0.5|1.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.5|1.0
+https://images.ygoprodeck.com/images/cards/2263869.jpg|Ultimate Slayer|0.25|3.0
+https://images.ygoprodeck.com/images/cards/78661338.jpg|Fantastical Dragon Phantazmay|0.25|3.0
+https://images.ygoprodeck.com/images/cards/60643554.jpg|Ghost Sister & Spooky Dogwood|0.25|3.0
+https://images.ygoprodeck.com/images/cards/3259760.jpg|Spellbound|0.25|3.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.25|2.0
+https://images.ygoprodeck.com/images/cards/81674782.jpg|Dimensional Fissure|0.25|2.0
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.25|2.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.25|2.0
+https://images.ygoprodeck.com/images/cards/5318639.jpg|Mystical Space Typhoon|0.25|2.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.25|2.0
+https://images.ygoprodeck.com/images/cards/11366199.jpg|Dark Simorgh|0.25|1.0
+https://images.ygoprodeck.com/images/cards/94016752.jpg|Herald of the Abyss|0.25|1.0

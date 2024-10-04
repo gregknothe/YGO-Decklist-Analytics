@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Mulcharmy Fuwalos|42141493|https://images.ygoprodeck.com/images/cards_small/42141493.jpg|1.0|2.667
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|1.0|2.333
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.667|3.0
-Mulcharmy Purulia|84192580|https://images.ygoprodeck.com/images/cards_small/84192580.jpg|0.667|2.5
-Artifact Lancea|34267821|https://images.ygoprodeck.com/images/cards_small/34267821.jpg|0.667|2.5
-Harpie's Feather Duster|18144506|https://images.ygoprodeck.com/images/cards_small/18144506.jpg|0.667|1.0
-Ultimate Slayer|2263869|https://images.ygoprodeck.com/images/cards_small/2263869.jpg|0.333|3.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.333|2.0
-Artifact Sanctum|12444060|https://images.ygoprodeck.com/images/cards_small/12444060.jpg|0.333|2.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.333|2.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.333|1.0
-Artifact Scythe|20292186|https://images.ygoprodeck.com/images/cards_small/20292186.jpg|0.333|1.0
-Summon Limit|23516703|https://images.ygoprodeck.com/images/cards_small/23516703.jpg|0.333|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/42141493.jpg|Mulcharmy Fuwalos|1.0|2.667
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|1.0|2.333
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.667|3.0
+https://images.ygoprodeck.com/images/cards/84192580.jpg|Mulcharmy Purulia|0.667|2.5
+https://images.ygoprodeck.com/images/cards/34267821.jpg|Artifact Lancea|0.667|2.5
+https://images.ygoprodeck.com/images/cards/18144506.jpg|Harpie's Feather Duster|0.667|1.0
+https://images.ygoprodeck.com/images/cards/2263869.jpg|Ultimate Slayer|0.333|3.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.333|2.0
+https://images.ygoprodeck.com/images/cards/12444060.jpg|Artifact Sanctum|0.333|2.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.333|2.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.333|1.0
+https://images.ygoprodeck.com/images/cards/20292186.jpg|Artifact Scythe|0.333|1.0
+https://images.ygoprodeck.com/images/cards/23516703.jpg|Summon Limit|0.333|1.0

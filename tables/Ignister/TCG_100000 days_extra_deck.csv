@@ -1,29 +1,29 @@
-name|code|imgSource|deckPerc|avgCount
-Dark Infant @Ignister|74567889|https://images.ygoprodeck.com/images/cards_small/74567889.jpg|1.0|1.941
-Splash Mage|59859086|https://images.ygoprodeck.com/images/cards_small/59859086.jpg|1.0|1.529
-Accesscode Talker|86066372|https://images.ygoprodeck.com/images/cards_small/86066372.jpg|1.0|1.176
-Transcode Talker|46947713|https://images.ygoprodeck.com/images/cards_small/46947713.jpg|1.0|1.0
-Cyberse Wicckid|52698008|https://images.ygoprodeck.com/images/cards_small/52698008.jpg|1.0|1.0
-Wind Pegasus @Ignister|98506199|https://images.ygoprodeck.com/images/cards_small/98506199.jpg|0.941|1.0
-Decode Talker Heatsoul|61245672|https://images.ygoprodeck.com/images/cards_small/61245672.jpg|0.941|1.0
-Dark Templar @Ignister|97383507|https://images.ygoprodeck.com/images/cards_small/97383507.jpg|0.882|1.0
-The Arrival Cyberse @Ignister|11738489|https://images.ygoprodeck.com/images/cards_small/11738489.jpg|0.824|1.0
-Update Jammer|88093706|https://images.ygoprodeck.com/images/cards_small/88093706.jpg|0.765|1.0
-Light Dragon @Ignister|61399402|https://images.ygoprodeck.com/images/cards_small/61399402.jpg|0.647|1.0
-Primathmech Alembertian|85692042|https://images.ygoprodeck.com/images/cards_small/85692042.jpg|0.471|1.0
-Link Spider|98978921|https://images.ygoprodeck.com/images/cards_small/98978921.jpg|0.471|1.0
-G Golem Crystal Heart|61668670|https://images.ygoprodeck.com/images/cards_small/61668670.jpg|0.412|1.0
-Security Dragon|99111753|https://images.ygoprodeck.com/images/cards_small/99111753.jpg|0.412|1.0
-Primathmech Laplacian|88021907|https://images.ygoprodeck.com/images/cards_small/88021907.jpg|0.235|1.0
-Linguriboh|24842059|https://images.ygoprodeck.com/images/cards_small/24842059.jpg|0.235|1.0
-Firewall Dragon|5043010|https://images.ygoprodeck.com/images/cards_small/5043010.jpg|0.176|1.0
-Cyberse Desavewurm|92422871|https://images.ygoprodeck.com/images/cards_small/92422871.jpg|0.176|1.0
-Firewall Dragon Darkfluid - Neo Tempest Terahertz|64211118|https://images.ygoprodeck.com/images/cards_small/64211118.jpg|0.118|1.0
-Fire Phoenix @Ignister|24882256|https://images.ygoprodeck.com/images/cards_small/24882256.jpg|0.118|1.0
-Firewall Dragon Singularity|21637210|https://images.ygoprodeck.com/images/cards_small/21637210.jpg|0.118|1.0
-Firewall Dragon Darkfluid|68934651|https://images.ygoprodeck.com/images/cards_small/68934651.jpg|0.118|1.0
-Topologic Bomber Dragon|5821478|https://images.ygoprodeck.com/images/cards_small/5821478.jpg|0.059|1.0
-Cyberse Witch|11674673|https://images.ygoprodeck.com/images/cards_small/11674673.jpg|0.059|1.0
-Link Decoder|30342076|https://images.ygoprodeck.com/images/cards_small/30342076.jpg|0.059|1.0
-Mekk-Knight Crusadia Avramax|21887175|https://images.ygoprodeck.com/images/cards_small/21887175.jpg|0.059|1.0
-Number 41: Bagooska the Terribly Tired Tapir|90590304|https://images.ygoprodeck.com/images/cards_small/90590304.jpg|0.059|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/74567889.jpg|Dark Infant @Ignister|1.0|1.941
+https://images.ygoprodeck.com/images/cards/59859086.jpg|Splash Mage|1.0|1.529
+https://images.ygoprodeck.com/images/cards/86066372.jpg|Accesscode Talker|1.0|1.176
+https://images.ygoprodeck.com/images/cards/46947713.jpg|Transcode Talker|1.0|1.0
+https://images.ygoprodeck.com/images/cards/52698008.jpg|Cyberse Wicckid|1.0|1.0
+https://images.ygoprodeck.com/images/cards/98506199.jpg|Wind Pegasus @Ignister|0.941|1.0
+https://images.ygoprodeck.com/images/cards/61245672.jpg|Decode Talker Heatsoul|0.941|1.0
+https://images.ygoprodeck.com/images/cards/97383507.jpg|Dark Templar @Ignister|0.882|1.0
+https://images.ygoprodeck.com/images/cards/11738489.jpg|The Arrival Cyberse @Ignister|0.824|1.0
+https://images.ygoprodeck.com/images/cards/88093706.jpg|Update Jammer|0.765|1.0
+https://images.ygoprodeck.com/images/cards/61399402.jpg|Light Dragon @Ignister|0.647|1.0
+https://images.ygoprodeck.com/images/cards/85692042.jpg|Primathmech Alembertian|0.471|1.0
+https://images.ygoprodeck.com/images/cards/98978921.jpg|Link Spider|0.471|1.0
+https://images.ygoprodeck.com/images/cards/61668670.jpg|G Golem Crystal Heart|0.412|1.0
+https://images.ygoprodeck.com/images/cards/99111753.jpg|Security Dragon|0.412|1.0
+https://images.ygoprodeck.com/images/cards/88021907.jpg|Primathmech Laplacian|0.235|1.0
+https://images.ygoprodeck.com/images/cards/24842059.jpg|Linguriboh|0.235|1.0
+https://images.ygoprodeck.com/images/cards/5043010.jpg|Firewall Dragon|0.176|1.0
+https://images.ygoprodeck.com/images/cards/92422871.jpg|Cyberse Desavewurm|0.176|1.0
+https://images.ygoprodeck.com/images/cards/64211118.jpg|Firewall Dragon Darkfluid - Neo Tempest Terahertz|0.118|1.0
+https://images.ygoprodeck.com/images/cards/24882256.jpg|Fire Phoenix @Ignister|0.118|1.0
+https://images.ygoprodeck.com/images/cards/21637210.jpg|Firewall Dragon Singularity|0.118|1.0
+https://images.ygoprodeck.com/images/cards/68934651.jpg|Firewall Dragon Darkfluid|0.118|1.0
+https://images.ygoprodeck.com/images/cards/5821478.jpg|Topologic Bomber Dragon|0.059|1.0
+https://images.ygoprodeck.com/images/cards/11674673.jpg|Cyberse Witch|0.059|1.0
+https://images.ygoprodeck.com/images/cards/30342076.jpg|Link Decoder|0.059|1.0
+https://images.ygoprodeck.com/images/cards/21887175.jpg|Mekk-Knight Crusadia Avramax|0.059|1.0
+https://images.ygoprodeck.com/images/cards/90590304.jpg|Number 41: Bagooska the Terribly Tired Tapir|0.059|1.0

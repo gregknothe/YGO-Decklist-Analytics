@@ -1,35 +1,35 @@
-name|code|imgSource|deckPerc|avgCount
-"Maxx ""C"""|23434538|https://images.ygoprodeck.com/images/cards_small/23434538.jpg|1.0|3.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|1.0|3.0
-Aleister the Invoker|86120751|https://images.ygoprodeck.com/images/cards_small/86120751.jpg|1.0|3.0
-Magical Meltdown|47679935|https://images.ygoprodeck.com/images/cards_small/47679935.jpg|1.0|3.0
-Nadir Servant|1984618|https://images.ygoprodeck.com/images/cards_small/1984618.jpg|1.0|3.0
-WANTED: Seeker of Sinful Spoils|80845034|https://images.ygoprodeck.com/images/cards_small/80845034.jpg|1.0|3.0
-Dogmatika Ecclesia, the Virtuous|60303688|https://images.ygoprodeck.com/images/cards_small/60303688.jpg|1.0|2.571
-Diabellstar the Black Witch|72270339|https://images.ygoprodeck.com/images/cards_small/72270339.jpg|1.0|2.143
-Invocation|74063034|https://images.ygoprodeck.com/images/cards_small/74063034.jpg|1.0|2.0
-Dogmatika Fleurdelis, the Knighted|69680031|https://images.ygoprodeck.com/images/cards_small/69680031.jpg|1.0|1.714
-Terraforming|73628505|https://images.ygoprodeck.com/images/cards_small/73628505.jpg|1.0|1.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.857|3.0
-Triple Tactics Talent|25311006|https://images.ygoprodeck.com/images/cards_small/25311006.jpg|0.857|1.667
-Dogmatika Punishment|82956214|https://images.ygoprodeck.com/images/cards_small/82956214.jpg|0.857|1.0
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.714|2.4
-Pot of Desires|35261759|https://images.ygoprodeck.com/images/cards_small/35261759.jpg|0.714|1.8
-Sinful Spoils of Doom - Rciela|16240772|https://images.ygoprodeck.com/images/cards_small/16240772.jpg|0.571|1.0
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.429|2.0
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.286|2.0
-Ghost Ogre & Snow Rabbit|59438930|https://images.ygoprodeck.com/images/cards_small/59438930.jpg|0.286|1.5
-Pot of Prosperity|84211599|https://images.ygoprodeck.com/images/cards_small/84211599.jpg|0.286|1.0
-Sinful Spoils of Betrayal - Silvera|38511382|https://images.ygoprodeck.com/images/cards_small/38511382.jpg|0.286|1.0
-Ghost Mourner & Moonlit Chill|52038441|https://images.ygoprodeck.com/images/cards_small/52038441.jpg|0.286|1.0
-Shaddoll Schism|21011044|https://images.ygoprodeck.com/images/cards_small/21011044.jpg|0.286|1.0
-Super Polymerization|48130397|https://images.ygoprodeck.com/images/cards_small/48130397.jpg|0.143|2.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.143|1.0
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.143|1.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.143|1.0
-Sinful Spoils of Subversion - Snake-Eye|24081957|https://images.ygoprodeck.com/images/cards_small/24081957.jpg|0.143|1.0
-Dogmatika Maximus|95679145|https://images.ygoprodeck.com/images/cards_small/95679145.jpg|0.143|1.0
-Chicken Game|67616300|https://images.ygoprodeck.com/images/cards_small/67616300.jpg|0.143|1.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.143|1.0
-Jet Synchron|9742784|https://images.ygoprodeck.com/images/cards_small/9742784.jpg|0.143|1.0
-Original Sinful Spoils - Snake-Eye|89023486|https://images.ygoprodeck.com/images/cards_small/89023486.jpg|0.143|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/23434538.jpg|"Maxx ""C"""|1.0|3.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|1.0|3.0
+https://images.ygoprodeck.com/images/cards/86120751.jpg|Aleister the Invoker|1.0|3.0
+https://images.ygoprodeck.com/images/cards/47679935.jpg|Magical Meltdown|1.0|3.0
+https://images.ygoprodeck.com/images/cards/1984618.jpg|Nadir Servant|1.0|3.0
+https://images.ygoprodeck.com/images/cards/80845034.jpg|WANTED: Seeker of Sinful Spoils|1.0|3.0
+https://images.ygoprodeck.com/images/cards/60303688.jpg|Dogmatika Ecclesia, the Virtuous|1.0|2.571
+https://images.ygoprodeck.com/images/cards/72270339.jpg|Diabellstar the Black Witch|1.0|2.143
+https://images.ygoprodeck.com/images/cards/74063034.jpg|Invocation|1.0|2.0
+https://images.ygoprodeck.com/images/cards/69680031.jpg|Dogmatika Fleurdelis, the Knighted|1.0|1.714
+https://images.ygoprodeck.com/images/cards/73628505.jpg|Terraforming|1.0|1.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.857|3.0
+https://images.ygoprodeck.com/images/cards/25311006.jpg|Triple Tactics Talent|0.857|1.667
+https://images.ygoprodeck.com/images/cards/82956214.jpg|Dogmatika Punishment|0.857|1.0
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.714|2.4
+https://images.ygoprodeck.com/images/cards/35261759.jpg|Pot of Desires|0.714|1.8
+https://images.ygoprodeck.com/images/cards/16240772.jpg|Sinful Spoils of Doom - Rciela|0.571|1.0
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.429|2.0
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.286|2.0
+https://images.ygoprodeck.com/images/cards/59438930.jpg|Ghost Ogre & Snow Rabbit|0.286|1.5
+https://images.ygoprodeck.com/images/cards/84211599.jpg|Pot of Prosperity|0.286|1.0
+https://images.ygoprodeck.com/images/cards/38511382.jpg|Sinful Spoils of Betrayal - Silvera|0.286|1.0
+https://images.ygoprodeck.com/images/cards/52038441.jpg|Ghost Mourner & Moonlit Chill|0.286|1.0
+https://images.ygoprodeck.com/images/cards/21011044.jpg|Shaddoll Schism|0.286|1.0
+https://images.ygoprodeck.com/images/cards/48130397.jpg|Super Polymerization|0.143|2.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.143|1.0
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.143|1.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.143|1.0
+https://images.ygoprodeck.com/images/cards/24081957.jpg|Sinful Spoils of Subversion - Snake-Eye|0.143|1.0
+https://images.ygoprodeck.com/images/cards/95679145.jpg|Dogmatika Maximus|0.143|1.0
+https://images.ygoprodeck.com/images/cards/67616300.jpg|Chicken Game|0.143|1.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.143|1.0
+https://images.ygoprodeck.com/images/cards/9742784.jpg|Jet Synchron|0.143|1.0
+https://images.ygoprodeck.com/images/cards/89023486.jpg|Original Sinful Spoils - Snake-Eye|0.143|1.0

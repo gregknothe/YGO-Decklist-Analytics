@@ -1,29 +1,29 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.833|2.8
-Mistaken Arrest|4227096|https://images.ygoprodeck.com/images/cards_small/4227096.jpg|0.667|2.5
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.667|1.5
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.667|1.5
-Mulcharmy Purulia|84192580|https://images.ygoprodeck.com/images/cards_small/84192580.jpg|0.5|2.333
-Bystial Druiswurm|6637331|https://images.ygoprodeck.com/images/cards_small/6637331.jpg|0.5|1.0
-Bystial Magnamhut|33854624|https://images.ygoprodeck.com/images/cards_small/33854624.jpg|0.5|1.0
-|42141493|https://images.ygoprodeck.com/images/cards_small/42141493.jpg|0.333|2.0
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.333|2.0
-Different Dimension Ground|31849106|https://images.ygoprodeck.com/images/cards_small/31849106.jpg|0.333|1.5
-Eradicator Epidemic Virus|54974237|https://images.ygoprodeck.com/images/cards_small/54974237.jpg|0.333|1.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.167|3.0
-Anti-Spell Fragrance|58921041|https://images.ygoprodeck.com/images/cards_small/58921041.jpg|0.167|3.0
-Radian, the Multidimensional Kaiju|28674152|https://images.ygoprodeck.com/images/cards_small/28674152.jpg|0.167|3.0
-Solemn Judgment|41420027|https://images.ygoprodeck.com/images/cards_small/41420027.jpg|0.167|3.0
-Lord of the Heavenly Prison|9822220|https://images.ygoprodeck.com/images/cards_small/9822220.jpg|0.167|2.0
-Ash Blossom & Joyous Spring|14558127|https://images.ygoprodeck.com/images/cards_small/14558127.jpg|0.167|2.0
-Lava Golem|102380|https://images.ygoprodeck.com/images/cards_small/102380.jpg|0.167|2.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.167|1.0
-Bystial Baldrake|72656408|https://images.ygoprodeck.com/images/cards_small/72656408.jpg|0.167|1.0
-Kuriphoton|35112613|https://images.ygoprodeck.com/images/cards_small/35112613.jpg|0.167|1.0
-Magic Deflector|96474800|https://images.ygoprodeck.com/images/cards_small/96474800.jpg|0.167|1.0
-Simul Archfiends|94423983|https://images.ygoprodeck.com/images/cards_small/94423983.jpg|0.167|1.0
-Ghost Belle & Haunted Mansion|73642296|https://images.ygoprodeck.com/images/cards_small/73642296.jpg|0.167|1.0
-Ariane the Labrynth Servant|75730490|https://images.ygoprodeck.com/images/cards_small/75730490.jpg|0.167|1.0
-Appointer of the Red Lotus|43262273|https://images.ygoprodeck.com/images/cards_small/43262273.jpg|0.167|1.0
-Barrier Statue of the Abyss|84478195|https://images.ygoprodeck.com/images/cards_small/84478195.jpg|0.167|1.0
-Starlight Road|58120309|https://images.ygoprodeck.com/images/cards_small/58120309.jpg|0.167|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.833|2.8
+https://images.ygoprodeck.com/images/cards/4227096.jpg|Mistaken Arrest|0.667|2.5
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.667|1.5
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.667|1.5
+https://images.ygoprodeck.com/images/cards/84192580.jpg|Mulcharmy Purulia|0.5|2.333
+https://images.ygoprodeck.com/images/cards/6637331.jpg|Bystial Druiswurm|0.5|1.0
+https://images.ygoprodeck.com/images/cards/33854624.jpg|Bystial Magnamhut|0.5|1.0
+https://images.ygoprodeck.com/images/cards/42141493.jpg||0.333|2.0
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.333|2.0
+https://images.ygoprodeck.com/images/cards/31849106.jpg|Different Dimension Ground|0.333|1.5
+https://images.ygoprodeck.com/images/cards/54974237.jpg|Eradicator Epidemic Virus|0.333|1.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.167|3.0
+https://images.ygoprodeck.com/images/cards/58921041.jpg|Anti-Spell Fragrance|0.167|3.0
+https://images.ygoprodeck.com/images/cards/28674152.jpg|Radian, the Multidimensional Kaiju|0.167|3.0
+https://images.ygoprodeck.com/images/cards/41420027.jpg|Solemn Judgment|0.167|3.0
+https://images.ygoprodeck.com/images/cards/9822220.jpg|Lord of the Heavenly Prison|0.167|2.0
+https://images.ygoprodeck.com/images/cards/14558127.jpg|Ash Blossom & Joyous Spring|0.167|2.0
+https://images.ygoprodeck.com/images/cards/102380.jpg|Lava Golem|0.167|2.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.167|1.0
+https://images.ygoprodeck.com/images/cards/72656408.jpg|Bystial Baldrake|0.167|1.0
+https://images.ygoprodeck.com/images/cards/35112613.jpg|Kuriphoton|0.167|1.0
+https://images.ygoprodeck.com/images/cards/96474800.jpg|Magic Deflector|0.167|1.0
+https://images.ygoprodeck.com/images/cards/94423983.jpg|Simul Archfiends|0.167|1.0
+https://images.ygoprodeck.com/images/cards/73642296.jpg|Ghost Belle & Haunted Mansion|0.167|1.0
+https://images.ygoprodeck.com/images/cards/75730490.jpg|Ariane the Labrynth Servant|0.167|1.0
+https://images.ygoprodeck.com/images/cards/43262273.jpg|Appointer of the Red Lotus|0.167|1.0
+https://images.ygoprodeck.com/images/cards/84478195.jpg|Barrier Statue of the Abyss|0.167|1.0
+https://images.ygoprodeck.com/images/cards/58120309.jpg|Starlight Road|0.167|1.0

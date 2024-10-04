@@ -1,13 +1,13 @@
-name|code|imgSource|deckPerc|avgCount
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|1.0|3.0
-Knightmare Corruptor Iblee|10158145|https://images.ygoprodeck.com/images/cards_small/10158145.jpg|0.5|3.0
-Ghost Sister & Spooky Dogwood|60643553|https://images.ygoprodeck.com/images/cards_small/60643553.jpg|0.5|3.0
-Twin Twisters|43898403|https://images.ygoprodeck.com/images/cards_small/43898403.jpg|0.5|3.0
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.5|3.0
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.5|3.0
-There Can Be Only One|24207889|https://images.ygoprodeck.com/images/cards_small/24207889.jpg|0.5|3.0
-Different Dimension Ground|31849106|https://images.ygoprodeck.com/images/cards_small/31849106.jpg|0.5|2.0
-World Legacy Whispers|62530723|https://images.ygoprodeck.com/images/cards_small/62530723.jpg|0.5|1.0
-World Legacy Key|2930675|https://images.ygoprodeck.com/images/cards_small/2930675.jpg|0.5|1.0
-Dinowrestler Pankratops|82385847|https://images.ygoprodeck.com/images/cards_small/82385847.jpg|0.5|1.0
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.5|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|1.0|3.0
+https://images.ygoprodeck.com/images/cards/10158145.jpg|Knightmare Corruptor Iblee|0.5|3.0
+https://images.ygoprodeck.com/images/cards/60643553.jpg|Ghost Sister & Spooky Dogwood|0.5|3.0
+https://images.ygoprodeck.com/images/cards/43898403.jpg|Twin Twisters|0.5|3.0
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.5|3.0
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.5|3.0
+https://images.ygoprodeck.com/images/cards/24207889.jpg|There Can Be Only One|0.5|3.0
+https://images.ygoprodeck.com/images/cards/31849106.jpg|Different Dimension Ground|0.5|2.0
+https://images.ygoprodeck.com/images/cards/62530723.jpg|World Legacy Whispers|0.5|1.0
+https://images.ygoprodeck.com/images/cards/2930675.jpg|World Legacy Key|0.5|1.0
+https://images.ygoprodeck.com/images/cards/82385847.jpg|Dinowrestler Pankratops|0.5|1.0
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.5|1.0

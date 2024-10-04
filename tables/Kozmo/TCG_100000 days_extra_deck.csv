@@ -1,14 +1,14 @@
-name|code|imgSource|deckPerc|avgCount
-Topologic Zeroboros|66403530|https://images.ygoprodeck.com/images/cards_small/66403530.jpg|1.0|2.0
-Pentestag|72336818|https://images.ygoprodeck.com/images/cards_small/72336818.jpg|1.0|2.0
-Gagaga Cowboy|12014404|https://images.ygoprodeck.com/images/cards_small/12014404.jpg|1.0|1.0
-Knightmare Phoenix|2857636|https://images.ygoprodeck.com/images/cards_small/2857636.jpg|1.0|1.0
-Dharc the Dark Charmer, Gloomy|8264361|https://images.ygoprodeck.com/images/cards_small/8264361.jpg|1.0|1.0
-Elder Entity N'tss|80532587|https://images.ygoprodeck.com/images/cards_small/80532587.jpg|1.0|1.0
-Dingirsu, the Orcust of the Evening Star|93854893|https://images.ygoprodeck.com/images/cards_small/93854893.jpg|1.0|1.0
-Egyptian God Slime|42166000|https://images.ygoprodeck.com/images/cards_small/42166000.jpg|1.0|1.0
-Knightmare Unicorn|38342335|https://images.ygoprodeck.com/images/cards_small/38342335.jpg|1.0|1.0
-Baronne de Fleur|84815190|https://images.ygoprodeck.com/images/cards_small/84815190.jpg|1.0|1.0
-Knightmare Cerberus|75452921|https://images.ygoprodeck.com/images/cards_small/75452921.jpg|1.0|1.0
-Gaia Saber, the Lightning Shadow|67598234|https://images.ygoprodeck.com/images/cards_small/67598234.jpg|1.0|1.0
-Tornado Dragon|6983839|https://images.ygoprodeck.com/images/cards_small/6983839.jpg|1.0|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/66403530.jpg|Topologic Zeroboros|1.0|2.0
+https://images.ygoprodeck.com/images/cards/72336818.jpg|Pentestag|1.0|2.0
+https://images.ygoprodeck.com/images/cards/12014404.jpg|Gagaga Cowboy|1.0|1.0
+https://images.ygoprodeck.com/images/cards/2857636.jpg|Knightmare Phoenix|1.0|1.0
+https://images.ygoprodeck.com/images/cards/8264361.jpg|Dharc the Dark Charmer, Gloomy|1.0|1.0
+https://images.ygoprodeck.com/images/cards/80532587.jpg|Elder Entity N'tss|1.0|1.0
+https://images.ygoprodeck.com/images/cards/93854893.jpg|Dingirsu, the Orcust of the Evening Star|1.0|1.0
+https://images.ygoprodeck.com/images/cards/42166000.jpg|Egyptian God Slime|1.0|1.0
+https://images.ygoprodeck.com/images/cards/38342335.jpg|Knightmare Unicorn|1.0|1.0
+https://images.ygoprodeck.com/images/cards/84815190.jpg|Baronne de Fleur|1.0|1.0
+https://images.ygoprodeck.com/images/cards/75452921.jpg|Knightmare Cerberus|1.0|1.0
+https://images.ygoprodeck.com/images/cards/67598234.jpg|Gaia Saber, the Lightning Shadow|1.0|1.0
+https://images.ygoprodeck.com/images/cards/6983839.jpg|Tornado Dragon|1.0|1.0

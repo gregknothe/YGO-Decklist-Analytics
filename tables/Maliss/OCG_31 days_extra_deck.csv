@@ -1,31 +1,31 @@
-name|code|imgSource|deckPerc|avgCount
-Splash Mage|59859086|https://images.ygoprodeck.com/images/cards_small/59859086.jpg|1.0|1.154
-|95454996|https://images.ygoprodeck.com/images/cards_small/95454996.jpg|1.0|1.0
-|21848500|https://images.ygoprodeck.com/images/cards_small/21848500.jpg|1.0|1.0
-Firewall Dragon|5043010|https://images.ygoprodeck.com/images/cards_small/5043010.jpg|1.0|1.0
-|68059897|https://images.ygoprodeck.com/images/cards_small/68059897.jpg|1.0|1.0
-Firewall Dragon Darkfluid - Neo Tempest Terahertz|64211118|https://images.ygoprodeck.com/images/cards_small/64211118.jpg|0.923|1.0
-Accesscode Talker|86066372|https://images.ygoprodeck.com/images/cards_small/86066372.jpg|0.923|1.0
-S:P Little Knight|29301450|https://images.ygoprodeck.com/images/cards_small/29301450.jpg|0.923|1.0
-Linguriboh|24842059|https://images.ygoprodeck.com/images/cards_small/24842059.jpg|0.923|1.0
-Cyberse Desavewurm|92422871|https://images.ygoprodeck.com/images/cards_small/92422871.jpg|0.923|1.0
-Mereologic Aggregator|9940036|https://images.ygoprodeck.com/images/cards_small/9940036.jpg|0.846|1.0
-Apollousa, Bow of the Goddess|4280258|https://images.ygoprodeck.com/images/cards_small/4280258.jpg|0.692|1.0
-Link Decoder|30342076|https://images.ygoprodeck.com/images/cards_small/30342076.jpg|0.615|1.0
-I:P Masquerena|65741786|https://images.ygoprodeck.com/images/cards_small/65741786.jpg|0.615|1.0
-Haggard Lizardose|9763474|https://images.ygoprodeck.com/images/cards_small/9763474.jpg|0.538|1.0
-Transcode Talker|46947713|https://images.ygoprodeck.com/images/cards_small/46947713.jpg|0.385|1.0
-Code Talker|53413628|https://images.ygoprodeck.com/images/cards_small/53413628.jpg|0.385|1.0
-Decode Talker Heatsoul|61245672|https://images.ygoprodeck.com/images/cards_small/61245672.jpg|0.231|1.0
-Protectcode Talker|58036229|https://images.ygoprodeck.com/images/cards_small/58036229.jpg|0.077|1.0
-Goblin Biker Big Gabonga|34001672|https://images.ygoprodeck.com/images/cards_small/34001672.jpg|0.077|1.0
-Salamangreat Almiraj|60303245|https://images.ygoprodeck.com/images/cards_small/60303245.jpg|0.077|1.0
-Cyberse Wicckid|52698008|https://images.ygoprodeck.com/images/cards_small/52698008.jpg|0.077|1.0
-Fiendsmith's Lacrima|46640168|https://images.ygoprodeck.com/images/cards_small/46640168.jpg|0.077|1.0
-Fiendsmith's Requiem|2463794|https://images.ygoprodeck.com/images/cards_small/2463794.jpg|0.077|1.0
-Moon of the Closed Heaven|71818935|https://images.ygoprodeck.com/images/cards_small/71818935.jpg|0.077|1.0
-G Golem Crystal Heart|61668670|https://images.ygoprodeck.com/images/cards_small/61668670.jpg|0.077|1.0
-Cherubini, Ebon Angel of the Burning Abyss|58699500|https://images.ygoprodeck.com/images/cards_small/58699500.jpg|0.077|1.0
-Goblin's Crazy Beast|71100270|https://images.ygoprodeck.com/images/cards_small/71100270.jpg|0.077|1.0
-Enigmaster Packbit|72444406|https://images.ygoprodeck.com/images/cards_small/72444406.jpg|0.077|1.0
-Fiendsmith's Sequence|49867899|https://images.ygoprodeck.com/images/cards_small/49867899.jpg|0.077|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/59859086.jpg|Splash Mage|1.0|1.154
+https://images.ygoprodeck.com/images/cards/95454996.jpg||1.0|1.0
+https://images.ygoprodeck.com/images/cards/21848500.jpg||1.0|1.0
+https://images.ygoprodeck.com/images/cards/5043010.jpg|Firewall Dragon|1.0|1.0
+https://images.ygoprodeck.com/images/cards/68059897.jpg||1.0|1.0
+https://images.ygoprodeck.com/images/cards/64211118.jpg|Firewall Dragon Darkfluid - Neo Tempest Terahertz|0.923|1.0
+https://images.ygoprodeck.com/images/cards/86066372.jpg|Accesscode Talker|0.923|1.0
+https://images.ygoprodeck.com/images/cards/29301450.jpg|S:P Little Knight|0.923|1.0
+https://images.ygoprodeck.com/images/cards/24842059.jpg|Linguriboh|0.923|1.0
+https://images.ygoprodeck.com/images/cards/92422871.jpg|Cyberse Desavewurm|0.923|1.0
+https://images.ygoprodeck.com/images/cards/9940036.jpg|Mereologic Aggregator|0.846|1.0
+https://images.ygoprodeck.com/images/cards/4280258.jpg|Apollousa, Bow of the Goddess|0.692|1.0
+https://images.ygoprodeck.com/images/cards/30342076.jpg|Link Decoder|0.615|1.0
+https://images.ygoprodeck.com/images/cards/65741786.jpg|I:P Masquerena|0.615|1.0
+https://images.ygoprodeck.com/images/cards/9763474.jpg|Haggard Lizardose|0.538|1.0
+https://images.ygoprodeck.com/images/cards/46947713.jpg|Transcode Talker|0.385|1.0
+https://images.ygoprodeck.com/images/cards/53413628.jpg|Code Talker|0.385|1.0
+https://images.ygoprodeck.com/images/cards/61245672.jpg|Decode Talker Heatsoul|0.231|1.0
+https://images.ygoprodeck.com/images/cards/58036229.jpg|Protectcode Talker|0.077|1.0
+https://images.ygoprodeck.com/images/cards/34001672.jpg|Goblin Biker Big Gabonga|0.077|1.0
+https://images.ygoprodeck.com/images/cards/60303245.jpg|Salamangreat Almiraj|0.077|1.0
+https://images.ygoprodeck.com/images/cards/52698008.jpg|Cyberse Wicckid|0.077|1.0
+https://images.ygoprodeck.com/images/cards/46640168.jpg|Fiendsmith's Lacrima|0.077|1.0
+https://images.ygoprodeck.com/images/cards/2463794.jpg|Fiendsmith's Requiem|0.077|1.0
+https://images.ygoprodeck.com/images/cards/71818935.jpg|Moon of the Closed Heaven|0.077|1.0
+https://images.ygoprodeck.com/images/cards/61668670.jpg|G Golem Crystal Heart|0.077|1.0
+https://images.ygoprodeck.com/images/cards/58699500.jpg|Cherubini, Ebon Angel of the Burning Abyss|0.077|1.0
+https://images.ygoprodeck.com/images/cards/71100270.jpg|Goblin's Crazy Beast|0.077|1.0
+https://images.ygoprodeck.com/images/cards/72444406.jpg|Enigmaster Packbit|0.077|1.0
+https://images.ygoprodeck.com/images/cards/49867899.jpg|Fiendsmith's Sequence|0.077|1.0

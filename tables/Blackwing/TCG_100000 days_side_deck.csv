@@ -1,32 +1,32 @@
-name|code|imgSource|deckPerc|avgCount
-Evenly Matched|15693423|https://images.ygoprodeck.com/images/cards_small/15693423.jpg|0.8|2.625
-Lightning Storm|14532163|https://images.ygoprodeck.com/images/cards_small/14532163.jpg|0.8|1.75
-Harpie's Feather Duster|18144507|https://images.ygoprodeck.com/images/cards_small/18144507.jpg|0.8|1.0
-Dark Ruler No More|54693926|https://images.ygoprodeck.com/images/cards_small/54693926.jpg|0.6|2.5
-Nibiru, the Primal Being|27204311|https://images.ygoprodeck.com/images/cards_small/27204311.jpg|0.6|2.333
-Droll & Lock Bird|94145021|https://images.ygoprodeck.com/images/cards_small/94145021.jpg|0.4|2.0
-Crossout Designator|65681983|https://images.ygoprodeck.com/images/cards_small/65681983.jpg|0.3|2.667
-Dimension Shifter|91800273|https://images.ygoprodeck.com/images/cards_small/91800273.jpg|0.2|3.0
-Book of Eclipse|35480699|https://images.ygoprodeck.com/images/cards_small/35480699.jpg|0.2|2.5
-Effect Veiler|97268402|https://images.ygoprodeck.com/images/cards_small/97268402.jpg|0.2|2.0
-Ghost Sister & Spooky Dogwood|60643553|https://images.ygoprodeck.com/images/cards_small/60643553.jpg|0.2|2.0
-Herald of the Abyss|94016752|https://images.ygoprodeck.com/images/cards_small/94016752.jpg|0.2|2.0
-Ghost Ogre & Snow Rabbit|59438930|https://images.ygoprodeck.com/images/cards_small/59438930.jpg|0.2|1.5
-Dimensional Barrier|83326048|https://images.ygoprodeck.com/images/cards_small/83326048.jpg|0.2|1.5
-Called by the Grave|24224830|https://images.ygoprodeck.com/images/cards_small/24224830.jpg|0.2|1.0
-Cosmic Cyclone|8267140|https://images.ygoprodeck.com/images/cards_small/8267140.jpg|0.1|3.0
-Infinite Impermanence|10045474|https://images.ygoprodeck.com/images/cards_small/10045474.jpg|0.1|3.0
-Artifact Lancea|34267821|https://images.ygoprodeck.com/images/cards_small/34267821.jpg|0.1|3.0
-Ash Blossom & Joyous Spring|14558128|https://images.ygoprodeck.com/images/cards_small/14558128.jpg|0.1|3.0
-Deck Lockdown|1149109|https://images.ygoprodeck.com/images/cards_small/1149109.jpg|0.1|3.0
-Forbidden Droplet|24299458|https://images.ygoprodeck.com/images/cards_small/24299458.jpg|0.1|3.0
-Triple Tactics Thrust|35269904|https://images.ygoprodeck.com/images/cards_small/35269904.jpg|0.1|2.0
-D.D. Crow|24508238|https://images.ygoprodeck.com/images/cards_small/24508238.jpg|0.1|2.0
-Chaos Hunter|97940434|https://images.ygoprodeck.com/images/cards_small/97940434.jpg|0.1|2.0
-Eradicator Epidemic Virus|54974237|https://images.ygoprodeck.com/images/cards_small/54974237.jpg|0.1|1.0
-Branded Regained|34090915|https://images.ygoprodeck.com/images/cards_small/34090915.jpg|0.1|1.0
-Soul Release|5758500|https://images.ygoprodeck.com/images/cards_small/5758500.jpg|0.1|1.0
-Deck Devastation Virus|35027493|https://images.ygoprodeck.com/images/cards_small/35027493.jpg|0.1|1.0
-Blackwing - Twin Shadow|69973414|https://images.ygoprodeck.com/images/cards_small/69973414.jpg|0.1|1.0
-Change of Heart|4031928|https://images.ygoprodeck.com/images/cards_small/4031928.jpg|0.1|1.0
-Radian, the Multidimensional Kaiju|28674152|https://images.ygoprodeck.com/images/cards_small/28674152.jpg|0.1|1.0
+imgSource|name|% of decks|count
+https://images.ygoprodeck.com/images/cards/15693423.jpg|Evenly Matched|0.8|2.625
+https://images.ygoprodeck.com/images/cards/14532163.jpg|Lightning Storm|0.8|1.75
+https://images.ygoprodeck.com/images/cards/18144507.jpg|Harpie's Feather Duster|0.8|1.0
+https://images.ygoprodeck.com/images/cards/54693926.jpg|Dark Ruler No More|0.6|2.5
+https://images.ygoprodeck.com/images/cards/27204311.jpg|Nibiru, the Primal Being|0.6|2.333
+https://images.ygoprodeck.com/images/cards/94145021.jpg|Droll & Lock Bird|0.4|2.0
+https://images.ygoprodeck.com/images/cards/65681983.jpg|Crossout Designator|0.3|2.667
+https://images.ygoprodeck.com/images/cards/91800273.jpg|Dimension Shifter|0.2|3.0
+https://images.ygoprodeck.com/images/cards/35480699.jpg|Book of Eclipse|0.2|2.5
+https://images.ygoprodeck.com/images/cards/97268402.jpg|Effect Veiler|0.2|2.0
+https://images.ygoprodeck.com/images/cards/60643553.jpg|Ghost Sister & Spooky Dogwood|0.2|2.0
+https://images.ygoprodeck.com/images/cards/94016752.jpg|Herald of the Abyss|0.2|2.0
+https://images.ygoprodeck.com/images/cards/59438930.jpg|Ghost Ogre & Snow Rabbit|0.2|1.5
+https://images.ygoprodeck.com/images/cards/83326048.jpg|Dimensional Barrier|0.2|1.5
+https://images.ygoprodeck.com/images/cards/24224830.jpg|Called by the Grave|0.2|1.0
+https://images.ygoprodeck.com/images/cards/8267140.jpg|Cosmic Cyclone|0.1|3.0
+https://images.ygoprodeck.com/images/cards/10045474.jpg|Infinite Impermanence|0.1|3.0
+https://images.ygoprodeck.com/images/cards/34267821.jpg|Artifact Lancea|0.1|3.0
+https://images.ygoprodeck.com/images/cards/14558128.jpg|Ash Blossom & Joyous Spring|0.1|3.0
+https://images.ygoprodeck.com/images/cards/1149109.jpg|Deck Lockdown|0.1|3.0
+https://images.ygoprodeck.com/images/cards/24299458.jpg|Forbidden Droplet|0.1|3.0
+https://images.ygoprodeck.com/images/cards/35269904.jpg|Triple Tactics Thrust|0.1|2.0
+https://images.ygoprodeck.com/images/cards/24508238.jpg|D.D. Crow|0.1|2.0
+https://images.ygoprodeck.com/images/cards/97940434.jpg|Chaos Hunter|0.1|2.0
+https://images.ygoprodeck.com/images/cards/54974237.jpg|Eradicator Epidemic Virus|0.1|1.0
+https://images.ygoprodeck.com/images/cards/34090915.jpg|Branded Regained|0.1|1.0
+https://images.ygoprodeck.com/images/cards/5758500.jpg|Soul Release|0.1|1.0
+https://images.ygoprodeck.com/images/cards/35027493.jpg|Deck Devastation Virus|0.1|1.0
+https://images.ygoprodeck.com/images/cards/69973414.jpg|Blackwing - Twin Shadow|0.1|1.0
+https://images.ygoprodeck.com/images/cards/4031928.jpg|Change of Heart|0.1|1.0
+https://images.ygoprodeck.com/images/cards/28674152.jpg|Radian, the Multidimensional Kaiju|0.1|1.0
