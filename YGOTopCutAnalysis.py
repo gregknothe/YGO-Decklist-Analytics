@@ -229,6 +229,9 @@ def createArchetypeTables():
             os.makedirs("tables/"+archetype, exist_ok=True)
             archetypeTable['count'] = pd.Series([f"{count:.2f}" for count in archetypeTable['count']], index = archetypeTable.index)
             archetypeTable["% of decks"] = pd.Series(["{0:.2f}%".format(perc * 100) for perc in archetypeTable["% of decks"]], index = archetypeTable.index)
+            if archetypeTable.empty:
+                emptyRow = ["https://images.ygoprodeck.com/images/cards/71625222.jpg", "No available data for " + archetype + " in selected time frame.", 0, 0]
+                archetypeTable = pd.concat([archetypeTable,pd.DataFrame(columns=archetypeTable.columns, data=[emptyRow])])
             archetypeTable.to_csv("tables/" + archetype + "/" + dateRange + ".csv", sep="|", index=False)
     return
 
@@ -236,7 +239,7 @@ def createArchetypeTables():
 #createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
 #deckPartitioner() #6:10
-#createArchetypeTables() # 44
+createArchetypeTables() # 44
 
 
 #Code corretion thing isnt working (test on ash and i:p)

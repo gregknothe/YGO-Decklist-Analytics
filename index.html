@@ -36,9 +36,7 @@
             <a class="labels">Archetype:</a>
             
             <select id="archetype">
-                <option value="Melodious">Melodious</option>
-                <option value="SnakeEye">Snake-eyes</option>
-                <option value="Branded">Branded</option>
+
             </select>
 
             <a class="labels">Format:</a>
@@ -77,6 +75,9 @@
 
         <h3>
             How to use: select parameters, press the "search" button.
+        </h3>
+        <h3>
+            If there is no data showing, then no decks have topped with the selected main archetype in the time frame.
         </h3>
         <h3>
             Data will be updated weekly (probably on Fridays).
@@ -135,6 +136,46 @@ function createTable(data) {
     return table;
 }
 
+/*-----------------test area------------------------*/
+async function fetchCSV2(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    const text = await response.text();
+    return text;
+}
+
+function parseCSV2(text) {
+    // Split the text by new lines and return the array
+    return text.split('\n').filter(line => line.trim() !== '');
+}
+
+function populateDropdown(data) {
+    const dropdown = document.getElementById('archetype');
+
+    data.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        option.textContent = item;
+        dropdown.appendChild(option);
+    });
+}
+
+async function initializeDropdown() {
+    const csvUrl = 'https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/archetype.csv'; // Replace with the actual URL
+    try {
+        const csvText = await fetchCSV2(csvUrl);
+        const parsedData = parseCSV2(csvText);
+        populateDropdown(parsedData);
+    } catch (error) {
+        console.error('Error fetching or parsing CSV:', error);
+    }
+}
+
+initializeDropdown();
+/*-------------------------------------------------*/
+
 async function displayCSV(url) {
     const csvText = await fetchCSV(url);
     if (csvText) {
@@ -150,10 +191,10 @@ function removeTable(){
 }
 
 //Adds listeners to all of the dropdown menus to update the table when search button is pressed.
-var archetypeText = "Melodious";
+var archetypeText = "ABC";
 var formatText = "TCG";
 var deckText = "main";
-var timeFrameText = "93";
+var timeFrameText = "31";
 
 var csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 
