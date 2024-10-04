@@ -70,3 +70,11 @@ tr:nth-child(even) {
     vertical-align: middle;
 }
 
+.cardImage {
+    width: 80;
+}
+
+.cardImage:hover,
+.cardImage:focus{
+    transform: scale(3);
+}

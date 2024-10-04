@@ -36,9 +36,9 @@
             <a class="labels">Archetype:</a>
             
             <select id="archetype">
-                <option value="melodious">Melodious</option>
-                <option value="snakeyes">Snake-eyes</option>
-                <option value="branded">Branded</option>
+                <option value="Melodious">Melodious</option>
+                <option value="SnakeEye">Snake-eyes</option>
+                <option value="Branded">Branded</option>
             </select>
 
             <a class="labels">Format:</a>
@@ -109,8 +109,15 @@ function createTable(data) {
         
         row.forEach(cell => {
             const td = document.createElement(index === 0 ? 'th' : 'td');
-            td.textContent = cell;
-            tr.appendChild(td);
+            if (cell.includes("https:")) {
+                cell = '<img src="' + cell + '" class="cardImage">';
+                td.innerHTML = cell;
+                tr.appendChild(td);
+            }
+            else {
+                td.textContent = cell;
+                tr.appendChild(td);
+            }
         });
         
         table.appendChild(tr);
@@ -118,6 +125,26 @@ function createTable(data) {
 
     return table;
 }
+
+//
+//function createTable(data) {
+//    const table = document.createElement('table');
+//    
+//    data.forEach((row, index) => {
+//       const tr = document.createElement('tr');
+//        
+//        row.forEach(cell => {
+//            const td = document.createElement(index === 0 ? 'th' : 'td');
+//           td.textContent = cell;
+//            tr.appendChild(td);
+//        });
+//        
+//        table.appendChild(tr);
+//    });
+//
+//    return table;
+//}
+//
 
 async function displayCSV(url) {
     const csvText = await fetchCSV(url);
@@ -139,7 +166,8 @@ var formatText = "TCG";
 var deckText = "main";
 var timeFrameText = "93";
 
-var csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+var csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
+
 
 var archetype = document.getElementById("archetype");
 var format = document.getElementById("format");
@@ -148,22 +176,22 @@ var timeFrame = document.getElementById("timeFrame");
 
 archetype.addEventListener("change", function(){
     archetypeText = archetype.value;
-    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+    csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 });
 
 format.addEventListener("change", function(){
     formatText = format.value;
-    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+    csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 });
 
 deck.addEventListener("change", function(){
     deckText = deck.value;
-    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+    csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 });
 
 timeFrame.addEventListener("change", function(){
     timeFrameText = timeFrame.value;
-    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+    csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 });
 
 async function runCode() {
