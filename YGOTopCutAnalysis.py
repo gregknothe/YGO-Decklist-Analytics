@@ -170,9 +170,10 @@ def deckPartitioner():
 
 def codeCorrector(df):
     nameList = list(set(df["name"].to_list()))
+    #print(nameList)
     for name in nameList:
         if name == "":
-            break
+            continue
         else:
             subDF = df[df["name"]==name].sort_values(by="code")
             minID = min(subDF["code"].to_list())
@@ -187,11 +188,15 @@ def codeCorrector(df):
 def deckAnalysis(df):
     df = df.fillna("")
     cardIDList = list(set(df["code"].to_list()))
-    cardNameList = list(set(df["name"].to_list()))
+    #cardNameList = list(set(df["name"].to_list()))
+    '''
     if len(cardIDList) != len(cardNameList):
         df = codeCorrector(df)
         cardIDList = list(set(df["code"].to_list()))
         #print(x[x["name"]=="Ash Blossom & Joyous Spring"])
+    '''
+    df = codeCorrector(df)
+    cardIDList = list(set(df["code"].to_list()))
     totalDeckCount = len(list(set(df["deckID"].to_list())))
     cardDeckCount, cardAvgCount, cardName, cardImgSource = [], [], [], []
     for cardID in cardIDList:
@@ -244,3 +249,7 @@ createArchetypeTables() # 44
 
 #Code corretion thing isnt working (test on ash and i:p)
 #figure out how to populate the archetype drop down list
+
+#x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
+#y = codeCorrector(x.fillna(""))
+#y.to_csv("testtesttest.csv", sep='|')
