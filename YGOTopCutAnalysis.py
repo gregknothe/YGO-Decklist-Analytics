@@ -244,11 +244,8 @@ def createArchetypeTables():
 #createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
 #deckPartitioner() #6:10
-createArchetypeTables() # 44
+#createArchetypeTables() # 44
 
-
-#Code corretion thing isnt working (test on ash and i:p)
-#figure out how to populate the archetype drop down list
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
 #y = codeCorrector(x.fillna(""))
