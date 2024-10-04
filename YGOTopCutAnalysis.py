@@ -160,7 +160,7 @@ def deckPartitioner():
         print(str(num) + " " + str(archetypeName))
         num += 1
         for formats in ["TCG", "OCG"]:
-            for timeFrame in [datetime.timedelta(days=31), datetime.timedelta(days=93), datetime.timedelta(days=365), datetime.timedelta(days=100000)]:
+            for timeFrame in [datetime.timedelta(days=31), datetime.timedelta(days=93), datetime.timedelta(days=186), datetime.timedelta(days=365), datetime.timedelta(days=100000)]:
                 for deckType in ["main_deck", "extra_deck", "side_deck"]:
                     os.makedirs("dataframes/"+archetypeName, exist_ok=True)
                     df = x[(x["tag1"]==archetype) & (x["format"]==formats) & (today - x["date"] <= timeFrame) & (x["deck"]==deckType)]
@@ -215,17 +215,17 @@ def deckAnalysis(df):
 #deckAnalysis(pd.read_csv("dataframes/SnakeEye/TCG_93 days_main_deck.csv", sep="|"))
 
 def createArchetypeTables():
-    print(os.getcwd())
     archetypes = os.listdir("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes")
+    archetypes = [x for x in archetypes if x != 'nan']
     with open('archetype.csv', 'w') as f:
         for archetype in archetypes:
             f.write(f"{archetype}\n")
-    dateRanges = ["OCG_31 days_main_deck", "OCG_93 days_main_deck", "OCG_100000 days_main_deck",
-                "OCG_31 days_extra_deck", "OCG_93 days_extra_deck", "OCG_100000 days_extra_deck",
-                "OCG_31 days_side_deck", "OCG_93 days_side_deck", "OCG_100000 days_side_deck",
-                "TCG_31 days_main_deck", "TCG_93 days_main_deck", "TCG_100000 days_main_deck",
-                "TCG_31 days_extra_deck", "TCG_93 days_extra_deck", "TCG_100000 days_extra_deck",
-                "TCG_31 days_side_deck", "TCG_93 days_side_deck", "TCG_100000 days_side_deck",]
+    dateRanges = ["OCG_31 days_main_deck", "OCG_93 days_main_deck", "OCG_186 days_main_deck", "OCG_365 days_main_deck", "OCG_100000 days_main_deck",
+                "OCG_31 days_extra_deck", "OCG_93 days_extra_deck", "OCG_186 days_extra_deck", "OCG_365 days_extra_deck", "OCG_100000 days_extra_deck",
+                "OCG_31 days_side_deck", "OCG_93 days_side_deck",  "OCG_186 days_side_deck", "OCG_365 days_side_deck", "OCG_100000 days_side_deck",
+                "TCG_31 days_main_deck", "TCG_93 days_main_deck", "TCG_186 days_main_deck", "TCG_365 days_main_deck", "TCG_100000 days_main_deck",
+                "TCG_31 days_extra_deck", "TCG_93 days_extra_deck", "TCG_186 days_extra_deck", "TCG_365 days_extra_deck", "TCG_100000 days_extra_deck",
+                "TCG_31 days_side_deck", "TCG_93 days_side_deck", "TCG_186 days_side_deck", "TCG_365 days_side_deck", "TCG_100000 days_side_deck",]
     for archetype in archetypes: 
         print(archetype)
         for dateRange in dateRanges:
@@ -243,10 +243,15 @@ def createArchetypeTables():
 #--------------------------Clean Set Up---------------------------------            446394
 #createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
-#deckPartitioner() #6:10
-#createArchetypeTables() # 44
+#deckPartitioner() #7:15
+#createArchetypeTables() 
 
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
 #y = codeCorrector(x.fillna(""))
 #y.to_csv("testtesttest.csv", sep='|')
+
+
+#add subtype tab
+#make it look better
+#add link to name 
