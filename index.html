@@ -135,26 +135,6 @@ function createTable(data) {
     return table;
 }
 
-//
-//function createTable(data) {
-//    const table = document.createElement('table');
-//    
-//    data.forEach((row, index) => {
-//       const tr = document.createElement('tr');
-//        
-//        row.forEach(cell => {
-//            const td = document.createElement(index === 0 ? 'th' : 'td');
-//           td.textContent = cell;
-//            tr.appendChild(td);
-//        });
-//        
-//        table.appendChild(tr);
-//    });
-//
-//    return table;
-//}
-//
-
 async function displayCSV(url) {
     const csvText = await fetchCSV(url);
     if (csvText) {

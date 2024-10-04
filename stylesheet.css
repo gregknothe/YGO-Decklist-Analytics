@@ -33,6 +33,8 @@ table {
     background-color: rgb(29, 29, 29);
     border-style: solid;
     border-collapse:collapse;
+    max-width:100%;
+    white-space:nowrap;
 
 }
 
@@ -87,5 +89,6 @@ tr:nth-child(even) {
 
 .cardImage:hover,
 .cardImage:focus{
-    transform: scale(3);
+    transform: scale(4.5);
+    float: right;
 }

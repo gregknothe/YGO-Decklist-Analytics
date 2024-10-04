@@ -38,6 +38,7 @@ z = y["deckID"].to_list()
 #print(z)
 #y.to_csv("tersttestets.csv",sep="|")
 
+'''
 savedID = z[0]
 count = 0
 idList = []
@@ -67,3 +68,6 @@ print(tf.reset_index(drop=True))
 
 
 print(len(z)/len(list(set(list(y["deckID"])))))
+'''
+
+print(f"{1.00:.2f}")
