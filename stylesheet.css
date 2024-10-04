@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(135deg, rgb(13, 5, 44), rgba(16, 15, 20, 0.527));
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15;
+    padding-bottom: 20;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+}
+
+th, td {
+    border: 1px solid #8f0404;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color:#ffffff;
+    background-color: blue;
+}
+
+th:nth-child(odd) {
+    background-color:rgb(179, 179, 179);
+}
+
+th:nth-child(even) {
+    background-color: rgb(182, 182, 182);
+}
+
+tr:nth-child(odd) {
+    background-color:rgb(22, 22, 22); 
+}
+
+tr:nth-child(even) {
+    background-color: rgb(37, 37, 37);
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: center;
+    background:rgb(73, 66, 90);
+    border: white;
+    border-width: 1px;
+    align-items: center;
+}
+
+.labels {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 25px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+

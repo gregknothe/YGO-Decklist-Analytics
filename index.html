@@ -1,0 +1,176 @@
+<html>
+    <link rel="stylesheet" href="stylesheet.css"> 
+    
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSV to HTML Table</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            YGO Top Cut Deck Analysis
+        </h1>
+
+        <h2>
+            Last updated: 10-10-24
+        </h2>
+
+        <div class="dropdowns">
+            <a class="labels">Archetype:</a>
+            
+            <select id="archetype">
+                <option value="melodious">Melodious</option>
+                <option value="snakeyes">Snake-eyes</option>
+                <option value="branded">Branded</option>
+            </select>
+
+            <a class="labels">Format:</a>
+
+            <select id="format">
+                <option value="TCG">TCG</option>
+                <option value="OCG">OCG</option>
+            </select>
+
+            <a class="labels">Deck:</a>
+
+            <select id="deck">
+                <option value="main">Main</option>
+                <option value="extra">Extra</option>
+                <option value="side">Side</option>
+            </select>
+
+            <a class="labels">Time Frame:</a>
+
+            <select id="timeFrame">
+                <option value="31">1 Month</option>
+                <option value="93">3 Month</option>
+                <option value="100000">All Time</option>
+            </select>
+        
+            <button id="fetchTable" onclick="runCode()">
+                Search
+            </button>
+
+        </div>
+        
+
+        <div id="table-container" class="datatable"></div>
+    
+        <script src="script.js"></script>
+
+        <h1>
+            Bottom Text
+        </h1>
+    </body>
+
+</html>
+
+<script>
+    async function fetchCSV(url) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        const text = await response.text();
+        return text;
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+    }
+}
+
+function parseCSV(text) {
+    const rows = text.trim().split('\n');
+    return rows.map(row => row.split('|'));
+}
+
+function createTable(data) {
+    const table = document.createElement('table');
+    
+    data.forEach((row, index) => {
+        const tr = document.createElement('tr');
+        
+        row.forEach(cell => {
+            const td = document.createElement(index === 0 ? 'th' : 'td');
+            td.textContent = cell;
+            tr.appendChild(td);
+        });
+        
+        table.appendChild(tr);
+    });
+
+    return table;
+}
+
+async function displayCSV(url) {
+    const csvText = await fetchCSV(url);
+    if (csvText) {
+        const parsedData = parseCSV(csvText);
+        const table = createTable(parsedData);
+        document.getElementById('table-container').appendChild(table);
+    }
+}
+
+function removeTable(){
+    //removes the current table to make space for the newly generated one.
+    document.getElementById("table-container").innerHTML="TABLE DELETED"
+}
+
+//Adds listeners to all of the dropdown menus to update the table when search button is pressed.
+var archetypeText = "Melodious";
+var formatText = "TCG";
+var deckText = "main";
+var timeFrameText = "93";
+
+var csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+
+var archetype = document.getElementById("archetype");
+var format = document.getElementById("format");
+var deck = document.getElementById("deck");
+var timeFrame = document.getElementById("timeFrame");
+
+archetype.addEventListener("change", function(){
+    archetypeText = archetype.value;
+    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+});
+
+format.addEventListener("change", function(){
+    formatText = format.value;
+    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+});
+
+deck.addEventListener("change", function(){
+    deckText = deck.value;
+    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+});
+
+timeFrame.addEventListener("change", function(){
+    timeFrameText = timeFrame.value;
+    csvUrl = 'https://raw.githubusercontent.com/GGSTFrameTrap/gameList/refs/heads/main/' + formatText + '_' + timeFrameText + '%20days_'+ deckText +'_deck.csv';
+});
+
+async function runCode() {
+    //Updates the table.
+    removeTable();
+    displayCSV(csvUrl);
+}
+
+</script>
+
