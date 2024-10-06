@@ -30,10 +30,10 @@ os.makedirs("dataframes/"+"dog", exist_ok=True)
 """
 
 
-x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
-x["deckID"] = x["deckID"].apply(pd.to_numeric)
-y = x[x["name"]=="WANTED: Seeker of Sinful Spoils"]
-z = y["deckID"].to_list()
+#x = pd.read_csv("dataframes/SnakeEye/TCG_100000 days_main_deck.csv", sep="|").fillna("")
+#x["deckID"] = x["deckID"].apply(pd.to_numeric)
+#y = x[x["name"]=="WANTED: Seeker of Sinful Spoils"]
+#z = y["deckID"].to_list()
 
 #print(z)
 #y.to_csv("tersttestets.csv",sep="|")
@@ -70,4 +70,6 @@ print(tf.reset_index(drop=True))
 print(len(z)/len(list(set(list(y["deckID"])))))
 '''
 
-print(f"{1.00:.2f}")
+a = [1,2,3]
+b = [3,5,6]
+print(a+b)

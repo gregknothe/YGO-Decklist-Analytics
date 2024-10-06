@@ -1,11 +1,27 @@
 
 body {
-    background-color: rgb(0, 0, 0);
+    /*background-color: rgb(0, 0, 0);
     background-image: linear-gradient(135deg, rgb(13, 5, 44), rgba(16, 15, 20, 0.527));
+    */
+    /*display: flex;
+    flex-direction: column; */
     width: 700;
-    /*margin: auto;*/
+    background-color: #030413;
+    background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+    /* https://www.transparenttextures.com/ */
+    /*margin: 0 auto;*/
     margin-left:auto;
     margin-right:auto;
+    display: block;
+    /*position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    margin:0;
+    overflow-x:hidden;*/
+}
+
+body > *{
+    margin: auto;
 }
 
 h1 {
@@ -14,6 +30,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30;
     width: 80%;
+    margin-bottom: -10px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -21,7 +39,7 @@ h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 14;
-    padding-bottom: 20;
+    padding-bottom: 15;
     width: 80%;
 }
 
@@ -39,10 +57,9 @@ h3 {
 
 table {
     /* border-collapse: collapse; */
-    margin: 10px 0;
     width: 100%;
     color: rgb(255, 255, 255);
-    background-color: rgb(29, 29, 29);
+    /*background-color: rgb(29, 29, 29);*/
     border-style: solid;
     border-collapse:collapse;
     white-space: wrap;
@@ -67,19 +84,28 @@ th:nth-child(odd) {
 
 th:nth-child(even) {
     background-color: rgb(73, 66, 90);
+    
 }
+/*
+th:nth-child(4) {
+    border-top-right-radius:20px;
+}
+
+th:nth-child(1) {
+    border-top-left-radius:20px;
+}
+*/
 
 tr:nth-child(odd) {
     background-color:rgb(22, 22, 22); 
 }
 
 tr:nth-child(even) {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(29, 29, 29);
 }
 
 .menuArea{
     width: 80%;
-    justify-content: center;
 }
 
 .dropdowns {
@@ -91,8 +117,22 @@ tr:nth-child(even) {
     align-items: center;
     /*margin: 10px 0;*/
     white-space: wrap;
-
+    padding-top: 4px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
 }
+
+.dropdowns2 {
+    display: flex;
+    justify-content: center;
+    background:rgb(73, 66, 90);
+    border: white;
+    border-width: 1px;
+    align-items: center;
+    /*margin: 10px 0;*/
+    white-space: wrap;
+}
+
 
 select {
     width: 100px;
@@ -104,10 +144,13 @@ select {
     color: white;
     border: solid 1px;
     border-color: rgb(143, 130, 175);
+
+
 }
 
 .button:hover {
     background-color: rgb(107, 97, 131);
+    
 }
 
 .labels {

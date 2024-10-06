@@ -2,25 +2,11 @@
     <link rel="stylesheet" href="stylesheet.css"> 
     
 
-
+    <body>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSV to HTML Table</title>
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>YGORec</title>
     </head>
 
     <h1>
@@ -47,7 +33,7 @@
             </select>
         </div>
 
-        <div class="dropdowns">
+        <div class="dropdowns2">
             
             <a class="labels">Deck:</a>
 
@@ -68,7 +54,7 @@
             </select>
         </div>
         
-        <div class="dropdowns">
+        <div class="dropdowns2">
             <button id="fetchTable" onclick="runCode()" class="button">
                 Search
             </button>
@@ -88,10 +74,10 @@
             <br>
             Inquries: ProjectShuckle@gmail.com
             <br>
-            Data source: YGOProDeck.com
+            Data source: <a href="https://ygoprodeck.com/" class="hyperlink">YGOProDeck.com</a>
         </h3>
     </div>
-
+    </body>
 </html>
 
 <script>
@@ -147,7 +133,6 @@ function createTable(data) {
     return table;
 }
 
-/*-----------------test area------------------------*/
 async function fetchCSV2(url) {
     const response = await fetch(url);
     if (!response.ok) {
@@ -185,7 +170,6 @@ async function initializeDropdown() {
 }
 
 initializeDropdown();
-/*-------------------------------------------------*/
 
 async function displayCSV(url) {
     const csvText = await fetchCSV(url);

@@ -146,7 +146,7 @@ def updateCardList(newURLListFile, cardListFile):
     decklistDF.to_csv(cardListFile, sep='|', index=False)
     return
 
-
+"""
 def deckPartitioner():
     x = pd.read_csv("cardListFile.csv", delimiter="|")
     x["date"] = pd.to_datetime(x["date"])
@@ -165,6 +165,31 @@ def deckPartitioner():
                     os.makedirs("dataframes/"+archetypeName, exist_ok=True)
                     df = x[(x["tag1"]==archetype) & (x["format"]==formats) & (today - x["date"] <= timeFrame) & (x["deck"]==deckType)]
                     df.to_csv("dataframes/"+archetypeName+"/"+formats+"_"+str(timeFrame).split(",")[0]+"_"+deckType+".csv", sep="|", index=False)
+    return
+"""
+
+def deckPartitioner():
+    x = pd.read_csv("cardListFile.csv", delimiter="|")
+    x["date"] = pd.to_datetime(x["date"])
+    mainArchetypeList = list(set(x["tag1"].to_list()+x['tag2'].to_list()+x["tag3"].to_list()))
+    #mainArchetypeList = ["Snake-Eye", "Melodious", "Mikanko"]
+    today = datetime.datetime.today()
+    num = 1
+    print("Total Archetypes: " + str(len(mainArchetypeList)))
+    for archetype in mainArchetypeList:
+        archetypeName = "".join(x for x in str(archetype) if x.isalnum())
+        print(str(num) + " " + str(archetypeName))
+        num += 1
+        for formats in ["TCG", "OCG"]:
+            for timeFrame in [datetime.timedelta(days=31), datetime.timedelta(days=93), datetime.timedelta(days=186), datetime.timedelta(days=365), datetime.timedelta(days=100000)]:
+                for deckType in ["main_deck", "extra_deck", "side_deck"]:
+                    os.makedirs("dataframes/"+archetypeName, exist_ok=True)
+                    df = x[(x["tag1"]==archetype) & (x["format"]==formats) & (today - x["date"] <= timeFrame) & (x["deck"]==deckType)]
+                    df.to_csv("dataframes/"+archetypeName+"/"+formats+"_"+str(timeFrame).split(",")[0]+"_"+deckType+".csv", sep="|", index=False)
+                    os.makedirs("dataframes/"+archetypeName+" (sub)", exist_ok=True)
+                    df = x[(x["tag2"]==archetype) | (x["tag3"]==archetype)]
+                    df = df[(today - df["date"] <= timeFrame) & (df["deck"]==deckType)]
+                    df.to_csv("dataframes/"+archetypeName+" (sub)/"+formats+"_"+str(timeFrame).split(",")[0]+"_"+deckType+".csv", sep="|", index=False)
     return
 
 
@@ -243,8 +268,8 @@ def createArchetypeTables():
 #--------------------------Clean Set Up---------------------------------            446394
 #createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
-#deckPartitioner() #7:15
-#createArchetypeTables() 
+#deckPartitioner() #17:45
+#createArchetypeTables() #8:47
 
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
@@ -254,4 +279,4 @@ def createArchetypeTables():
 
 #add subtype tab
 #make it look better
-#add link to name 
+#function to add in name of missing name cards based on ID if they are added later (main data set)
