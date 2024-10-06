@@ -30,7 +30,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30;
     width: 80%;
-    margin-bottom: -10px;
+    margin-bottom: -2px;
     padding-top: 10px;
 }
 
@@ -76,6 +76,7 @@ th, td {
 th {
     color:#ffffff;
     background-color: blue;
+    text-align: center;
 }
 
 th:nth-child(odd) {
@@ -86,6 +87,7 @@ th:nth-child(even) {
     background-color: rgb(73, 66, 90);
     
 }
+
 /*
 th:nth-child(4) {
     border-top-right-radius:20px;
@@ -95,6 +97,14 @@ th:nth-child(1) {
     border-top-left-radius:20px;
 }
 */
+
+th:first-child {
+    color:  rgb(73, 66, 90);
+}
+
+th:nth-child(2) {
+    text-align: left;
+}
 
 tr:nth-child(odd) {
     background-color:rgb(22, 22, 22); 
@@ -119,7 +129,7 @@ tr:nth-child(even) {
     white-space: wrap;
     padding-top: 4px;
     border-top-right-radius:10px;
-    border-top-left-radius:10px;
+    border-top-left-radius:10px;    
 }
 
 .dropdowns2 {
@@ -131,6 +141,20 @@ tr:nth-child(even) {
     align-items: center;
     /*margin: 10px 0;*/
     white-space: wrap;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.dropdowns3 {
+    display: flex;
+    justify-content: left;
+    background:rgb(73, 66, 90);
+    border: white;
+    border-width: 1px;
+    /*margin: 10px 0;*/
+    white-space: wrap;
+    padding-bottom: 4;
+
 }
 
 
@@ -163,11 +187,22 @@ select {
     width: 100px;
 }
 
+.labels2 {
+    color: white;
+    font-size: 15;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 75px; 
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 100px;
+}
+
 .cardImage {
     width: 80px;
     transition: transform .45s;
     transform-origin: left;
     align-self: center;
+    text-align: left;
 }
 
 
@@ -189,5 +224,12 @@ select {
 }
 
 .statCell {
-    width: 50px;
+    text-align: center;
+}
+
+select {
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 84, 114);
+    /*border-color: rgb(143, 130, 175);*/
+    border: none;
 }

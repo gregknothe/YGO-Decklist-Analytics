@@ -54,6 +54,15 @@
             </select>
         </div>
         
+        <div class="dropdowns3">
+            <a class="labels2">Subtype:</a>
+
+            <select id="subtype">
+                <option value="">No</option>
+                <option value=" (sub)">Yes</option>
+            </select>
+        </div>
+
         <div class="dropdowns2">
             <button id="fetchTable" onclick="runCode()" class="button">
                 Search
@@ -118,7 +127,7 @@ function createTable(data) {
                 tr.appendChild(td);
             }
             else {
-                td.innerHTML = '<a class="statCell">' + cell + '</a>';
+                td.innerHTML = '<div class="statCell">' + cell + '</div>';
                 tr.appendChild(td);
             }
             counter = counter + 1;
@@ -152,6 +161,9 @@ function populateDropdown(data) {
 
     data.forEach(item => {
         const option = document.createElement('option');
+        if (item.includes("(sub)")){
+            return;
+        }
         option.value = item;
         option.textContent = item;
         dropdown.appendChild(option);
@@ -159,7 +171,7 @@ function populateDropdown(data) {
 }
 
 async function initializeDropdown() {
-    const csvUrl = 'https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/archetype.csv'; // Replace with the actual URL
+    const csvUrl = 'https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/archetype.csv';
     try {
         const csvText = await fetchCSV2(csvUrl);
         const parsedData = parseCSV2(csvText);
@@ -190,6 +202,7 @@ var archetypeText = "ABC";
 var formatText = "TCG";
 var deckText = "main";
 var timeFrameText = "31";
+var subtypeText = "";
 
 var csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 
@@ -198,6 +211,7 @@ var archetype = document.getElementById("archetype");
 var format = document.getElementById("format");
 var deck = document.getElementById("deck");
 var timeFrame = document.getElementById("timeFrame");
+var subtype = document.getElementById("subtype");
 
 archetype.addEventListener("change", function(){
     archetypeText = archetype.value;
@@ -218,6 +232,12 @@ timeFrame.addEventListener("change", function(){
     timeFrameText = timeFrame.value;
     csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
 });
+
+subtype.addEventListener("change", function(){
+    subtypeText = subtype.value;
+    csvUrl = "https://raw.githubusercontent.com/gregknothe/YGO-Decklist-Analytics/refs/heads/main/tables/" + archetypeText + subtypeText +"/" + formatText + "_"+ timeFrameText + "%20days_" + deckText + "_deck.csv";
+});
+
 
 async function runCode() {
     //Updates the table.
