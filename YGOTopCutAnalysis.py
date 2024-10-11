@@ -65,6 +65,17 @@ def updateURL(limit=200000, filename="urlList.csv"):
     oldList.tail(len(diff)).to_csv("newURLList.csv", sep="|", index=False)
     return diff
 
+def addID(file):
+    x = pd.read_csv("newURLList.csv", sep="|")
+    idList = []
+    for url in x["url"]:
+        idList.append(url.split("-").pop())
+    x["id"] = idList
+    x.to_csv("newURLList.csv", sep="|", index=False)
+    print("newURLList.csv 'fixed'.")
+    return
+
+
 def getDeckList(url, id):
     #scrapes the decklist from the URL and returns a dataframe with all cards and deck metadata
     url = "https://ygoprodeck.com/deck/" + url
@@ -271,12 +282,18 @@ def createArchetypeTables():
 #deckPartitioner() #17:45
 #createArchetypeTables() #8:47
 
+#updateURL(limit=300) #
+#addID("newURLList.csv") #Only if you fuck up
+#updateCardList("newURLList.csv", "cardListFile.csv")
+
+#deckPartitioner()
+createArchetypeTables()
+
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
 #y = codeCorrector(x.fillna(""))
 #y.to_csv("testtesttest.csv", sep='|')
 
 
-#add subtype tab
 #make it look better
 #function to add in name of missing name cards based on ID if they are added later (main data set)
