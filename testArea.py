@@ -70,6 +70,4 @@ print(tf.reset_index(drop=True))
 print(len(z)/len(list(set(list(y["deckID"])))))
 '''
 
-a = [1,2,3]
-b = [3,5,6]
-print(a+b)
+

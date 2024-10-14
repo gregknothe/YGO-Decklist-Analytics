@@ -276,6 +276,24 @@ def createArchetypeTables():
             archetypeTable.to_csv("tables/" + archetype + "/" + dateRange + ".csv", sep="|", index=False)
     return
 
+def updateBlankNames():
+    #Adds name values to cards without names but have repeating code values. Ex: OCG exclusives
+    df = pd.read_csv("cardListFile.csv", delimiter="|").fillna("")
+    noName = df[df["name"]==""]
+    codeList = list(set(noName["code"].tolist()))
+    for code in codeList:
+        subDF = df[df["code"]==code]
+        codeIndex = subDF.index
+        nameList = list(set(subDF["name"].tolist()))
+        cardName = list(filter(None, nameList))
+        if len(nameList) > 1:
+            for index in codeIndex:
+                df.at[index, "name"] = cardName[0]
+            print(cardName[0] + " - " + str(code))
+    df.to_csv("cardListFile.csv", sep="|", index=False)
+    print("------------------Names updated.------------------")
+    return
+
 #--------------------------Clean Set Up---------------------------------            446394
 #createURL() #4:35 
 #createCardList("urlList.csv", "cardListFile.csv") #1:30:23
@@ -285,9 +303,10 @@ def createArchetypeTables():
 #updateURL(limit=300) #
 #addID("newURLList.csv") #Only if you fuck up
 #updateCardList("newURLList.csv", "cardListFile.csv")
+#updateBlankNames()
 
 #deckPartitioner()
-createArchetypeTables()
+#createArchetypeTables()
 
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")
