@@ -48,7 +48,6 @@ h3 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12;
-    
 }
 
 h4 {
@@ -56,7 +55,8 @@ h4 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h5 {
@@ -66,6 +66,8 @@ h5 {
     font-size: 12;
     font: inherit;
     margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #faq {
@@ -250,18 +252,28 @@ select {
 }
 
 #FAQ {
-    display: block;
+    width: 560;
+    display: none;
+    flex-direction: column;
     background-color: rgb(22, 22, 22);
 }
 
 #FAQButton {
-    width: 100%;
+    width: 560;
+    display: flex;
     background-color: rgb(73, 66, 90);
     color: white;
     border: solid 1px;
     border-color: rgb(143, 130, 175);
+    justify-content: center;
+    /*-ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 
 b {
-    color:  rgb(163, 153, 187);
+    color:  rgb(186, 175, 212);
+}
+
+.bullet {
+    margin-left: 15px;
 }
