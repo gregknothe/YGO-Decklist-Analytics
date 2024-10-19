@@ -51,6 +51,23 @@ h3 {
     
 }
 
+h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12;
+    
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12;
+    font: inherit;
+    margin-left: 10px;
+}
+
 #faq {
     text-align: left;
 }
@@ -230,4 +247,21 @@ select {
     background-color: rgb(93, 84, 114);
     /*border-color: rgb(143, 130, 175);*/
     border: none;
+}
+
+#FAQ {
+    display: block;
+    background-color: rgb(22, 22, 22);
+}
+
+#FAQButton {
+    width: 100%;
+    background-color: rgb(73, 66, 90);
+    color: white;
+    border: solid 1px;
+    border-color: rgb(143, 130, 175);
+}
+
+b {
+    color:  rgb(163, 153, 187);
 }

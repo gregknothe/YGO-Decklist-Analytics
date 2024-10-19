@@ -300,13 +300,13 @@ def updateBlankNames():
 #deckPartitioner() #17:45
 #createArchetypeTables() #8:47
 
-#updateURL(limit=300) #
+#updateURL(limit=300) 
 #addID("newURLList.csv") #Only if you fuck up
 #updateCardList("newURLList.csv", "cardListFile.csv")
 #updateBlankNames()
 
 #deckPartitioner()
-#createArchetypeTables()
+createArchetypeTables()
 
 
 #x = pd.read_csv("E:\Various Programs\Coding Projects\YGO Decklist Analytics\dataframes\SnakeEye\TCG_93 days_extra_deck.csv", sep="|")

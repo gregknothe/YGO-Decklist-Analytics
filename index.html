@@ -78,18 +78,46 @@
         <h3>
             (Last updated: 10-10-24)
         </h3>
-        <h3>
+    </div>
+
+    <button onclick="showDiv()" id="FAQButton">FAQ</button>
+        <div id="FAQ">        
+        <h4>
+            <br>
             Data will be updated weekly (probably on Fridays)
             <br>
             Inquries: ProjectShuckle@gmail.com
             <br>
             Data source: <a href="https://ygoprodeck.com/" class="hyperlink">YGOProDeck.com</a>
-        </h3>
+            <br>
+        </h4>
+        <h5>
+            <b style="color: white;">Parameters</b>: <br>
+            <b>Archetype</b>: the main archetype you are searching for. <br>
+            <b>Deck</b>: the deck part you want to see results for. <br>
+            <b>Subtype</b>: <br>
+            <b style="margin-left: 15px;">No</b>: most represented archetype / main archetype / main engine. <br>
+            <b style="margin-left: 15px;">Yes</b>: not the most represented arcehtype / secondary archetype / side engine.<br>
+            <b>Format</b>: the format you want to results for. Currently only supporting TCG and OCG. <br>
+            <b>Time Frame</b>: time range of data pulled.
+            <br>
+            <br>
+        </h5>
     </div>
     </body>
 </html>
 
 <script>
+    async function showDiv() {
+        var faq = document.getElementById('FAQ');
+        if (faq.style.display == "none") {
+            faq.style.display = "block";
+        }
+        else {
+            faq.style.display = "none";
+        }
+    }
+
     async function fetchCSV(url) {
     try {
         const response = await fetch(url);
